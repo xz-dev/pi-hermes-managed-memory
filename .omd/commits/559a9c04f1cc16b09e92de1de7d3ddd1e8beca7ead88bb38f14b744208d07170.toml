@@ -1,0 +1,14 @@
+salt = "ibcNkPD6hbe60qqH"
+previous_id = "49bd31538c4125f5e25cf3f3aa0ee6e803decd1613bcd0f1c117e61aeab4bcef"
+timestamp = "2026-10-05T16:37:57.320577535Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "56dbdc509eb34feb0b5d8f5f4590c101"
+reason = "Task7.3 explicit mapping implementation:runtime -> verification:cadence. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:e4ff99a0ad100d93eb2b08328921bc1957957f5c2285099123c2997886792d44"
+source_version = "e4ff99a0ad100d93eb2b08328921bc1957957f5c2285099123c2997886792d44"
+target = "range:cd577e43ce77767582286d37afe9a99d44d343c6d6c855a240b11afdb3c83be1"
+target_version = "cd577e43ce77767582286d37afe9a99d44d343c6d6c855a240b11afdb3c83be1"

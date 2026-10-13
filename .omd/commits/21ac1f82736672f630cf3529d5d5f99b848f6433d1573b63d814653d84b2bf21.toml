@@ -1,0 +1,14 @@
+salt = "FeF4o7dJd8zmSsHx"
+previous_id = "92c2e7d3c48759f2abd6dd17e6d3967faea93e6df02077f2a1240e21228d5cd2"
+timestamp = "2026-10-01T10:30:59.744914816Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "73806fe0d77ace478581730e8fc18447"
+reason = "规划范围：Requirement: No hidden inference during retrieval。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:dd5909d5071248ce9ad523a4d83735a23c0fbf45fc771f8135c732c8ab01a25c"
+source_version = "9aeae5314d904fa0522d778e27bbe715d3a1e8a3eb8438302102a8dfab1b9199"
+target = "range:44d4483d2fa332e4641b065cf7f2bb5b8c94318cf1a4942569f61d69b5d4d81a"
+target_version = "44d4483d2fa332e4641b065cf7f2bb5b8c94318cf1a4942569f61d69b5d4d81a"

@@ -1,0 +1,14 @@
+salt = "4AOY8wNqBXLBR7z3"
+previous_id = "4203a935d1c22156d154137b9c8d3847b85a7a07f647b0119b49a898c1c986d6"
+timestamp = "2026-10-01T10:30:59.116948559Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "29552e91529fb1852fdc3ef1ec0a04f4"
+reason = "规划范围：Requirement: Local compaction checkpoint without hidden model work。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+source_version = "3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+target = "range:4e5ea0da86d3c3284baf4b5d53e3f3900d06a1e0a35ee72b1a07f8216aea99dc"
+target_version = "4203a935d1c22156d154137b9c8d3847b85a7a07f647b0119b49a898c1c986d6"

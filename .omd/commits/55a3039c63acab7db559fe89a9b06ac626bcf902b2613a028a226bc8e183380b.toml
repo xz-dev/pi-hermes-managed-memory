@@ -1,0 +1,14 @@
+salt = "P0s1xmuzB1Yc7vMn"
+previous_id = "98d9ebbcd953911daa1193af83e5c9ff783e42e66b68a2b0bda8edce8482340b"
+timestamp = "2026-10-12T12:36:03.937549845Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "431eb8ecc0a107bbb78aad39d2a3076a"
+reason = "Task1.4 exact mapping implementation:review -> verification:envelope-rejection: bounded real4-call effect versus native-faux envelope mechanics and raw/normalized unknown-price accounting kept distinct"
+source = "range:1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91"
+source_version = "386d29364f7294575f153ce5e3da3ef512150f288fe3a5f0f9780f17b2f783b3"
+target = "range:2ac20a4ac2313563fdad22069b6506b3928c20859ae8dec695f7c8375779ae58"
+target_version = "2ac20a4ac2313563fdad22069b6506b3928c20859ae8dec695f7c8375779ae58"

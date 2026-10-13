@@ -1,0 +1,16 @@
+salt = "VmZkurCsDbzYvt2w"
+previous_id = ""
+timestamp = "2026-10-05T16:33:17.804850623Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "645c764ca96287008ce6fc3e51e20f86"
+
+[payload]
+mount = "file:f5d48ecfe494e430e4ce34d1ffdd17ef18d83fedd55b45d5502dcbe87504306e"
+path = "src/index.ts"
+reason = "Task7.3 meaningful current range: implementation:recall-tool registered hermes_session_search"
+
+[payload.position]
+end = "55187"
+mode = "text"
+start = "50876"

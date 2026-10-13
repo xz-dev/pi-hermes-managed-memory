@@ -1,0 +1,14 @@
+salt = "FDwb08NCGdaVx2QR"
+previous_id = "dfde6669912ecd917abae17ed0b7efaef87782636eb4952842811ee21b7647af"
+timestamp = "2026-10-05T16:37:59.773847726Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "4e1feb4a582cda17748f0e2a8cb206d1"
+reason = "Task7.3 explicit mapping task:7.2 -> evidence:cost-ui. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:244089b3bc652335fd1678764f86b3d5a84b5e19dca3fb8131ee769a5f9b0336"
+source_version = "244089b3bc652335fd1678764f86b3d5a84b5e19dca3fb8131ee769a5f9b0336"
+target = "range:fc1b73c1e0c661c75609285733595f068f4dff4902a35e29ac073d67aab289b0"
+target_version = "fc1b73c1e0c661c75609285733595f068f4dff4902a35e29ac073d67aab289b0"

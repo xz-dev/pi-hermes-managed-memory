@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [96, 70, 23, 114, 190, 245, 17, 124, 46, 232, 124, 131, 245, 241, 130, 243]
+len = 4932
+sha256 = "9f7bcdbe917e44dd695a63e734d43477cc179dae7f09adb108cca63b7c2e52db"
+encoding = "utf-8"
+content_file = "content/9f7bcdbe917e44dd695a63e734d43477cc179dae7f09adb108cca63b7c2e52db"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/api-isolation.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/api-isolation.test.ts"

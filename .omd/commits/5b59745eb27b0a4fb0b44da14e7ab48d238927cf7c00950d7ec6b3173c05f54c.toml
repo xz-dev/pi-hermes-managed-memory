@@ -1,0 +1,14 @@
+salt = "VczXlXS5qEKGFvhm"
+previous_id = "b3cfe579b5ea48e043af6253a45202b8e2eb2f1a4f063c2695bef1c77ed7133a"
+timestamp = "2026-10-01T10:31:01.629239228Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "2a4be66a89aea2198468f1358383d14f"
+reason = "规划范围：Hermes 的接口启发。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:0d7f448ea11dadaa938e34aba8ac47b039342668e2c5a7f41b58272ed847140f"
+source_version = "0d7f448ea11dadaa938e34aba8ac47b039342668e2c5a7f41b58272ed847140f"
+target = "range:01e0485fe9c664d997c27714b2b9a8c9718d5e84612837fead892425b49db867"
+target_version = "b3cfe579b5ea48e043af6253a45202b8e2eb2f1a4f063c2695bef1c77ed7133a"

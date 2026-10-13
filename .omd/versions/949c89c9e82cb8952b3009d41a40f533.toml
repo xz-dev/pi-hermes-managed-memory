@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [148, 156, 137, 201, 232, 44, 184, 149, 43, 48, 9, 212, 26, 64, 245, 51]
+len = 17699
+sha256 = "e5b604f2fcf6004767c187168ca8a74a78063e1f2565af0d93ae2668b22d6d12"
+encoding = "utf-8"
+content_file = "content/e5b604f2fcf6004767c187168ca8a74a78063e1f2565af0d93ae2668b22d6d12"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/design.md"
+
+[recovery]
+type = "file"
+project = "root"
+path = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/design.md"

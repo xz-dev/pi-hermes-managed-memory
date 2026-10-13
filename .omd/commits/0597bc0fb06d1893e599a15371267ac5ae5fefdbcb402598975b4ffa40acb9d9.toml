@@ -1,0 +1,16 @@
+salt = "VwOhzU18nCZVCE3h"
+previous_id = ""
+timestamp = "2026-10-05T16:33:19.351983486Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "dbef1f16ed5e4dc3dd67ffb62ea05d24"
+
+[payload]
+mount = "file:bb2310cca77652cb20c171a2d29aa5b2069cf84fcaf7f7aad8524473c344d090"
+path = "test/memory-scopes.test.ts"
+reason = 'Task7.3 meaningful current range: verification:scopes "A project facts do not enter B while user/global remain shared"'
+
+[payload.position]
+end = "2326"
+mode = "text"
+start = "1645"

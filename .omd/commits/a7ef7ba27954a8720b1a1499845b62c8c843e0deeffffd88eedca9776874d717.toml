@@ -1,0 +1,16 @@
+salt = "ULqIH6Jkmo6PBUXB"
+previous_id = "182277f033f102823ebaece09a964a0c1d112b91cb8afb6ae27598f84ebd1624"
+timestamp = "2026-10-01T10:30:56.235852087Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "3eb8ab479a430395facd80e557e76fbb"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "规划范围：1. 官方 API 与隔离验证入口。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "529"
+mode = "text"
+start = "0"

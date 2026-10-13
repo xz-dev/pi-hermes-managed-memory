@@ -1,0 +1,16 @@
+salt = "405a8B6XRndaIkTi"
+previous_id = "0e463f07b9400aea52c3cd377a1a603d4b0135b33cdf797bb02bd38c217cb844"
+timestamp = "2026-10-01T10:30:56.385180863Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "3eb8ab479a430395facd80e557e76fbb"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "规划范围：3. 四目标存储与版本提交。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "1268"
+mode = "text"
+start = "916"

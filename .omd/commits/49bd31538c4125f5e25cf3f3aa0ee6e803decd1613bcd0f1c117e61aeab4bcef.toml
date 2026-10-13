@@ -1,0 +1,14 @@
+salt = "EbPbqAvK3M4GHgPs"
+previous_id = "e6855828871a271f229cfbaa62dfa8038d51d512c732f0004e74f461c49232bc"
+timestamp = "2026-10-05T16:37:55.392539083Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "9b4d3a3ff582dfaea7fa8a6b61393fa4"
+reason = "Task7.3 explicit mapping implementation:review -> verification:cancellation. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91"
+source_version = "1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91"
+target = "range:eab7bca38cc6e97953bf51769f096bc07886a1c3d41e857e1aabd53ec301bef0"
+target_version = "eab7bca38cc6e97953bf51769f096bc07886a1c3d41e857e1aabd53ec301bef0"

@@ -1,0 +1,16 @@
+salt = "5qXVxk0BTXXmUC5A"
+previous_id = ""
+timestamp = "2026-10-05T16:33:24.780621316Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0041eb30fd24180d44cf168dd99a6d47"
+
+[payload]
+mount = "file:32be89734f1f90c4fdcee018bb9a75a24eb2714735ca010f9acd7858c316df25"
+path = "PLAN/lifecycle-acceptance-evidence.md"
+reason = "Task7.3 meaningful current range: gate:1.4 未执行任务1.4"
+
+[payload.position]
+end = "4350"
+mode = "text"
+start = "4222"

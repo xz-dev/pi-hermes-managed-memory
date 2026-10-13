@@ -1,0 +1,12 @@
+salt = "vKRN0mErBrocakpp"
+previous_id = "efba97011f49160b001cf2277655c677ab0a3f56b8d98456519154f11d8d7753"
+timestamp = "2026-10-12T12:35:55.059396848Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529"]
+link_id = "1ea21adfb569ff5f43dccdced351f1e6"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Preflight and durable budget reservation -> verification:processBudget: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

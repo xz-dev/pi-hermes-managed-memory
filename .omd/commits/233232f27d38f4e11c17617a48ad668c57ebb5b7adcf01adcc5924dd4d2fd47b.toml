@@ -1,0 +1,15 @@
+salt = "m2hgaVTvAHoKiz9X"
+previous_id = "8511d093f61eda04d178ba8df5a1840c6b360c8aca9c8a811ae176084c7af9ae"
+timestamp = "2026-10-05T16:23:06.784942218Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "e96abc1d751c5a4e7f7892b8df8c28bb"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = "Task7.3 reconcile requirement:memory-context:Requirement: Local compaction checkpoint without hidden model work to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "2832"
+mode = "text"
+start = "2580"

@@ -1,0 +1,16 @@
+salt = "6dH16KJnsBkKVoNR"
+previous_id = "4fcb15391fd432139375a4d2c9f9ec49ad7335e3b2ffc99195af1da51fc5b4d7"
+timestamp = "2026-10-01T10:31:00.231993217Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "a6c9f4df9bfa334e81b69de6480187dc"
+
+[payload]
+mount = "file:8766394639c1c3a2479e7f793aefd96758d0c475f3ae5243faedc2b71fb178da"
+path = "docs/review-contract.md"
+reason = "规划范围：R2 — 默认限制与准入。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "1717"
+mode = "text"
+start = "888"

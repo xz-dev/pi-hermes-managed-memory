@@ -1,0 +1,9 @@
+salt = "FVC5Yj4LGdsXKzKR"
+previous_id = "c2bb103a66771e32e071911e5a4a1a7d548268d17ed6d7019c4188c4929e4571"
+timestamp = "2026-10-12T23:52:35.361376561Z"
+schema = "omd.commit/3"
+kind = "remove"
+content_ref = "empty"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"

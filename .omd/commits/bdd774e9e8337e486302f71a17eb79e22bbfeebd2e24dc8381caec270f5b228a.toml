@@ -1,0 +1,14 @@
+salt = "VMlcPkTjpzhLUCCp"
+previous_id = "a38dd7213497a6f795b094829d1ef3093f57610e0178b7c1d0ecda55942f68a7"
+timestamp = "2026-10-05T17:31:49.424478503Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "3b09fa60c0c9564f5945c2f674923bda"
+reason = "Bounded7.3 close: explicit existing relation implementation:constraints -> verification:taskBoundary. Current accepted source/case inspected; no new behavior, no acceptance inference from healthy endpoints;1.4 remains unexecuted."
+source = "range:cfa7d6823fe9c388df35b4a0be6f5adc6951ed5cbb31f1df72c2423a22896647"
+source_version = "cfa7d6823fe9c388df35b4a0be6f5adc6951ed5cbb31f1df72c2423a22896647"
+target = "range:4113c3e2770067e398e2cebb57d730833ee6628a11ac4595ba5375fd0d350df1"
+target_version = "4113c3e2770067e398e2cebb57d730833ee6628a11ac4595ba5375fd0d350df1"

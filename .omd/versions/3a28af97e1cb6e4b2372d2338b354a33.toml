@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [58, 40, 175, 151, 225, 203, 110, 75, 35, 114, 210, 51, 139, 53, 74, 51]
+len = 2987
+sha256 = "6fa63fa5d2467306f0fa9df2682a8fdc8757e946851503e79003b9d7b55225a5"
+encoding = "utf-8"
+content_file = "content/6fa63fa5d2467306f0fa9df2682a8fdc8757e946851503e79003b9d7b55225a5"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/specs/session-recall/spec.md"
+
+[recovery]
+type = "file"
+project = "root"
+path = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/specs/session-recall/spec.md"

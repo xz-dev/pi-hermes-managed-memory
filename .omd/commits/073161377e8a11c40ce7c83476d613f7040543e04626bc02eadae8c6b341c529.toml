@@ -1,0 +1,15 @@
+salt = "ErsLOFUmaQrcgFiv"
+previous_id = "b1fe1f7204dea3fc7f4c1b0246b6cfdd40ea11465b7dd884156fe8e3bf9f1fa3"
+timestamp = "2026-10-12T12:35:48.733789257Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "4a8a9a9d86356ba4fe3300003a384c66"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/design.md"
+reason = "Task1.4 design:D6: Exact envelope contract consistent with user decision; source policy and spending limits unchanged"
+
+[payload.position]
+end = "6782"
+mode = "text"
+start = "5795"

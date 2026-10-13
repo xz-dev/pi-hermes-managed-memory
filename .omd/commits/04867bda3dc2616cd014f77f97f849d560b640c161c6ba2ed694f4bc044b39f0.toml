@@ -1,0 +1,14 @@
+salt = "N8Tg97puh2EeeGpR"
+previous_id = "3cae9370450c3bfd0ff134d410070edf00e71b243c821083b2816c39ea0efb5b"
+timestamp = "2026-10-01T10:30:59.411807909Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "8877b7f65006857f94e71329773235b6"
+reason = "规划范围：Requirement: Native session source of truth。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:2882558126d20efb4410e28dc5d8340b41a1d940c6d51998c8253c4062717074"
+source_version = "2882558126d20efb4410e28dc5d8340b41a1d940c6d51998c8253c4062717074"
+target = "range:641172b53ce6d11a0aaa09e8080fdda1b2780111adb9536d5cee8600eb8790ce"
+target_version = "3cae9370450c3bfd0ff134d410070edf00e71b243c821083b2816c39ea0efb5b"

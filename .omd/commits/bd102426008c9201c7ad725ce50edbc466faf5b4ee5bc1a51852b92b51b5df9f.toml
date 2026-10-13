@@ -1,0 +1,12 @@
+salt = "5sedzMFEFePQTaQ0"
+previous_id = "5cfce45b19025f02f73d4768e66d2401bd015135ec2bc76a3376361a939d1d83"
+timestamp = "2026-10-12T12:52:42.597449574Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["94be1c5248640f67698c0173e33adc5318755e133f65bf03236bdb0b1c23a2ec"]
+link_id = "78b445760dd3a7f7cef2929be283f820"
+reason = "Parent reviewed task:1.4 -> evidence:real-model-accounting after only1.4 checkbox. Actual2 sourced adds/one same-ID correction/2 new-session uses accepted; 11 total requests and price unknown. Source/test bytes unchanged. Historical7.3 gate is explicitly historical with new1.4 reference; no reopening7.1–7.3, model replay or blanket acknowledgement."
+stop = false

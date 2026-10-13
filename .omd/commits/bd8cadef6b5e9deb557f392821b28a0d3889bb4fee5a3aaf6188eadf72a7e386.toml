@@ -1,0 +1,12 @@
+salt = "FtvtIlLg0LpCBLBZ"
+previous_id = "2ecd78cbe061655c5f15572c4e0250b02401365cce1ee65c4e149f4c2295b679"
+timestamp = "2026-10-05T16:26:31.42575136Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["06926710af3b98156ace55c0283fd7028560c81a85978ef89581fe5fc339de75", "216ffb7a73b3ead6adcf2082b9a64bbc89a1aead1b9fe55c73d41ceca29f2dc4"]
+link_id = "0f03132c17ff7044f17190621279ab47"
+reason = "Reviewed relation requirement:automatic-memory:Requirement: Validated proposals and user-controlled deletion -> tasks:6: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

@@ -1,0 +1,16 @@
+salt = "xMGRTNHR47z0EKF6"
+previous_id = "73e2b8c22acbd23bb5cf4c7b6b104a11e2b16d567811bc47c365bfb0c6a5b842"
+timestamp = "2026-10-01T10:31:01.766312983Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "bca7a2a35edf5c0dbc6ede37545bca16"
+
+[payload]
+mount = "file:a542e9fcbe16e29a005358fee15b9f3159a7a2ae05b60f4f536d995532cc3685"
+path = "docs/external-adapter-evaluation.md"
+reason = "规划范围：候选最小契约（非实现承诺）。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "1795"
+mode = "text"
+start = "1180"

@@ -1,0 +1,14 @@
+salt = "0C0PIP9QxMuunz5i"
+previous_id = "c393854235711314f483c4afe597ce8d0a265bb16492c0fe11de9c084bf3af43"
+timestamp = "2026-10-01T10:30:56.55096749Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "19b06e38598d20f8af1e82862aeb4a62"
+reason = "规划范围：5. 本地 session 检索。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:2882558126d20efb4410e28dc5d8340b41a1d940c6d51998c8253c4062717074"
+source_version = "2882558126d20efb4410e28dc5d8340b41a1d940c6d51998c8253c4062717074"
+target = "range:44d4483d2fa332e4641b065cf7f2bb5b8c94318cf1a4942569f61d69b5d4d81a"
+target_version = "c393854235711314f483c4afe597ce8d0a265bb16492c0fe11de9c084bf3af43"

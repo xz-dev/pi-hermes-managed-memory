@@ -1,0 +1,16 @@
+salt = "AUMxWQNSgiTGPlCG"
+previous_id = "cc3a23cce6ac48bbb462fa2609a7a0919be2f2771d28e68c8f11ae3a6b89620e"
+timestamp = "2026-10-01T10:30:57.36181903Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "6d47d10f8911b9b750592c03b7b201aa"
+
+[payload]
+mount = "file:f67b90f684c3a243aee52c15e32433d00a0b7d0f5a341938c3c32ec34552b044"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/scoped-memory/spec.md"
+reason = "规划范围：Requirement: Local-only first release。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "2065"
+mode = "text"
+start = "1846"

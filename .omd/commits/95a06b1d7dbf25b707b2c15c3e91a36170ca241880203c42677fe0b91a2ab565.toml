@@ -1,0 +1,16 @@
+salt = "8WvBbzLtHVfBQ0SQ"
+previous_id = "d4563ea94c19d2c955d292ca7ee246bfb86abc3c0652f315be4cf30f97abfde2"
+timestamp = "2026-10-01T10:30:58.690906229Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0d4d26c056a4be600c353b08ccfe9637"
+
+[payload]
+mount = "file:6e8cee32bde69135687b825b697b091be214726cb778bc781f869a3282590385"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = "规划范围：Requirement: Facts do not override current authority。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "667"
+mode = "text"
+start = "389"

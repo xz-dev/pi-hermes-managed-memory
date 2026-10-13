@@ -1,0 +1,14 @@
+salt = "x4vFZQtFNYHDsUAL"
+previous_id = "1714aea749d065f95ff5f4011a2c7b8110e3756f7f84960a040193b9e842ab1a"
+timestamp = "2026-10-05T17:31:50.21650029Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "ae66bb9d1804376f93dc23c7f9693271"
+reason = "Bounded7.3 close: explicit existing relation implementation:runtime -> verification:constraintGate. Current accepted source/case inspected; no new behavior, no acceptance inference from healthy endpoints;1.4 remains unexecuted."
+source = "range:e4ff99a0ad100d93eb2b08328921bc1957957f5c2285099123c2997886792d44"
+source_version = "e4ff99a0ad100d93eb2b08328921bc1957957f5c2285099123c2997886792d44"
+target = "range:ded320fe55f942175fd56e9e5edaed14e3aa7642c275038933acba86d85825d5"
+target_version = "ded320fe55f942175fd56e9e5edaed14e3aa7642c275038933acba86d85825d5"

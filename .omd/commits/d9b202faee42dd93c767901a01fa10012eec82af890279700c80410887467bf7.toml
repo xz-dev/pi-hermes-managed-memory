@@ -1,0 +1,14 @@
+salt = "9g5M2xI8eC7lLhGb"
+previous_id = "35118e99670bc69288942cecd3fd000f9b9d90d7fb7ec54be3978858e1c99f5a"
+timestamp = "2026-10-01T10:30:57.208734263Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "27471d2cea700e92b6ee04ecf5a3f6fd"
+reason = "规划范围：Requirement: Concurrent and external edits。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:3ef906bac97eaee7c096f63f57b6b8c7e15e4c527e99b98d3f28d698d8f7da26"
+source_version = "909d9cf6ff539436e13a3091638ad423bce6a78ddcbec5df59d581b4cc4cd9d1"
+target = "range:0e463f07b9400aea52c3cd377a1a603d4b0135b33cdf797bb02bd38c217cb844"
+target_version = "0e463f07b9400aea52c3cd377a1a603d4b0135b33cdf797bb02bd38c217cb844"

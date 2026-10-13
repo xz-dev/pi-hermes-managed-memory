@@ -1,0 +1,15 @@
+salt = "boLnFEBAHesT8543"
+previous_id = "b43c14e004f7d81d62c4aeef3f41000f6f3009ebe0fd1347795761f27464aa17"
+timestamp = "2026-10-05T16:23:07.150107898Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "c7620be5e80df77ee27ac5e4a544f429"
+
+[payload]
+path = "docs/review-contract.md"
+reason = "Task7.3 reconcile contract:R5 to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "4329"
+mode = "text"
+start = "3415"

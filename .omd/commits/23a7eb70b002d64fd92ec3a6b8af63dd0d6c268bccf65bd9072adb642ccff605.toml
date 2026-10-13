@@ -1,0 +1,14 @@
+salt = "julFh05sFHRd2vRs"
+previous_id = "7549a0dcaad4f58b1ebb297c056e5ac5411d14452c54d100b84b68ec99445001"
+timestamp = "2026-10-01T10:30:56.918923525Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "8d48eceb2fdb1ceab1181bac32faa238"
+reason = "规划范围：Requirement: Durable facts not temporary instructions。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:dece882184171b7d3c57e9af96f28b59034fa3424ac3c99d4bef0fbd83f48959"
+source_version = "dece882184171b7d3c57e9af96f28b59034fa3424ac3c99d4bef0fbd83f48959"
+target = "range:172300fdcbf90281894555c536c37c7195685868a700cb5134283fbb7fed8588"
+target_version = "7549a0dcaad4f58b1ebb297c056e5ac5411d14452c54d100b84b68ec99445001"

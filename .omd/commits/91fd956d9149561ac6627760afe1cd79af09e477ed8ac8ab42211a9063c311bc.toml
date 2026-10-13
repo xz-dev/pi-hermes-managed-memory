@@ -1,0 +1,16 @@
+salt = "RC0G6VfY7QrGUWE0"
+previous_id = ""
+timestamp = "2026-10-12T12:36:01.65196635Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "819d6988ec70851a5be2e9a27d2d1a3a"
+
+[payload]
+mount = "file:c295b280db5b6d754026d2b1a17bc6009b7481a90311becf103c1bd5195562b7"
+path = "PLAN/real-model-swe-evidence.md"
+reason = "Task1.4 concrete real/native evidence: 本地外包装验证"
+
+[payload.position]
+end = "2756"
+mode = "text"
+start = "2271"

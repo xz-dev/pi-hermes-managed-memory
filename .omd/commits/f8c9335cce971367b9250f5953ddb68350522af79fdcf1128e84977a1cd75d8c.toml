@@ -1,0 +1,15 @@
+salt = "ZJL2bJN2IlKfIqZ7"
+previous_id = "acc486b1a51871fd01ad835eac11cac8945ed66237f348dc3fb7373d7e41b8c1"
+timestamp = "2026-10-12T12:35:48.080053878Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "e16d6cf73bdca9ffa3c291a14633a788"
+
+[payload]
+path = "PLAN/lifecycle-acceptance-evidence.md"
+reason = "Task1.4 gate:1.4: Historical7.3 no-real-model boundary remains true; new real1.4 evidence separately referenced, no7.3 re-run or receipt rewrite"
+
+[payload.position]
+end = "4456"
+mode = "text"
+start = "4222"

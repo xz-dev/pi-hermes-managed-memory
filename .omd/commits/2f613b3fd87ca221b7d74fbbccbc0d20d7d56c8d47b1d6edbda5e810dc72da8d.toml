@@ -1,0 +1,14 @@
+salt = "yE8v4a9WduDxkl8l"
+previous_id = "7b727468eae72ccbc41cae946b395d1f4bcd57fa7530abdb1fafa6036e84efff"
+timestamp = "2026-10-05T16:37:27.585384399Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "adf8633cee1452dce2f39e57a165d71e"
+reason = "Task7.3 explicit mapping requirement:automatic-memory:Requirement: Foreground and snapshot extraction -> implementation:review. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:dbd5b2e956ad25437f861d878e812f92b21599c9dc3d04f2847a4d63c208bc71"
+source_version = "a9da6ef83e6f3f61fc00d6b3cd6ddfce3b9c97250990ad5104a9a8b40f1c92bb"
+target = "range:1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91"
+target_version = "1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91"

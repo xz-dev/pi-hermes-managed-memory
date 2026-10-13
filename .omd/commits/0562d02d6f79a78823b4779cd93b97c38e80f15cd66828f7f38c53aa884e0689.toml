@@ -1,0 +1,15 @@
+salt = "5ey9FkrsXUt41AB5"
+previous_id = "589bbf9189317aa012eb2c1a2e2838bf2430d8cce3018a3bb68cd9332eee0fc0"
+timestamp = "2026-10-05T16:23:06.636600419Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "c034f419c64be95bf2f57f3d876b974d"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+reason = "Task7.3 reconcile requirement:automatic-memory:Requirement: Learning usefulness is observable to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "3977"
+mode = "text"
+start = "3660"

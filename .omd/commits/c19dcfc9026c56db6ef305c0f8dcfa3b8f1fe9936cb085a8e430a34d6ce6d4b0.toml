@@ -1,0 +1,12 @@
+salt = "H6etFjD9gpL2eotu"
+previous_id = "06926710af3b98156ace55c0283fd7028560c81a85978ef89581fe5fc339de75"
+timestamp = "2026-10-05T16:23:32.226940718Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["5409927114982bd8313d5dc1aa96f83329ac618c2b56a3ffef8427a8681e1f7e"]
+link_id = "5a584b1bad7ff1b6bedb9396e4f098b9"
+reason = "Reviewed R1->D6: independent native user/tool cadence, single paid owner, qualified boundary and no replay agree with accepted7.1/7.2 production evidence. Reconciles relation only; 1.4 remains unexecuted."
+stop = false

@@ -1,0 +1,16 @@
+salt = "hE61uEdIEyeFFeKg"
+previous_id = "01da33bf4dadbd6a678247989b7c3ffb34da0b16fef71ffd98699a05b6434bd9"
+timestamp = "2026-10-01T10:30:56.109944325Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8df44077d0b287f861149606f3a167b2"
+
+[payload]
+mount = "file:af73cfe00bc80b5624bbb5aa0c8349e91997460f17e383e869b0090c98100fdd"
+path = "openspec/changes/add-managed-memory-lifecycle/design.md"
+reason = "规划范围：D8 — 外接只留评估，不预造接口层。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "5082"
+mode = "text"
+start = "4772"

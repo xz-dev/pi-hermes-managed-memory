@@ -1,0 +1,12 @@
+salt = "IKU4zLiCEZxLdkUQ"
+previous_id = "af8b7d470b862e483c3212865176ab65f97c26e16ae919968cbd7faf8ac0169c"
+timestamp = "2026-10-12T15:28:13.968089203Z"
+schema = "omd.commit/3"
+kind = "rename"
+content_ref = "empty"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = ""
+source = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+target = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/specs/memory-context/spec.md"

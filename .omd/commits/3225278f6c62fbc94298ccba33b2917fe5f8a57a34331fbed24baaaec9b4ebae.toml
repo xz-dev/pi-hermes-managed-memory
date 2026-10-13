@@ -1,0 +1,16 @@
+salt = "x3z0Xq7LPEHkZLGx"
+previous_id = ""
+timestamp = "2026-10-05T16:33:16.800676775Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "4be6b7227d962f64d4ee17790149a9e7"
+
+[payload]
+mount = "file:8258f91e1950e0bfed49129337f8f45d30a6c8d7433c49c43805c2e1af89da12"
+path = "src/review-ledger.ts"
+reason = "Task7.3 meaningful current range: implementation:budget ReviewLedger component"
+
+[payload.position]
+end = "24263"
+mode = "text"
+start = "5728"

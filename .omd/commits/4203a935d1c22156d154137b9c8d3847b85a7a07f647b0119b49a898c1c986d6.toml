@@ -1,0 +1,16 @@
+salt = "nQWlSYNjAwA8Goho"
+previous_id = "4e5ea0da86d3c3284baf4b5d53e3f3900d06a1e0a35ee72b1a07f8216aea99dc"
+timestamp = "2026-10-01T10:30:59.100910587Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0d4d26c056a4be600c353b08ccfe9637"
+
+[payload]
+mount = "file:6e8cee32bde69135687b825b697b091be214726cb778bc781f869a3282590385"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = "规划范围：Requirement: Local compaction checkpoint without hidden model work。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "1827"
+mode = "text"
+start = "1575"

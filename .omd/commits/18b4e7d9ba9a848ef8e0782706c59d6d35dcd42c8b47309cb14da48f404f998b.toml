@@ -1,0 +1,16 @@
+salt = "Kxk0QC6RlWuKwfXG"
+previous_id = ""
+timestamp = "2026-10-05T16:35:14.078773686Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "2dab34a3bfd366f24cbf2ddcc565f95e"
+
+[payload]
+mount = "file:b81dbf770dae43e30b3535643c186d0aa32668610133da3d7120200bf8ac8895"
+path = "test/session-constraints.test.ts"
+reason = "Task7.3 exact executable case range: verification:branch"
+
+[payload.position]
+end = "9676"
+mode = "text"
+start = "7488"

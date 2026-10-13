@@ -1,0 +1,15 @@
+salt = "eMKfPEAQLFf2EKsm"
+previous_id = "d7092aa56891cd71b058e21f863322889ec53e5a848fe294aefeedcc05878779"
+timestamp = "2026-10-05T16:23:06.859288132Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "e96abc1d751c5a4e7f7892b8df8c28bb"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = "Task7.3 reconcile requirement:memory-context:Requirement: Explain what was used to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "3053"
+mode = "text"
+start = "2832"

@@ -1,0 +1,14 @@
+salt = "4s5Xmw9e1AZ2N1hx"
+previous_id = "bdd774e9e8337e486302f71a17eb79e22bbfeebd2e24dc8381caec270f5b228a"
+timestamp = "2026-10-05T17:31:49.693358373Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "71185265333d42e6e08bede52cec589f"
+reason = "Bounded7.3 close: explicit existing relation implementation:constraints -> verification:taskCompletion. Current accepted source/case inspected; no new behavior, no acceptance inference from healthy endpoints;1.4 remains unexecuted."
+source = "range:cfa7d6823fe9c388df35b4a0be6f5adc6951ed5cbb31f1df72c2423a22896647"
+source_version = "cfa7d6823fe9c388df35b4a0be6f5adc6951ed5cbb31f1df72c2423a22896647"
+target = "range:adbb2cdb2cf300d65c6f43e842921acb22f40bc69036e6a5405c590764396f8f"
+target_version = "adbb2cdb2cf300d65c6f43e842921acb22f40bc69036e6a5405c590764396f8f"

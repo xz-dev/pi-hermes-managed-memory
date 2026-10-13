@@ -1,0 +1,16 @@
+salt = "AAAQNWCWSoaB6CJD"
+previous_id = "f0231bbcaf3a827d4373dbdecc735bfab2c821cd27469709cc660158358541d2"
+timestamp = "2026-10-01T10:30:58.895220289Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0d4d26c056a4be600c353b08ccfe9637"
+
+[payload]
+mount = "file:6e8cee32bde69135687b825b697b091be214726cb778bc781f869a3282590385"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = "规划范围：Requirement: Preserve explicit session constraints。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "1339"
+mode = "text"
+start = "933"

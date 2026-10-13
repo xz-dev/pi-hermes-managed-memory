@@ -1,0 +1,12 @@
+salt = "UoHko2zUmICNYK4n"
+previous_id = "c4148c96c9d8533efdee6d5c7c225826b712d8e4b681bf220f590def2f5ee47f"
+timestamp = "2026-10-05T16:26:31.460663401Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["06926710af3b98156ace55c0283fd7028560c81a85978ef89581fe5fc339de75"]
+link_id = "9591182bdfacea5dea659d35ae08f2b8"
+reason = "Reviewed relation requirement:automatic-memory:Requirement: Foreground and snapshot extraction -> tasks:6: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

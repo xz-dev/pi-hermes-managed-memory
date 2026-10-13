@@ -1,0 +1,12 @@
+salt = "34aAXwbRI2NdSvMH"
+previous_id = ""
+timestamp = "2026-10-01T10:31:00.900847115Z"
+schema = "omd.commit/3"
+kind = "import"
+content_ref = "empty"
+
+[payload]
+exclude = []
+include = []
+path = "openspec/changes/add-managed-memory-lifecycle/proposal.md"
+scope = []

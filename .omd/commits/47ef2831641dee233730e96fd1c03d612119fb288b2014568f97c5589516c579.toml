@@ -1,0 +1,16 @@
+salt = "l8z9qDl8mKbaJSGV"
+previous_id = "abceab1eda81880fed895f40728a9a4c5d406f3609b8fdfd0a3d25e68e13854b"
+timestamp = "2026-10-01T10:30:57.088802035Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "6d47d10f8911b9b750592c03b7b201aa"
+
+[payload]
+mount = "file:f67b90f684c3a243aee52c15e32433d00a0b7d0f5a341938c3c32ec34552b044"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/scoped-memory/spec.md"
+reason = "规划范围：Requirement: Bounded atomic mutation。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "1340"
+mode = "text"
+start = "1090"

@@ -1,0 +1,16 @@
+salt = "RXclNdlJkQaHsIgA"
+previous_id = ""
+timestamp = "2026-10-05T16:33:20.193879687Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "d5c967472fd4552e0bfd6bbe9ad880cb"
+
+[payload]
+mount = "file:5e642b0dfbe0d102b8fb46fa948ce0a21e9a61e0fd1abf51a5919e4cf0dae585"
+path = "test/injection-diagnostics.test.ts"
+reason = 'Task7.3 meaningful current range: verification:diagnostics "inspect explains the actual projected block: scalar size, locators, versions and no fact bodies"'
+
+[payload.position]
+end = "4145"
+mode = "text"
+start = "1797"

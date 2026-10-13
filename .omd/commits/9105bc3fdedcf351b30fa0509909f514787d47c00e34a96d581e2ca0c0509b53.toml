@@ -1,0 +1,16 @@
+salt = "vmwmROPtGTBPUEj0"
+previous_id = "e8eac4bdca4678188e2f01e03192c697352aa815ef8f1a96f126ac9e812d2028"
+timestamp = "2026-10-01T10:31:00.980392144Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "f7b390452fcd553a23027dc0eecc542a"
+
+[payload]
+mount = "file:a3025c95fdc9ee90c9703252bf0ea36162d0c3bc34654664cf23b47d97577be1"
+path = "openspec/changes/add-managed-memory-lifecycle/proposal.md"
+reason = "规划范围：What Changes。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "641"
+mode = "text"
+start = "121"

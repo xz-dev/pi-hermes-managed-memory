@@ -1,0 +1,15 @@
+salt = "DTbbd3ufvas6LoTe"
+previous_id = "31f8f86ddbe3744aafc79f07daf25456a0892ded53b7a92054758ef71988ff64"
+timestamp = "2026-10-05T16:23:05.976955896Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8c43b35ebaee4ece769ae355e7a86f63"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "Task7.3 reconcile tasks:5 to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "1896"
+mode = "text"
+start = "1639"

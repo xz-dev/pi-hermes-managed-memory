@@ -1,0 +1,9 @@
+salt = "VM7FCvXyR2FicUGK"
+previous_id = ""
+timestamp = "2026-10-05T16:33:15.917008577Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "2dab34a3bfd366f24cbf2ddcc565f95e"
+
+[payload]
+path = "test/session-constraints.test.ts"

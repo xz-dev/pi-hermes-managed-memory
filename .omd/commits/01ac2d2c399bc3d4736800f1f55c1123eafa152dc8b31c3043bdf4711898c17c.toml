@@ -1,0 +1,12 @@
+salt = "744rbph1SNBZLro9"
+previous_id = "eab7bca38cc6e97953bf51769f096bc07886a1c3d41e857e1aabd53ec301bef0"
+timestamp = "2026-10-12T12:35:57.736291081Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529"]
+link_id = "adab6e0b77e9414df4490a8fc35c735f"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Main-session isolation and cancellation -> verification:cancellation: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

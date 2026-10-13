@@ -1,0 +1,14 @@
+salt = "QSFgfqRqSIpDweiN"
+previous_id = "f5d48ecfe494e430e4ce34d1ffdd17ef18d83fedd55b45d5502dcbe87504306e"
+timestamp = "2026-10-05T16:37:28.035341068Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "abafa8954d2967e135a159318d748e98"
+reason = "Task7.3 explicit mapping requirement:automatic-memory:Requirement: Schedule on user work not model loops -> implementation:runtime. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:865b9b2e34022d1653aaa42f54689ad7ea2557284744f1e064189a19d51da08c"
+source_version = "13a57b3d0627102361a24700c7c7947699c6c72a3301cb48d17f4b71e30cc34d"
+target = "range:e4ff99a0ad100d93eb2b08328921bc1957957f5c2285099123c2997886792d44"
+target_version = "e4ff99a0ad100d93eb2b08328921bc1957957f5c2285099123c2997886792d44"

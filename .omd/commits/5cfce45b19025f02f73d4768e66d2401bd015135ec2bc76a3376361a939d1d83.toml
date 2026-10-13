@@ -1,0 +1,16 @@
+salt = "9GhxcfBYiyk1xRla"
+previous_id = ""
+timestamp = "2026-10-12T12:36:01.475821833Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "819d6988ec70851a5be2e9a27d2d1a3a"
+
+[payload]
+mount = "file:c295b280db5b6d754026d2b1a17bc6009b7481a90311becf103c1bd5195562b7"
+path = "PLAN/real-model-swe-evidence.md"
+reason = "Task1.4 concrete real/native evidence: 验收结论与用量边界"
+
+[payload.position]
+end = "4799"
+mode = "text"
+start = "4233"

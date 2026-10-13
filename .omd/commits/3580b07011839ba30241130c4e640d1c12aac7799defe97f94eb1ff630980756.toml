@@ -1,0 +1,9 @@
+salt = "e1Ht73kPTaB6UuAK"
+previous_id = ""
+timestamp = "2026-10-05T16:33:14.848345795Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "3aada1b302eb88b4170f70b5520324d0"
+
+[payload]
+path = "test/learning-slice.test.ts"

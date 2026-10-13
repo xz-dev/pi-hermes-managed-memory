@@ -1,0 +1,14 @@
+salt = "HOWliaNMGyWq8Q7n"
+previous_id = "4d0366b2ceb4c0d283d8b60e7136a12b7a51372cb424624f04cd186461fb9e7a"
+timestamp = "2026-10-01T10:30:58.60687185Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "93ae9033f982e85552c38a1b6909cd79"
+reason = "规划范围：Requirement: Automatic bounded short-memory injection。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+source_version = "3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+target = "range:23dc74d9b1ced28e435bb97bac90c9285c1b27ddf9dd316c3f4e3944c06205b7"
+target_version = "4d0366b2ceb4c0d283d8b60e7136a12b7a51372cb424624f04cd186461fb9e7a"

@@ -1,0 +1,16 @@
+salt = "qMUjAs6daoimPAUU"
+previous_id = ""
+timestamp = "2026-10-05T17:31:41.402755766Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "e96abc1d751c5a4e7f7892b8df8c28bb"
+
+[payload]
+mount = "file:6e8cee32bde69135687b825b697b091be214726cb778bc781f869a3282590385"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = "Bounded7.3 close: requirement:memory-context:Requirement: Explicit task lifecycle boundaries; existing source, not new behavior/test execution"
+
+[payload.position]
+end = "1817"
+mode = "text"
+start = "1339"

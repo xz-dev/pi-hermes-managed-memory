@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [109, 71, 209, 15, 137, 17, 185, 183, 80, 89, 44, 3, 183, 178, 1, 170]
+len = 3895
+sha256 = "ee62b10efd7a6155bb1f7105b26def4a6c39c3fdf2eac4d303a98451999cfd5e"
+encoding = "utf-8"
+content_file = "content/ee62b10efd7a6155bb1f7105b26def4a6c39c3fdf2eac4d303a98451999cfd5e"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/scoped-memory/spec.md"
+
+[recovery]
+type = "file"
+project = "root"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/scoped-memory/spec.md"

@@ -1,0 +1,9 @@
+salt = "Ff7snKE6Z1eiko9s"
+previous_id = ""
+timestamp = "2026-10-05T16:33:14.618452126Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "60461772bef5117c2ee87c83f5f182f3"
+
+[payload]
+path = "test/api-isolation.test.ts"

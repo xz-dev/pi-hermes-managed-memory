@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [213, 201, 103, 71, 47, 212, 85, 46, 11, 253, 107, 190, 154, 216, 128, 203]
+len = 15938
+sha256 = "b7f8ecfa6389f0ce52a16c91b7b15599c6beb735756b2b7995ab60da60481b14"
+encoding = "utf-8"
+content_file = "content/b7f8ecfa6389f0ce52a16c91b7b15599c6beb735756b2b7995ab60da60481b14"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/injection-diagnostics.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/injection-diagnostics.test.ts"

@@ -1,0 +1,12 @@
+salt = "IxKtJPpAZKIUaYAO"
+previous_id = "2fed55289ea9ceb3d4dc9e85639e264b4631faa1fd14feee8622978a451e721a"
+timestamp = "2026-10-12T15:38:16.894725141Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["4ffcbcd0d9435ea6801f715b409e2b0dd9182e2b77803d60e934dba1dfa58cd6"]
+link_id = "04303fac99ac7f5c18afeb0c371a5866"
+reason = "Archive navigation review requirement:automatic-memory:Requirement: Shared review without required companion -> implementation:coordination: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

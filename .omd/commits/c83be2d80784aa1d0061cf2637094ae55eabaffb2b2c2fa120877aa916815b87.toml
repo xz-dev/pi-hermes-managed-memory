@@ -1,0 +1,14 @@
+salt = "BnQinK30Qu08DONm"
+previous_id = "e152b8827f1557e91fe4bf9abb7053705870281afbdfe84f40e6bb003d4e6668"
+timestamp = "2026-10-12T12:36:04.222503602Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "a62c6d633b4ba32ad183151603611e5a"
+reason = "Task1.4 exact mapping contract:R3 -> evidence:envelope-validation: bounded real4-call effect versus native-faux envelope mechanics and raw/normalized unknown-price accounting kept distinct"
+source = "range:fc79551bb1971cefc88b5c75eec265f09f5bf0864f9cd90f6e0eac4dd9d82eae"
+source_version = "9bfa77d38fb6295be12d246c2075cc03dc45eb2621cfd7082ffba960d7b6be05"
+target = "range:91fd956d9149561ac6627760afe1cd79af09e477ed8ac8ab42211a9063c311bc"
+target_version = "91fd956d9149561ac6627760afe1cd79af09e477ed8ac8ab42211a9063c311bc"

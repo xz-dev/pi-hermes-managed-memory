@@ -1,0 +1,12 @@
+salt = "AY6h3JZyJvCmTRPG"
+previous_id = "c1f1fdea1bcee487636008cdcc5b39fb8fe8c68bcddeb404dab724d5be2059d8"
+timestamp = "2026-10-12T12:35:49.385192512Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["9d3d0b78e6d9be9e1b0911e047b5d9ca8b1be3e57a46ef61dfe9e0975e2bd68a"]
+link_id = "09e1231ee305956b2d635a138ca01441"
+reason = "Task1.4 reviewed contract:wire-v1 -> verification:coordination: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

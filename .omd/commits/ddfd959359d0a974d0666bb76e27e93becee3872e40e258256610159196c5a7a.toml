@@ -1,0 +1,16 @@
+salt = "13p8O0j1wu3Fxaav"
+previous_id = ""
+timestamp = "2026-10-05T16:33:16.90159385Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "f4643d08d927e246f2fbf207ac4fa57a"
+
+[payload]
+mount = "file:7d7d92931c4763730629a37988a7f36b86b1973e00a72513df497fbf3ac188d8"
+path = "src/review-coordinator.ts"
+reason = "Task7.3 meaningful current range: implementation:coordination ReviewCoordinator component"
+
+[payload.position]
+end = "9615"
+mode = "text"
+start = "2359"

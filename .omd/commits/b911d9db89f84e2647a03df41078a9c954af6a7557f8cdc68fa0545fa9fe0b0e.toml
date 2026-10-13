@@ -1,0 +1,14 @@
+salt = "Q0hJLxickxRjx04e"
+previous_id = "bf87d3afc04e17efdfdb53f9d3a57bf13d8564803fe4ddcdb91774be4cd42e02"
+timestamp = "2026-10-05T16:37:53.917557538Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "6e346a92defa4f28b6c9a8ddbb291428"
+reason = "Task7.3 explicit mapping implementation:index -> verification:index. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:ecd108bd7a8c56d26fad74f0846e4caee2d1df8a3d4f2919d793122396b05b68"
+source_version = "ecd108bd7a8c56d26fad74f0846e4caee2d1df8a3d4f2919d793122396b05b68"
+target = "range:d6e68f950a28e911902da5e321bba026453c97ab8d590d4256777567080b4894"
+target_version = "d6e68f950a28e911902da5e321bba026453c97ab8d590d4256777567080b4894"

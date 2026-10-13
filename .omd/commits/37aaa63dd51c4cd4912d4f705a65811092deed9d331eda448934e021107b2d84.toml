@@ -1,0 +1,14 @@
+salt = "sEo3a0vOMuBfEQxh"
+previous_id = "aef1a71a87b8053ac3ca81c5776ed18791059d9e7e90e3ec66a3232bd2c3fb3e"
+timestamp = "2026-10-01T10:31:01.791519913Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "a7bac924d044d86731f6f306bceaab0c"
+reason = "规划范围：候选最小契约（非实现承诺）。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+source_version = "26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+target = "range:73e2b8c22acbd23bb5cf4c7b6b104a11e2b16d567811bc47c365bfb0c6a5b842"
+target_version = "aef1a71a87b8053ac3ca81c5776ed18791059d9e7e90e3ec66a3232bd2c3fb3e"

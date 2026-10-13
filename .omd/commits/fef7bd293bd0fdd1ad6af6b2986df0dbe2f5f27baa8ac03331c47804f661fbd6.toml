@@ -1,0 +1,12 @@
+salt = "i9VDYZNLKStFhFFP"
+previous_id = "4a5f5e45a36ab8ac5824742254318480f1f4939477f7725c883639b3a8dc09dc"
+timestamp = "2026-10-12T12:52:43.832724577Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["94be1c5248640f67698c0173e33adc5318755e133f65bf03236bdb0b1c23a2ec"]
+link_id = "10198804b0cefaff2c1a6c38de3dc56f"
+reason = "Parent reviewed implementation:review -> verification:snapshot after only1.4 checkbox. Actual2 sourced adds/one same-ID correction/2 new-session uses accepted; 11 total requests and price unknown. Source/test bytes unchanged. Historical7.3 gate is explicitly historical with new1.4 reference; no reopening7.1–7.3, model replay or blanket acknowledgement."
+stop = false

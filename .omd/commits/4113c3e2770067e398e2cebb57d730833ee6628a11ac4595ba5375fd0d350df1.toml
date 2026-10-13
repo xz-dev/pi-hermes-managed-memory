@@ -1,0 +1,16 @@
+salt = "rQvylpV2I2k04pKR"
+previous_id = ""
+timestamp = "2026-10-05T17:31:40.473205614Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "2dab34a3bfd366f24cbf2ddcc565f95e"
+
+[payload]
+mount = "file:b81dbf770dae43e30b3535643c186d0aa32668610133da3d7120200bf8ac8895"
+path = "test/session-constraints.test.ts"
+reason = "Bounded7.3 close: verification:taskBoundary; existing source, not new behavior/test execution"
+
+[payload.position]
+end = "7485"
+mode = "text"
+start = "5150"

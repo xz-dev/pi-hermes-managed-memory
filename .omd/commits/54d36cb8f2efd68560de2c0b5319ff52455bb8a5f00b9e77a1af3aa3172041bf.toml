@@ -1,0 +1,14 @@
+salt = "bMr6QdRM8OkpA2pW"
+previous_id = "34f72ea0b788b64a76b603f6cf755a214368f382ed8a6899b1cfebd30f2dbb03"
+timestamp = "2026-10-05T17:31:50.532057484Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "24c4eb498aef98145d3687ce0631aabc"
+reason = "Bounded7.3 close: explicit existing relation implementation:section -> verification:constraintPriority. Current accepted source/case inspected; no new behavior, no acceptance inference from healthy endpoints;1.4 remains unexecuted."
+source = "range:3536ac460064516f43154928b30840e5f16ddfb0082279c59e513303a4d693d7"
+source_version = "3536ac460064516f43154928b30840e5f16ddfb0082279c59e513303a4d693d7"
+target = "range:bd51ecdc88438a4eb8675dcb44ccd6966272fda2052ed6c23658c0e72354bfb0"
+target_version = "bd51ecdc88438a4eb8675dcb44ccd6966272fda2052ed6c23658c0e72354bfb0"

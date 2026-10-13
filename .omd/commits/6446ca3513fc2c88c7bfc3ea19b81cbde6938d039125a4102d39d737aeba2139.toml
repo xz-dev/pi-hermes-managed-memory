@@ -1,0 +1,9 @@
+salt = "qnWJP3pLHpYcJf4L"
+previous_id = ""
+timestamp = "2026-10-05T16:33:16.374035728Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "805f3289d8dceeb780ed9bebb7190897"
+
+[payload]
+path = "test/usage-accounting.test.ts"

@@ -1,0 +1,16 @@
+salt = "lS3tNtJUVyykYYth"
+previous_id = "a88b9275c1c30d4c893d19418cb8b163030d6698f621541082f575c725443f9f"
+timestamp = "2026-10-01T10:31:01.281345641Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "bca7a2a35edf5c0dbc6ede37545bca16"
+
+[payload]
+mount = "file:a542e9fcbe16e29a005358fee15b9f3159a7a2ae05b60f4f536d995532cc3685"
+path = "docs/external-adapter-evaluation.md"
+reason = "规划范围：决定。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "129"
+mode = "text"
+start = "13"

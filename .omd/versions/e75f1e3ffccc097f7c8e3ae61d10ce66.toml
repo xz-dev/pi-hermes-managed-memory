@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [231, 95, 30, 63, 252, 204, 9, 127, 124, 142, 58, 230, 29, 16, 206, 102]
+len = 41212
+sha256 = "0a60380ccfe4c7cc9970d40883f3177a1078e1335ba307fc597aa6de84d911ce"
+encoding = "utf-8"
+content_file = "content/0a60380ccfe4c7cc9970d40883f3177a1078e1335ba307fc597aa6de84d911ce"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/review-proposals.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/review-proposals.test.ts"

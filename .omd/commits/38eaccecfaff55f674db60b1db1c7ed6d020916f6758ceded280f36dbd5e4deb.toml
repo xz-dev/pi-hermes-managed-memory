@@ -1,0 +1,12 @@
+salt = "Y1Glyd8pq8SJhzJ5"
+previous_id = "019c6d139ce57baa823702613a2dff48792938e8842af2907d3be5aa0f9622b9"
+timestamp = "2026-10-12T12:35:54.859738112Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529"]
+link_id = "9214aeb084fb3c07cfd7deb60c61901f"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Account for every charged outcome -> tasks:2: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

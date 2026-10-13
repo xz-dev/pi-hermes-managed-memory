@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [60, 133, 19, 247, 216, 96, 252, 79, 25, 53, 77, 255, 117, 98, 247, 205]
+len = 38253
+sha256 = "fee9b6e8ba08efad29f7ab091656307b46202fc0cd722b9fad21dbd0afb9e7fc"
+encoding = "utf-8"
+content_file = "content/fee9b6e8ba08efad29f7ab091656307b46202fc0cd722b9fad21dbd0afb9e7fc"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/foreground-memory.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/foreground-memory.test.ts"

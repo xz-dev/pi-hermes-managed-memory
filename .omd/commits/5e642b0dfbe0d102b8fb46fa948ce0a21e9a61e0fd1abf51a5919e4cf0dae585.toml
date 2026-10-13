@@ -1,0 +1,9 @@
+salt = "FLr3quTtfOdp3OKv"
+previous_id = ""
+timestamp = "2026-10-05T16:33:14.771917036Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "d5c967472fd4552e0bfd6bbe9ad880cb"
+
+[payload]
+path = "test/injection-diagnostics.test.ts"

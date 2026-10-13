@@ -1,0 +1,14 @@
+salt = "YDhltOMYP8JvH3Gq"
+previous_id = "f1246c0d22a10d4eac064a6055739499b5ec360751747c687066f6f1fb7cd4a2"
+timestamp = "2026-10-01T10:30:55.710861069Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "31f11280eee90c2fed87846bc30c6a82"
+reason = "规划范围：D2 — 分类规则是提案契约，不是假定模型总能判对。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:b904bfe5589fee937e63aef1a9c294783c60b20d872a5cbfe902ce9e0ba8e00c"
+source_version = "b904bfe5589fee937e63aef1a9c294783c60b20d872a5cbfe902ce9e0ba8e00c"
+target = "range:2c8fd75b122a09166bdabb75d75860247fc1221e9a77e49abdfd21deb8d40c55"
+target_version = "f1246c0d22a10d4eac064a6055739499b5ec360751747c687066f6f1fb7cd4a2"

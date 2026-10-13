@@ -1,0 +1,14 @@
+salt = "LqOu5tazXIXMAaky"
+previous_id = "98aa79d738fdb8cfc34b4b2e0b6372e688656f1e1b766678777eadc9cfd7f79a"
+timestamp = "2026-10-05T16:37:27.313642248Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "9aad790e0fe6b7f9ecb188c4244e78fc"
+reason = "Task7.3 explicit mapping requirement:scoped-memory:Requirement: Local-only first release -> verification:api. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:cc3a23cce6ac48bbb462fa2609a7a0919be2f2771d28e68c8f11ae3a6b89620e"
+source_version = "3b4c5b12cc2b26d2d958dc433993490e3b92cdfbc35395b75fa950f5009ff070"
+target = "range:2985b73aaaff9cfe21a332c9c9a574a0e929e20e7dade08a91d798ddf25e18f2"
+target_version = "2985b73aaaff9cfe21a332c9c9a574a0e929e20e7dade08a91d798ddf25e18f2"

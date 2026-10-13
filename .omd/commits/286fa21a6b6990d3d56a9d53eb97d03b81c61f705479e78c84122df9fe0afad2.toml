@@ -1,0 +1,12 @@
+salt = "TUtil7ggUyYLKY5K"
+previous_id = "08974242ddfc7fd5e789643142d5ce54c3df47c1fd865108bd00b6ab90ddaeb2"
+timestamp = "2026-10-12T15:38:21.417639774Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["528b9c41b35d8c19cadbc253becb96f3241f5230a58d7c837d5fca2cf6d16a65"]
+link_id = "1ea21adfb569ff5f43dccdced351f1e6"
+reason = "Archive navigation review requirement:automatic-memory:Requirement: Preflight and durable budget reservation -> verification:processBudget: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

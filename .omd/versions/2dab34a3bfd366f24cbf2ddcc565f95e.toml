@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [45, 171, 52, 163, 191, 211, 102, 242, 76, 191, 45, 220, 197, 101, 249, 94]
+len = 35111
+sha256 = "e3302067f68049b4ce60395bdef1a523ee0ac108c3f5b18e9c69b74087d7fdc2"
+encoding = "utf-8"
+content_file = "content/e3302067f68049b4ce60395bdef1a523ee0ac108c3f5b18e9c69b74087d7fdc2"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/session-constraints.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/session-constraints.test.ts"

@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [150, 248, 175, 44, 147, 238, 251, 118, 232, 46, 140, 115, 69, 17, 84, 9]
+len = 7627
+sha256 = "1da9b0caa3ad9973934b900170cf665eafe1b0267b28cae4bd2148eaf2481cd1"
+encoding = "utf-8"
+content_file = "content/1da9b0caa3ad9973934b900170cf665eafe1b0267b28cae4bd2148eaf2481cd1"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "docs/planning-evidence.md"
+
+[recovery]
+type = "file"
+project = "root"
+path = "docs/planning-evidence.md"

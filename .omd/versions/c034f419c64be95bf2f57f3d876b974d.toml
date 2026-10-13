@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [192, 52, 244, 25, 198, 75, 233, 91, 242, 245, 127, 61, 135, 107, 151, 77]
+len = 7711
+sha256 = "29558f053ae49e503c8763e36fb83dd0a8b7464cc871b731f71ea235521b7bfb"
+encoding = "utf-8"
+content_file = "content/29558f053ae49e503c8763e36fb83dd0a8b7464cc871b731f71ea235521b7bfb"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+
+[recovery]
+type = "file"
+project = "root"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"

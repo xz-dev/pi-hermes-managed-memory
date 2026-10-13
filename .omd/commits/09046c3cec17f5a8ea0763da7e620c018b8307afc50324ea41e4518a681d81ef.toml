@@ -1,0 +1,16 @@
+salt = "dn5WivbuBhBO8mBr"
+previous_id = ""
+timestamp = "2026-10-05T16:33:17.516134442Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "4036c7a195addcd06e8706a85d5ca0e8"
+
+[payload]
+mount = "file:a1f436fff6c0a057102fb7ab76257aa765df8a2da1670dfde47c5ca175009716"
+path = "src/review-schedule.ts"
+reason = "Task7.3 meaningful current range: implementation:cadence reviewSchedule"
+
+[payload.position]
+end = "2001"
+mode = "text"
+start = "497"

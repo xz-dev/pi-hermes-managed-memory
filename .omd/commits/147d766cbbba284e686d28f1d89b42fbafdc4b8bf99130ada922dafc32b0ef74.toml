@@ -1,0 +1,12 @@
+salt = "mxEUFlacTGNsDPeP"
+previous_id = "c19dcfc9026c56db6ef305c0f8dcfa3b8f1fe9936cb085a8e430a34d6ce6d4b0"
+timestamp = "2026-10-05T16:26:28.156915988Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["07d73516e1c986933730a30a16e176ae631ad03402f99ee5abe62dee36039b0c"]
+link_id = "2338bf4a46dabc40173141c9dc8e3be0"
+reason = "Reviewed relation contract:R6 -> design:D6: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

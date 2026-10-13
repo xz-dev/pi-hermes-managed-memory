@@ -1,0 +1,12 @@
+salt = "lRM6umC9mFL1FmyE"
+previous_id = "a83e55a3c68e2ca2b7392ef63b0f800d9722e0998efbde017a27fb8506ef81d0"
+timestamp = "2026-10-12T15:38:19.029967132Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["528b9c41b35d8c19cadbc253becb96f3241f5230a58d7c837d5fca2cf6d16a65"]
+link_id = "c6705a107415396ad1809b07512d037a"
+reason = "Archive navigation review design:D6 -> requirement:automatic-memory:Requirement: Foreground and snapshot extraction: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

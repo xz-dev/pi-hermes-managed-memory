@@ -1,0 +1,12 @@
+salt = "93nCRFwFzFE6P9fJ"
+previous_id = "f046de28ad0b5983969a185990df4e9744d236812190350c81835c04207f28be"
+timestamp = "2026-10-12T15:38:25.684493781Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["528b9c41b35d8c19cadbc253becb96f3241f5230a58d7c837d5fca2cf6d16a65"]
+link_id = "d148804d15b06bdc98bdd463e6180d75"
+reason = "Archive navigation review requirement:automatic-memory:Requirement: Account for every charged outcome -> verification:accounting: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

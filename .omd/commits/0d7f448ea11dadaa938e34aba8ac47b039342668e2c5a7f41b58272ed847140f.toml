@@ -1,0 +1,16 @@
+salt = "Su4G2uJdHDJGDjNe"
+previous_id = ""
+timestamp = "2026-10-01T10:30:55.530318931Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "96f8af2c93eefb76e82e8c7345115409"
+
+[payload]
+mount = "file:31d2d98e34d54396277c9bcbdfd830178ceb6c008ef81855f9c746bede43e7d7"
+path = "docs/planning-evidence.md"
+reason = "规划范围：H5 — 历史检索与外接契约。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "4745"
+mode = "text"
+start = "4213"

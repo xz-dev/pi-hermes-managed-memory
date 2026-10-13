@@ -1,0 +1,16 @@
+salt = "BD9Ffw7XsdxSqO3d"
+previous_id = ""
+timestamp = "2026-10-05T16:33:22.343345983Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8c43b35ebaee4ece769ae355e7a86f63"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "Task7.3 meaningful current range: task:3.2 - [x] 3.2 实现 Markdown 条目身份、来源 metadata、用户手改识别和损坏文件保护；验证无来源时不伪造引用、读取失败不覆盖为空文件。"
+
+[payload.position]
+end = "1112"
+mode = "text"
+start = "1034"

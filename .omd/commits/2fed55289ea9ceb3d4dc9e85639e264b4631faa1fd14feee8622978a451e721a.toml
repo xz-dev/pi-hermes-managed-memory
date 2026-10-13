@@ -1,0 +1,12 @@
+salt = "Zc9GKvoIrXxrAWpv"
+previous_id = "90a4f9339ed452b58bb5cf39cb9b86b2edf4ec0d1791d837fc1e23c6d287e339"
+timestamp = "2026-10-12T12:35:50.784904622Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["032223740c6c131fedfc6500549756060f32bbd6330f2e93f59994d027bbba51"]
+link_id = "04303fac99ac7f5c18afeb0c371a5866"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Shared review without required companion -> implementation:coordination: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

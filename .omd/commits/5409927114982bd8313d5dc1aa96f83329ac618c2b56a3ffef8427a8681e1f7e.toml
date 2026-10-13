@@ -1,0 +1,15 @@
+salt = "zbLWF24JE6FBCX4p"
+previous_id = "dffa7e818c71c71b339eccab8f51ec3b8a7e1a7f0bde4381f39d947b85c5a099"
+timestamp = "2026-10-05T16:19:44.396896503Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "c7620be5e80df77ee27ac5e4a544f429"
+
+[payload]
+path = "docs/review-contract.md"
+reason = "Task7.3 reconcile accepted contract:R1 at current Unicode-scalar span; retain node/history"
+
+[payload.position]
+end = "925"
+mode = "text"
+start = "303"

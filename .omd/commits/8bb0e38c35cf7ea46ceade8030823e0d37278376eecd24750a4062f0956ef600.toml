@@ -1,0 +1,16 @@
+salt = "AMgDF7axeB7QpHAB"
+previous_id = ""
+timestamp = "2026-10-05T16:33:17.107448489Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "f7539bcaed94e276e2496c94dddd1b47"
+
+[payload]
+mount = "file:6e8cedd41986901fc8b3ac5347db79368f161c6769af315d03bf6cf2a7421841"
+path = "src/session-recall.ts"
+reason = "Task7.3 meaningful current range: implementation:recall SessionRecall component"
+
+[payload.position]
+end = "24466"
+mode = "text"
+start = "6999"

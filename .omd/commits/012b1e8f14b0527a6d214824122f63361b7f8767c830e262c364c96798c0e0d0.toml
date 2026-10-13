@@ -1,0 +1,14 @@
+salt = "q0pZ7kUtAEfvfUtd"
+previous_id = "6a4c0910bf69782e6bf3b70b572b1795f3b22af80b98edbc432a541e1d157c8b"
+timestamp = "2026-10-01T10:30:59.838952161Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "0fba339699380247c04898725538dbab"
+reason = "规划范围：Requirement: Incremental indexing and noise filtering。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:2882558126d20efb4410e28dc5d8340b41a1d940c6d51998c8253c4062717074"
+source_version = "2882558126d20efb4410e28dc5d8340b41a1d940c6d51998c8253c4062717074"
+target = "range:6067b0bcde92f68f84db5463bee2e88ca20fb8c6b53185349deca255fe9692db"
+target_version = "6a4c0910bf69782e6bf3b70b572b1795f3b22af80b98edbc432a541e1d157c8b"

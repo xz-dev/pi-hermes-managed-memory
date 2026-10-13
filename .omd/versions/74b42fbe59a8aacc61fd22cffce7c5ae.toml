@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [116, 180, 47, 190, 89, 168, 170, 204, 97, 253, 34, 207, 252, 231, 197, 174]
+len = 8551
+sha256 = "fc72bcfa237e79719bd45e586116a3ae1af0b3aa469a4430a6e69d311a786024"
+encoding = "utf-8"
+content_file = "content/fc72bcfa237e79719bd45e586116a3ae1af0b3aa469a4430a6e69d311a786024"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/review-controls.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/review-controls.test.ts"

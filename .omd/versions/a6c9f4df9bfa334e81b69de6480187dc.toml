@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [166, 201, 244, 223, 155, 250, 51, 78, 129, 182, 157, 230, 72, 1, 135, 220]
+len = 10474
+sha256 = "2e3bf129051fcb64c9d2fed7b14653b7f6c22793e9ae7a65d88b8f37017dadf6"
+encoding = "utf-8"
+content_file = "content/2e3bf129051fcb64c9d2fed7b14653b7f6c22793e9ae7a65d88b8f37017dadf6"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "docs/review-contract.md"
+
+[recovery]
+type = "file"
+project = "root"
+path = "docs/review-contract.md"

@@ -1,0 +1,16 @@
+salt = "aLxloJ7uwD3fCV2a"
+previous_id = "162b2b6f81ed2a46044c731997e852bb5a916bde4fca65cd1a57498a260e688d"
+timestamp = "2026-10-01T10:30:58.412872111Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "a3f6d8a966e5b61f442a6b5266048ddd"
+
+[payload]
+mount = "file:7e6666b4bc4cd24f30f13c333965ea3c125b06caa79ff0023ccc18b4b98606bf"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+reason = "规划范围：Requirement: Learning usefulness is observable。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "2951"
+mode = "text"
+start = "2634"

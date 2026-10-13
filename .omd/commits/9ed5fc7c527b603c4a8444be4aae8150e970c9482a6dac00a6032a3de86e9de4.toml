@@ -1,0 +1,14 @@
+salt = "Y5o7NccBgF3kBOzp"
+previous_id = "0330a80b47196e08e45174857c07297058fd674addce2d2e6406b8fbcf5d6080"
+timestamp = "2026-10-01T10:30:57.740738507Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "cc59f654498caf0addcfcb01c44daf2f"
+reason = "规划范围：Requirement: Preflight and durable budget reservation。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+source_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target = "range:72b17b36abb821f575b9fba0c07bf66a22fb4dd68e0c55116b718a04f6aa52a2"
+target_version = "0330a80b47196e08e45174857c07297058fd674addce2d2e6406b8fbcf5d6080"

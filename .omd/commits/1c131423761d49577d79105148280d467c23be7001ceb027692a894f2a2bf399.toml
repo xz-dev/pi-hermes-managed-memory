@@ -1,0 +1,14 @@
+salt = "tYMuC5LO1rgcRREJ"
+previous_id = "2ed1890bbf1f5a08cf11c64980baf6dc18c8b8d70631eea32ab7feaa8fcd74e4"
+timestamp = "2026-10-05T16:37:26.54863409Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "e10733aa1e1a87163900c81d2c62076e"
+reason = "Task7.3 explicit mapping requirement:scoped-memory:Requirement: Reversible changes and explicit forgetting -> implementation:store. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:fd7ccac663de173eed67857905e8dad45b73f1cc64a628005a9d4da73a9ed718"
+source_version = "8ce3e749e272abf8cb1c8dda3ab5f889a839f99b3f1e7f181f419ea3af28cecb"
+target = "range:f2bb66aa436da1a824220c6a412e2ccec3fe20ce4189565e82408eacce0ea7da"
+target_version = "f2bb66aa436da1a824220c6a412e2ccec3fe20ce4189565e82408eacce0ea7da"

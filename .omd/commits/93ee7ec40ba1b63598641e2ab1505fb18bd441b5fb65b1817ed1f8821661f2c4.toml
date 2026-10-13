@@ -1,0 +1,14 @@
+salt = "wIfmAsMZSmC2i96M"
+previous_id = "6f10e9ed2fcf394e1cb59c6dde9bedc76257162dc06689f928383de9f640500a"
+timestamp = "2026-10-05T16:37:38.016525393Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "2d5a97d7d50e2eb47d9354d9059440bd"
+reason = "Task7.3 explicit mapping requirement:session-recall:Requirement: Incremental indexing and noise filtering -> implementation:index. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:6067b0bcde92f68f84db5463bee2e88ca20fb8c6b53185349deca255fe9692db"
+source_version = "5ea7fd815b116604d47fe5b50ae3b309d5392fc9c5fbb40abd25c020025aa08d"
+target = "range:ecd108bd7a8c56d26fad74f0846e4caee2d1df8a3d4f2919d793122396b05b68"
+target_version = "ecd108bd7a8c56d26fad74f0846e4caee2d1df8a3d4f2919d793122396b05b68"

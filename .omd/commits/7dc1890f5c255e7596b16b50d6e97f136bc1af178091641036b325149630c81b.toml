@@ -1,0 +1,14 @@
+salt = "c7daz2qloc0s2Tdn"
+previous_id = "830a6567d0e1a6ba60510eeb7a136e862e81cedcefc57a1c747da93037e7a372"
+timestamp = "2026-10-05T16:37:37.499432934Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "fa74e3cbf6385ebd6a5be25950b71cd4"
+reason = "Task7.3 explicit mapping requirement:session-recall:Requirement: No hidden inference during retrieval -> implementation:recall-tool. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:dd5909d5071248ce9ad523a4d83735a23c0fbf45fc771f8135c732c8ab01a25c"
+source_version = "eacd4dfa4a4505c12a2033f7945129c9b352f2e7a2faa4ac5e5edfb9bda38742"
+target = "range:d9543366fc3abdf9476640c06caebbdd00a754e7a8fbffb5bde80d91581a7c24"
+target_version = "d9543366fc3abdf9476640c06caebbdd00a754e7a8fbffb5bde80d91581a7c24"

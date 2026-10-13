@@ -1,0 +1,12 @@
+salt = "MCJoK3eCWBNVTy5Y"
+previous_id = "4b88f0f434a6c5b946d84c68418584d5d0d27ac126a3b81e0a1758e71747cdf5"
+timestamp = "2026-10-12T15:38:21.195226479Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["528b9c41b35d8c19cadbc253becb96f3241f5230a58d7c837d5fca2cf6d16a65"]
+link_id = "cb41eb275246f9abb93eea10e7c5920f"
+reason = "Archive navigation review requirement:automatic-memory:Requirement: Complete disable and explicit retry -> tasks:2: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

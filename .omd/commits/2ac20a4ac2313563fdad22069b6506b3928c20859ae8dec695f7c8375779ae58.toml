@@ -1,0 +1,16 @@
+salt = "8jm5z88jDB0Y8jgA"
+previous_id = ""
+timestamp = "2026-10-12T12:36:02.01835939Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "56d3523f9f43579d2a01e2c9cbc8720d"
+
+[payload]
+mount = "file:f91e439c92d69f04f5b54681a6fb428ada6ce8868335136e795251690ed8b043"
+path = "test/review-envelope.test.ts"
+reason = "Public native review controls: malformed envelope/schema/foreign evidence and whole-source exclusions, one request/no main mutation"
+
+[payload.position]
+end = "5731"
+mode = "text"
+start = "2315"

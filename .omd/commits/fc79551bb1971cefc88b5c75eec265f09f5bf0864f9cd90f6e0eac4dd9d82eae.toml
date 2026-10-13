@@ -1,0 +1,10 @@
+salt = "WoXiX5TruiN9xgOs"
+previous_id = ""
+timestamp = "2026-10-01T10:31:00.320423631Z"
+schema = "omd.commit/3"
+kind = "atomic_begin"
+content_ref = "empty"
+
+[payload]
+mount = "file:8766394639c1c3a2479e7f793aefd96758d0c475f3ae5243faedc2b71fb178da"
+path = "docs/review-contract.md"

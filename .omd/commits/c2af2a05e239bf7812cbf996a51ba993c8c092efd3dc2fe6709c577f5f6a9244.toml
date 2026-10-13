@@ -1,0 +1,14 @@
+salt = "qHtzB7YErIXokhCR"
+previous_id = "bb2310cca77652cb20c171a2d29aa5b2069cf84fcaf7f7aad8524473c344d090"
+timestamp = "2026-10-05T16:37:24.3920223Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "ea09b81263e6b3ecf22d3e643513131b"
+reason = "Task7.3 explicit mapping requirement:scoped-memory:Requirement: Separate memory scopes -> verification:scopes. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:af9099f60630a56a0b4bcea70fc67aa6800933981ba1d0fc696f4016bdd18e19"
+source_version = "202e429046bead664a6f0eff5e83703f940b853a909c68904d8dcc68db0d8c56"
+target = "range:0597bc0fb06d1893e599a15371267ac5ae5fefdbcb402598975b4ffa40acb9d9"
+target_version = "0597bc0fb06d1893e599a15371267ac5ae5fefdbcb402598975b4ffa40acb9d9"

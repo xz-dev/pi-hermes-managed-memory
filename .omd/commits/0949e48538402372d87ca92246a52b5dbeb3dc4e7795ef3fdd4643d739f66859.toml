@@ -1,0 +1,12 @@
+salt = "CPpr8G1fFLOVha1H"
+previous_id = "91c46dc88f20fba33e03bcfa658595cb2171a888d359f471901d53a4dbd2be23"
+timestamp = "2026-10-12T15:38:25.460305159Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["528b9c41b35d8c19cadbc253becb96f3241f5230a58d7c837d5fca2cf6d16a65"]
+link_id = "c3d0d9615c5005f8efb883caa1f09add"
+reason = "Archive navigation review requirement:automatic-memory:Requirement: Explicit unknown-usage recovery -> task:7.2: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

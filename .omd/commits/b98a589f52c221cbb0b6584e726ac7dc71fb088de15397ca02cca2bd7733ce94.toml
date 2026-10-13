@@ -1,0 +1,12 @@
+salt = "6geehKXXqtUJDZsq"
+previous_id = "021aa5c4fefb52e7da4ea7e6cd7b1e81d96fc8046f24e1956483fce2a33c0fd4"
+timestamp = "2026-10-12T12:35:54.437569087Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529"]
+link_id = "0f03132c17ff7044f17190621279ab47"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Validated proposals and user-controlled deletion -> tasks:6: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

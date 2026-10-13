@@ -1,0 +1,14 @@
+salt = "UwphqYIyo6yr8MAU"
+previous_id = "1f5eb1703e3e0681b47e83b497964f4c721ffedd72e8858452aa65dbac115fcf"
+timestamp = "2026-10-05T16:37:26.296043001Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "c0b0c418c09e28ccf446421fa03a88d5"
+reason = "Task7.3 explicit mapping requirement:scoped-memory:Requirement: Concurrent and external edits -> verification:editConflict. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:3ef906bac97eaee7c096f63f57b6b8c7e15e4c527e99b98d3f28d698d8f7da26"
+source_version = "35b03257cc5600eb735cefe88eee2b95832e66ebf55aed8da35fef09f45b604e"
+target = "range:44b30a35e5b44296eb240eec00236b6439a280f99692da92c465a8e2ba19fc80"
+target_version = "44b30a35e5b44296eb240eec00236b6439a280f99692da92c465a8e2ba19fc80"

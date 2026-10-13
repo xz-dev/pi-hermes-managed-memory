@@ -1,0 +1,12 @@
+salt = "gylxWefYi0GBuElR"
+previous_id = "e2df84718696c5630ddf8827800fac5cf6e04580d399e3395c8ddb16625b1575"
+timestamp = "2026-10-12T12:35:59.385469319Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529"]
+link_id = "fb041cbc852af9ecfaabf35b55486736"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Persistent visible failures -> verification:ui: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

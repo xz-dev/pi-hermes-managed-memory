@@ -1,0 +1,12 @@
+salt = "2mXnn4Eg9oyGwLl3"
+previous_id = "a38dac43816bd3755da3d6b841f7725e28eda9ea9810aed7e915e8b6be17de01"
+timestamp = "2026-10-05T16:26:31.899668502Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["b87d963f15b44770eb005bcefe0d7684a675fb662a154175173238b768533d0f"]
+link_id = "ebfc11381b69c970db68523415094994"
+reason = "Reviewed relation requirement:memory-context:Requirement: Versioned refresh boundaries -> tasks:4: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

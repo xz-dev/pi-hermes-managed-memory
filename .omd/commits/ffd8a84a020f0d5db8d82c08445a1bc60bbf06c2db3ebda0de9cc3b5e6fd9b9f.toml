@@ -1,0 +1,16 @@
+salt = "Z8xsXcugmsxaPS89"
+previous_id = ""
+timestamp = "2026-10-05T17:31:40.322198848Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0ddaa0e5b7ef93279175fe9603776e01"
+
+[payload]
+mount = "file:cb554aa786c739eaa9bc725dc247fc6d91bc6ea9db81b08df72f7e6d3c3b4e8e"
+path = "test/review-recovery.test.ts"
+reason = "Bounded7.3 close: verification:unknownRecoveryBudget; existing source, not new behavior/test execution"
+
+[payload.position]
+end = "2497"
+mode = "text"
+start = "973"

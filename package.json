@@ -1,0 +1,35 @@
+{
+	"name": "pi-hermes-managed-memory",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"description": "Scoped persistent memory, native session recall, and bounded review accounting for Pi",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xz-dev/pi-hermes-managed-memory.git"
+	},
+	"keywords": ["pi-package"],
+	"pi": {
+		"extensions": ["./src/index.ts"]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-ai": "*",
+		"@earendil-works/pi-agent-core": "*",
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-tui": "*",
+		"typebox": "*"
+	},
+	"devDependencies": {
+		"@earendil-works/pi-ai": "0.99.2",
+		"@earendil-works/pi-agent-core": "0.99.2",
+		"@earendil-works/pi-coding-agent": "0.99.2",
+		"@earendil-works/pi-tui": "0.99.2",
+		"typebox": "1.3.27",
+		"typescript": "^5.9.0"
+	},
+	"scripts": {
+		"check": "tsc --noEmit",
+		"test": "node --experimental-strip-types --test test/*.test.ts"
+	}
+}

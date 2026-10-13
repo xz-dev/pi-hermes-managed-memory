@@ -1,0 +1,14 @@
+salt = "CBUkP9at2TvEoeY5"
+previous_id = "23943244c15cb6df8ea920a92027c813f6366425aea8f9c071a6427cfdbcd1f6"
+timestamp = "2026-10-01T10:30:56.845762629Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "07c87913eb8439f1af3be4783ae28d20"
+reason = "规划范围：Requirement: Separate memory scopes。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:af9099f60630a56a0b4bcea70fc67aa6800933981ba1d0fc696f4016bdd18e19"
+source_version = "bd122caa95b7b07a7e4e2cb5a9b58a5912bd4b4cc5d2a75cff778d4f8167e8ca"
+target = "range:0e463f07b9400aea52c3cd377a1a603d4b0135b33cdf797bb02bd38c217cb844"
+target_version = "0e463f07b9400aea52c3cd377a1a603d4b0135b33cdf797bb02bd38c217cb844"

@@ -1,0 +1,9 @@
+salt = "6RR8XG4YrsP7LbIo"
+previous_id = ""
+timestamp = "2026-10-05T16:33:15.312366223Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "8d7dabc4cd55c294894952de469c8b58"
+
+[payload]
+path = "test/public-api.test.ts"

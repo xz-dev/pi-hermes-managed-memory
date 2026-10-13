@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [234, 132, 5, 98, 212, 211, 84, 127, 37, 185, 74, 18, 252, 110, 41, 147]
+len = 41569
+sha256 = "7c1504bb747158235ca7fd7568bb233569d9cc3b0d70aa03972ec0b5c9dc89e9"
+encoding = "utf-8"
+content_file = "content/7c1504bb747158235ca7fd7568bb233569d9cc3b0d70aa03972ec0b5c9dc89e9"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "src/memory-store.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "src/memory-store.ts"

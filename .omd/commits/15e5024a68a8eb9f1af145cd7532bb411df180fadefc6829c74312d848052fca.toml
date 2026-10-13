@@ -1,0 +1,12 @@
+salt = "TEk3mOOBcJtGCTos"
+previous_id = "960c5579377fa6a70c8f82dfe77901526ea6ba7d52c3ebdb2f4d1e14a7a4d813"
+timestamp = "2026-10-12T12:35:56.151345155Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529"]
+link_id = "78749f14dc35ec164a47e791644e9e26"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Complete disable and explicit retry -> verification:retry: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

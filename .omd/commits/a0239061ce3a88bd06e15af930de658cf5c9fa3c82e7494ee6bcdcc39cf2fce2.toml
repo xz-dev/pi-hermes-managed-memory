@@ -1,0 +1,12 @@
+salt = "FkDke3GqULbBS75Y"
+previous_id = "f8c9335cce971367b9250f5953ddb68350522af79fdcf1128e84977a1cd75d8c"
+timestamp = "2026-10-12T12:35:58.179546239Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529"]
+link_id = "be65e375d57569fa3563b1f15721c69c"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Learning usefulness is observable -> gate:1.4: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

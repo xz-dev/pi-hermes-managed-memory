@@ -1,0 +1,15 @@
+salt = "xn8E5rFEHAs8HRNI"
+previous_id = "6ae8c344ca08b178902e573975ddf96fea8dda0402f798e7938d3df317fdfb7d"
+timestamp = "2026-10-05T16:23:06.315503736Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "c034f419c64be95bf2f57f3d876b974d"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+reason = "Task7.3 reconcile requirement:automatic-memory:Requirement: Main-session isolation and cancellation to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "2372"
+mode = "text"
+start = "2113"

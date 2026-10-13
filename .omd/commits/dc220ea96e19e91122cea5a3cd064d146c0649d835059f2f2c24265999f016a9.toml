@@ -1,0 +1,9 @@
+salt = "IeIRzqkEieKfc9Mg"
+previous_id = ""
+timestamp = "2026-10-05T16:33:14.926227817Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "7465544c128878d1dd4f7b0fe903042c"
+
+[payload]
+path = "test/lifecycle.test.ts"

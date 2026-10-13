@@ -1,0 +1,14 @@
+salt = "ZTjyOdjbGB24GAiq"
+previous_id = "43c42201a1f8b27d9351135a4cde3aca3c6636ff049b922125a9f3aad9564732"
+timestamp = "2026-10-01T10:30:58.428872973Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "f0a01a6094e7c624c46dc7bf53ca50ac"
+reason = "规划范围：Requirement: Learning usefulness is observable。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+source_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target = "range:162b2b6f81ed2a46044c731997e852bb5a916bde4fca65cd1a57498a260e688d"
+target_version = "43c42201a1f8b27d9351135a4cde3aca3c6636ff049b922125a9f3aad9564732"

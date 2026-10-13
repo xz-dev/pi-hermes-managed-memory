@@ -1,0 +1,16 @@
+salt = "Wc9HuIEFyfnUWNa8"
+previous_id = "72b17b36abb821f575b9fba0c07bf66a22fb4dd68e0c55116b718a04f6aa52a2"
+timestamp = "2026-10-01T10:30:57.72587351Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "a3f6d8a966e5b61f442a6b5266048ddd"
+
+[payload]
+mount = "file:7e6666b4bc4cd24f30f13c333965ea3c125b06caa79ff0023ccc18b4b98606bf"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+reason = "规划范围：Requirement: Preflight and durable budget reservation。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "929"
+mode = "text"
+start = "666"

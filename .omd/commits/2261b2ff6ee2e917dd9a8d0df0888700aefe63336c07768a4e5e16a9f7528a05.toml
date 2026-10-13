@@ -1,0 +1,14 @@
+salt = "Lm0CWfQmm079zpDv"
+previous_id = "7d9fd3aac4a0ce7b00e4eafca194628a0d2da57aaf6be9e9a8ba0a468389430f"
+timestamp = "2026-10-05T16:37:25.106306191Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "7e466a2c98f7cedcc51b254c6dd09331"
+reason = "Task7.3 explicit mapping requirement:scoped-memory:Requirement: Inspectable versioned records -> implementation:store. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:af6cc58138b98a60bd7b11ad91a704f07ab177227cf565c18a44975ccb16714c"
+source_version = "3e00742f079b5585ee73fef76706f9d720c5a8621e7b2b9f783b7936015f0428"
+target = "range:f2bb66aa436da1a824220c6a412e2ccec3fe20ce4189565e82408eacce0ea7da"
+target_version = "f2bb66aa436da1a824220c6a412e2ccec3fe20ce4189565e82408eacce0ea7da"

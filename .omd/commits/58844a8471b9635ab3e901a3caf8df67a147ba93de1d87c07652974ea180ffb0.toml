@@ -1,0 +1,16 @@
+salt = "ZmKH5ItgUBgiqqAI"
+previous_id = ""
+timestamp = "2026-10-05T16:33:19.492601836Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "ac05a33037c31ba8f3f32d1654b0f4da"
+
+[payload]
+mount = "file:beb01d613873c0aadc5be8c04952d18d68470c9e6c168b682824eca865f689dc"
+path = "test/memory-provenance.test.ts"
+reason = 'Task7.3 meaningful current range: verification:provenance "managed identity, schema, source and raw version survive repeated reading"'
+
+[payload.position]
+end = "1801"
+mode = "text"
+start = "1174"

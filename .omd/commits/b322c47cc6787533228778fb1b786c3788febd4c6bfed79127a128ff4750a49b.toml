@@ -1,0 +1,14 @@
+salt = "S7xj3yX5YlWOUGhw"
+previous_id = "956523ccbb5e8530f2a7d57ea66b3419ccb23a7f19ae3d72546e79599685bd4e"
+timestamp = "2026-10-01T10:30:56.054748153Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "c9a29e10b990e3fbf03b70f32db2957e"
+reason = "规划范围：D7 — 独立插件与可选联合审查。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+source_version = "26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+target = "range:70d1c5a3fd1ddfaa363533881a799bf3dd4de4548526efd8a6ee9dda1371c5b3"
+target_version = "956523ccbb5e8530f2a7d57ea66b3419ccb23a7f19ae3d72546e79599685bd4e"

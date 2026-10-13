@@ -1,0 +1,15 @@
+salt = "13kjRH9lNejv0oGI"
+previous_id = "1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91"
+timestamp = "2026-10-12T12:35:48.239286589Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "9e260f815b67bff3b3eafae900b8d8ad"
+
+[payload]
+path = "src/memory-review.ts"
+reason = "Task1.4 implementation:review: 3-line JSON envelope tolerance approved;181 affected tests plus native12/check; all source/version/approval gates unchanged"
+
+[payload.position]
+end = "30162"
+mode = "text"
+start = "10399"

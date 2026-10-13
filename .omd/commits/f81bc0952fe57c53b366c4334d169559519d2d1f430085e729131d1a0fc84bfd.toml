@@ -1,0 +1,15 @@
+salt = "gVuh73UyBv1yCBlN"
+previous_id = "a7bcf63ceddcdf2d4833dd2998285310b90e9c57f564e02799f06a6a8f90727f"
+timestamp = "2026-10-05T16:23:06.232020324Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "a7d36be7f149f98c665b3bd0e5a7bcb1"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/scoped-memory/spec.md"
+reason = "Task7.3 reconcile requirement:scoped-memory:Requirement: Local-only first release to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "2380"
+mode = "text"
+start = "2161"

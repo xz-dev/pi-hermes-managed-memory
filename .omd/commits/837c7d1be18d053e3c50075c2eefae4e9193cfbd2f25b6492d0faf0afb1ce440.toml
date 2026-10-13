@@ -1,0 +1,12 @@
+salt = "MoUZAYsFPA6GYImG"
+previous_id = "11573fa59b90d2ae02ddf028aa27e262289e33287d7f9764341e5b7bcf62d026"
+timestamp = "2026-10-05T16:26:31.119676456Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["48c1e6c18b5dc0d79766873113d10245315835b808645a15c59249bab9d16926"]
+link_id = "27471d2cea700e92b6ee04ecf5a3f6fd"
+reason = "Reviewed relation requirement:scoped-memory:Requirement: Concurrent and external edits -> tasks:3: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

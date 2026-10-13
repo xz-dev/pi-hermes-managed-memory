@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [128, 95, 50, 137, 216, 220, 238, 183, 128, 237, 155, 235, 183, 25, 8, 151]
+len = 5265
+sha256 = "9279fdf5f8693d1ef39d392038b4021aca570fcc88bc1f97bdf29f4d29392b84"
+encoding = "utf-8"
+content_file = "content/9279fdf5f8693d1ef39d392038b4021aca570fcc88bc1f97bdf29f4d29392b84"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/usage-accounting.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/usage-accounting.test.ts"

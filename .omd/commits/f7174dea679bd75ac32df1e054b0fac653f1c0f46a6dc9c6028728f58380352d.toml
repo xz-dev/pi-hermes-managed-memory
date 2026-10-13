@@ -1,0 +1,16 @@
+salt = "IpTOy5gJSGKxonlp"
+previous_id = ""
+timestamp = "2026-10-05T16:33:23.430062966Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8c43b35ebaee4ece769ae355e7a86f63"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "Task7.3 meaningful current range: task:5.2 - [x] 5.2 实现 search/read 分页、单条与总结果预算、session/entry/branch 定位；用巨大工具输出和分叉副本验证不重复或无界返回。"
+
+[payload.position]
+end = "1823"
+mode = "text"
+start = "1738"

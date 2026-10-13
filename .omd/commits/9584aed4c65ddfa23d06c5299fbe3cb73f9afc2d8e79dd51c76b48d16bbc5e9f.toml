@@ -1,0 +1,12 @@
+salt = "FxIlauSN1HI40zlF"
+previous_id = "c5831aef0004cbf9cff117165fc8b540fb5a157bb50e92b3139213a4544898c8"
+timestamp = "2026-10-05T16:26:31.477809354Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["06926710af3b98156ace55c0283fd7028560c81a85978ef89581fe5fc339de75", "2b548e05e26d3be3232dada15e144b0b068be8d205f00aa6ef28bd61fc3c6a08"]
+link_id = "c8cef62b50d29d48b358dc0eb969668f"
+reason = "Reviewed relation requirement:automatic-memory:Requirement: Main-session isolation and cancellation -> tasks:6: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

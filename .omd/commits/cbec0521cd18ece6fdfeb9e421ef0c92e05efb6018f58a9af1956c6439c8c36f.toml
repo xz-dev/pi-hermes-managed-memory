@@ -1,0 +1,14 @@
+salt = "02bmRILmMFJWn762"
+previous_id = "9262fb2e5172c669521da5c714ac9215960b2ff8207b77cfa08f4dff27bf3f86"
+timestamp = "2026-10-01T10:30:55.985699779Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "55013ad15b651ce28148e089fbde2eaa"
+reason = "规划范围：D6 — 快照审查、账本和 UI 是一个闭环。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:330ce99dc3dcd3ecab39ad6a004836ef24646c978780dc693cf2c22a5b1d78af"
+source_version = "330ce99dc3dcd3ecab39ad6a004836ef24646c978780dc693cf2c22a5b1d78af"
+target = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target_version = "9262fb2e5172c669521da5c714ac9215960b2ff8207b77cfa08f4dff27bf3f86"

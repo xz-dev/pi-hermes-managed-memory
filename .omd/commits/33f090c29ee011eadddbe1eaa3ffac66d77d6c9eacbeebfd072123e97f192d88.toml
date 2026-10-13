@@ -1,0 +1,14 @@
+salt = "emJz5wL59vTv7NMD"
+previous_id = "6e8cedd41986901fc8b3ac5347db79368f161c6769af315d03bf6cf2a7421841"
+timestamp = "2026-10-05T16:37:36.564250123Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "c0ad9c1b2f8e1c95ed373136cff840e8"
+reason = "Task7.3 explicit mapping requirement:session-recall:Requirement: Explicit scope and provenance -> implementation:recall. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:11596a2a1ec166e5b4c5d7049cea47c7f23308f17a79745cbc029150478fd4e2"
+source_version = "c7dc21d7456693784d665c91d1c1b298c3df94bbe052619f6da87bca5d819aed"
+target = "range:8bb0e38c35cf7ea46ceade8030823e0d37278376eecd24750a4062f0956ef600"
+target_version = "8bb0e38c35cf7ea46ceade8030823e0d37278376eecd24750a4062f0956ef600"

@@ -1,0 +1,15 @@
+salt = "sPORKuvcEXMGzqKi"
+previous_id = "a0e214ed98fcd7544643017c60b0f362c632938544322050675f9baca23f3e10"
+timestamp = "2026-10-12T12:35:48.569348985Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "4a8a9a9d86356ba4fe3300003a384c66"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/design.md"
+reason = "Task1.4 design:D8: Only coordinate movement; exact original excerpt hash verified unchanged"
+
+[payload.position]
+end = "7388"
+mode = "text"
+start = "7078"

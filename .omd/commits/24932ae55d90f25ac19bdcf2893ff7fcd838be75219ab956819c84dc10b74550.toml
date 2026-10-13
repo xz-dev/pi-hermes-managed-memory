@@ -1,0 +1,14 @@
+salt = "bZlEehYWFx9j9zBT"
+previous_id = "7d77e9d956bc88b06b6813a863a72c980cf5a7cd6dd2f7397cc400975cf5b6db"
+timestamp = "2026-10-05T16:37:30.507482575Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "adab6e0b77e9414df4490a8fc35c735f"
+reason = "Task7.3 explicit mapping requirement:automatic-memory:Requirement: Main-session isolation and cancellation -> verification:cancellation. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:bcf30d832318338b01e1efdf5a42b1ed4a0559861e72dd7c3aa8642a698c2c2b"
+source_version = "651f11fe879754c7ef9f14b278b4e8a41ad82e8de3b3db6b23824a2bf5248b37"
+target = "range:eab7bca38cc6e97953bf51769f096bc07886a1c3d41e857e1aabd53ec301bef0"
+target_version = "eab7bca38cc6e97953bf51769f096bc07886a1c3d41e857e1aabd53ec301bef0"

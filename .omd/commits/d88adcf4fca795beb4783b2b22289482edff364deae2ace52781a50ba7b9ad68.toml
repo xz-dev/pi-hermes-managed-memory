@@ -1,0 +1,14 @@
+salt = "UqWkS88s5bEGgFw8"
+previous_id = "f3839a499fe640e27b3ee8938800ae7492419f6c210bd22a71c693751fd28cf7"
+timestamp = "2026-10-05T16:37:33.598338802Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "4ac926bf631f2705b52f041a28436a6d"
+reason = "Task7.3 explicit mapping requirement:memory-context:Requirement: Versioned refresh boundaries -> implementation:injection. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:004b66a141b9c86ae7e4f9e12583c96f5c21552552f3a7c2f1743eeaab9d1b38"
+source_version = "97ea85420051c03b9e25e68785f297fe9ccd47a7fd2f30c4628d46ad145f119f"
+target = "range:2e0ecba0b92901517db199e48bc4a14701a7c0fea4aaaf0e4c257c5e5e8d4c4b"
+target_version = "2e0ecba0b92901517db199e48bc4a14701a7c0fea4aaaf0e4c257c5e5e8d4c4b"

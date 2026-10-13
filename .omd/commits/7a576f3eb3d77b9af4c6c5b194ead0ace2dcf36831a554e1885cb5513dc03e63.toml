@@ -1,0 +1,12 @@
+salt = "T7l8HnPEfNeHVBOx"
+previous_id = "74e9f8de10a5c37bf48805c83675d7cc281a6da1142b8fd5ea0874881b9d37c6"
+timestamp = "2026-10-12T15:28:13.81503916Z"
+schema = "omd.commit/3"
+kind = "rename"
+content_ref = "empty"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = ""
+source = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+target = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/tasks.md"

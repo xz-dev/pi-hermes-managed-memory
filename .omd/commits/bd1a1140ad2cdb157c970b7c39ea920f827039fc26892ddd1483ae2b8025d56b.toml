@@ -1,0 +1,9 @@
+salt = "WceRV924ahO8FTCl"
+previous_id = "d9b202faee42dd93c767901a01fa10012eec82af890279700c80410887467bf7"
+timestamp = "2026-10-01T10:30:57.223899915Z"
+schema = "omd.commit/3"
+kind = "atomic_end"
+content_ref = "empty"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/scoped-memory/spec.md"

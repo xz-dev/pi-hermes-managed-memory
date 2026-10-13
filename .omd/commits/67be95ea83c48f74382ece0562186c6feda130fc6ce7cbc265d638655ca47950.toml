@@ -1,0 +1,9 @@
+salt = "QCwiaIBJk6wje5it"
+previous_id = ""
+timestamp = "2026-10-05T16:33:16.00942384Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "30d4fc0381432d405250b92922793f08"
+
+[payload]
+path = "test/session-index.test.ts"

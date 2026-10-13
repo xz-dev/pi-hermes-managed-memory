@@ -1,0 +1,14 @@
+salt = "dZlXDmQIjhGjWWGF"
+previous_id = "33f090c29ee011eadddbe1eaa3ffac66d77d6c9eacbeebfd072123e97f192d88"
+timestamp = "2026-10-05T16:37:37.00171586Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "a9b0503c408bdd8eb1276c8663431ac6"
+reason = "Task7.3 explicit mapping requirement:session-recall:Requirement: Bounded search then bounded read -> implementation:recall. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:10b4a091f10992321137eb48657f698cda64d601ef41d5827eacb3269702daac"
+source_version = "1aab425cf2b18ceb12ca47ec52099d68b9a976c7ed3a24c572d17d655b4c7ebd"
+target = "range:8bb0e38c35cf7ea46ceade8030823e0d37278376eecd24750a4062f0956ef600"
+target_version = "8bb0e38c35cf7ea46ceade8030823e0d37278376eecd24750a4062f0956ef600"

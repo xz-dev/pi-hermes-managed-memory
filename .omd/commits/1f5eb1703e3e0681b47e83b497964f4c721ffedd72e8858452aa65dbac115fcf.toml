@@ -1,0 +1,14 @@
+salt = "jsAieA4xkED0B4sp"
+previous_id = "8ed7ebab5a9910d2bc7affa67e3db7757578b79ea75dbd1ed3ac0c54f4a4afac"
+timestamp = "2026-10-05T16:37:25.866398077Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "95a1b20336d3eb6a6153b0deb6aa3b67"
+reason = "Task7.3 explicit mapping requirement:scoped-memory:Requirement: Bounded atomic mutation -> verification:mutation. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:abceab1eda81880fed895f40728a9a4c5d406f3609b8fdfd0a3d25e68e13854b"
+source_version = "a448ba273f4f6aea258263ea1a722df3200882c7df5beec688c1dd25773e0e90"
+target = "range:83bc506f25bc2c50d541c0a3033ef4ce2ffccacab046ef0de236df82b6e92503"
+target_version = "83bc506f25bc2c50d541c0a3033ef4ce2ffccacab046ef0de236df82b6e92503"

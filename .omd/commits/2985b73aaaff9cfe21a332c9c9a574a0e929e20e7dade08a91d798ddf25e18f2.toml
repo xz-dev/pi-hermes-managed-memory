@@ -1,0 +1,16 @@
+salt = "3IRwHACXXPoFCccV"
+previous_id = ""
+timestamp = "2026-10-05T16:33:18.326579598Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "60461772bef5117c2ee87c83f5f182f3"
+
+[payload]
+mount = "file:98aa79d738fdb8cfc34b4b2e0b6372e688656f1e1b766678777eadc9cfd7f79a"
+path = "test/api-isolation.test.ts"
+reason = 'Task7.3 meaningful current range: verification:api "official SDK loads extension; fake provider request runs in isolated agentDir"'
+
+[payload.position]
+end = "4926"
+mode = "text"
+start = "974"

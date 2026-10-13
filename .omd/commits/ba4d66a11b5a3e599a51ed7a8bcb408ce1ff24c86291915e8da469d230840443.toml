@@ -1,0 +1,14 @@
+salt = "2uDTVD51hWmmcSuE"
+previous_id = "e5f131dc8921b0c6dba4ccc2f956749d2c8b277788908dc6439f453159e61fd8"
+timestamp = "2026-10-01T10:30:56.12477642Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "3edda968bb18c606cf9f4f46ce30d169"
+reason = "规划范围：D8 — 外接只留评估，不预造接口层。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:0d7f448ea11dadaa938e34aba8ac47b039342668e2c5a7f41b58272ed847140f"
+source_version = "0d7f448ea11dadaa938e34aba8ac47b039342668e2c5a7f41b58272ed847140f"
+target = "range:01da33bf4dadbd6a678247989b7c3ffb34da0b16fef71ffd98699a05b6434bd9"
+target_version = "e5f131dc8921b0c6dba4ccc2f956749d2c8b277788908dc6439f453159e61fd8"

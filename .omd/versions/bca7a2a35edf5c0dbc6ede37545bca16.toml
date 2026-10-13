@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [188, 167, 162, 163, 94, 223, 92, 13, 188, 110, 222, 55, 84, 91, 202, 22]
+len = 4906
+sha256 = "8176013234c680c9db5a7081f9278a364cae829de2f7e63c77ea556d86b1318b"
+encoding = "utf-8"
+content_file = "content/8176013234c680c9db5a7081f9278a364cae829de2f7e63c77ea556d86b1318b"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "docs/external-adapter-evaluation.md"
+
+[recovery]
+type = "file"
+project = "root"
+path = "docs/external-adapter-evaluation.md"

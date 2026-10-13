@@ -1,0 +1,15 @@
+salt = "lvdqxNYkZVKJDFsn"
+previous_id = "b1605d04bafd85372d3148e81d530fd735c7dee5009f78de2b8bf58ee0818dfc"
+timestamp = "2026-10-12T12:35:47.42273449Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "bf3de71da8d6d96b7077936a089c0574"
+
+[payload]
+path = "docs/review-contract.md"
+reason = "Task1.4 contract:R7: Only coordinate movement; exact original excerpt hash verified unchanged"
+
+[payload.position]
+end = "8573"
+mode = "text"
+start = "8055"

@@ -1,0 +1,14 @@
+salt = "0lHMytLr9d50hoG1"
+previous_id = "abbc782d3333580339312a79d3ec6b74730bf772b868d532b4308a252c8549be"
+timestamp = "2026-10-01T10:30:56.40095037Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "dacd4588596deb14684626d44ee04d65"
+reason = "规划范围：3. 四目标存储与版本提交。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:dece882184171b7d3c57e9af96f28b59034fa3424ac3c99d4bef0fbd83f48959"
+source_version = "dece882184171b7d3c57e9af96f28b59034fa3424ac3c99d4bef0fbd83f48959"
+target = "range:0e463f07b9400aea52c3cd377a1a603d4b0135b33cdf797bb02bd38c217cb844"
+target_version = "abbc782d3333580339312a79d3ec6b74730bf772b868d532b4308a252c8549be"

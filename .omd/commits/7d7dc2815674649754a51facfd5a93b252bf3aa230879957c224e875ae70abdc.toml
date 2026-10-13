@@ -1,0 +1,12 @@
+salt = "qD9SmajFZXcKHbWT"
+previous_id = "b83d87f7675914ed084072d7307455998c9275da6754b660b4285a07c3e0f301"
+timestamp = "2026-10-12T15:28:14.577893171Z"
+schema = "omd.commit/3"
+kind = "rename"
+content_ref = "empty"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/session-recall/spec.md"
+reason = ""
+source = "openspec/changes/add-managed-memory-lifecycle/specs/session-recall/spec.md"
+target = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/specs/session-recall/spec.md"

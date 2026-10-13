@@ -1,0 +1,16 @@
+salt = "dcpm1hsYhky5uvnK"
+previous_id = ""
+timestamp = "2026-10-05T16:33:19.857491637Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "7465544c128878d1dd4f7b0fe903042c"
+
+[payload]
+mount = "file:dc220ea96e19e91122cea5a3cd064d146c0649d835059f2f2c24265999f016a9"
+path = "test/lifecycle.test.ts"
+reason = 'Task7.3 meaningful current range: verification:forget "forget removes injection eligibility and tombstones block revival after reload"'
+
+[payload.position]
+end = "4560"
+mode = "text"
+start = "3148"

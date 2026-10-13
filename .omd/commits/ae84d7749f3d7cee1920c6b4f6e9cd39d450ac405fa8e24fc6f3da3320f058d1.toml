@@ -1,0 +1,14 @@
+salt = "024FAq5E4bmOaHcg"
+previous_id = "db8d9fae8ac4c2246eb6d3497b2844ea3c3e17406d90136e144683fbdb37fa6a"
+timestamp = "2026-10-01T10:30:58.819774137Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "ebfc11381b69c970db68523415094994"
+reason = "规划范围：Requirement: Versioned refresh boundaries。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:004b66a141b9c86ae7e4f9e12583c96f5c21552552f3a7c2f1743eeaab9d1b38"
+source_version = "82c834e869dd19dc9a006e49f94c0b5e1917261180143ff106cf980ed1697aa2"
+target = "range:d7a90dd7b83d9a5a61ea64252318ef8fcec2ddcae2d327bdc326b422ab466d27"
+target_version = "d7a90dd7b83d9a5a61ea64252318ef8fcec2ddcae2d327bdc326b422ab466d27"

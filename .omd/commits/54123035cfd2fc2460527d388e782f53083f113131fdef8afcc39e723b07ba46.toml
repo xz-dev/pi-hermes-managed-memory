@@ -1,0 +1,19 @@
+salt = "R23z5PBd5IbXEvxf"
+previous_id = "6e8cee32bde69135687b825b697b091be214726cb778bc781f869a3282590385"
+timestamp = "2026-10-05T16:23:04.495805133Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "e96abc1d751c5a4e7f7892b8df8c28bb"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = "Task7.3 source reconciliation only: current accepted artifacts, 24/26; 1.4 and 7.3 remain unchecked"
+
+[range_tips]
+"range:004b66a141b9c86ae7e4f9e12583c96f5c21552552f3a7c2f1743eeaab9d1b38" = "7b0a74873dc4559f051e849fd98cfca55e16ea7aef242954e9f5bc3512ebe1af"
+"range:23dc74d9b1ced28e435bb97bac90c9285c1b27ddf9dd316c3f4e3944c06205b7" = "50d3f3e9ab1e89935786e6cd024eec23417158f4accbd5218a913f8147e4e6aa"
+"range:3e73342f9303d8066f84fdf752702c3f0ccea0a99cdfe4cf9c2d852b62d326a4" = "30de37b074cf0139b00c11102a5731da04bcf80598b36b500479fdec12874207"
+"range:4e5ea0da86d3c3284baf4b5d53e3f3900d06a1e0a35ee72b1a07f8216aea99dc" = "8511d093f61eda04d178ba8df5a1840c6b360c8aca9c8a811ae176084c7af9ae"
+"range:8f5ea7f3336d9957e8eb909b1592e9b99b326a0c34a58a16ecb2d9204200f142" = "d7092aa56891cd71b058e21f863322889ec53e5a848fe294aefeedcc05878779"
+"range:d4563ea94c19d2c955d292ca7ee246bfb86abc3c0652f315be4cf30f97abfde2" = "01f3d9a525dcdc38e3df39f618b7b58ad4d036eeb835283264b4188dba53986c"
+"range:f0231bbcaf3a827d4373dbdecc735bfab2c821cd27469709cc660158358541d2" = "467bc53491818f2de4eb0c99e2d5b85986ae61ef4db8d1da0226195f8d1490ec"

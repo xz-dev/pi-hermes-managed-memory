@@ -1,0 +1,16 @@
+salt = "GW8wdt3ZPlgnVjzC"
+previous_id = "004b66a141b9c86ae7e4f9e12583c96f5c21552552f3a7c2f1743eeaab9d1b38"
+timestamp = "2026-10-01T10:30:58.79078184Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0d4d26c056a4be600c353b08ccfe9637"
+
+[payload]
+mount = "file:6e8cee32bde69135687b825b697b091be214726cb778bc781f869a3282590385"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = "规划范围：Requirement: Versioned refresh boundaries。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "933"
+mode = "text"
+start = "667"

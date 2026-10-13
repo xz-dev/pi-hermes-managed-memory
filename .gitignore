@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+logs2/
+
+# Local credentials, memory and runtime caches
+.env
+.env.*
+!.env.example
+.pi/hindsight/
+.pi/hermes-memory/
+.omd/write.lock
+.serena/cache/
+.serena/project.local.yml

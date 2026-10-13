@@ -1,0 +1,16 @@
+salt = "EOEcdDhBJL8yjhyn"
+previous_id = "641172b53ce6d11a0aaa09e8080fdda1b2780111adb9536d5cee8600eb8790ce"
+timestamp = "2026-10-01T10:30:59.396006371Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "45f113a1151c2f669584b6b36e13b0bc"
+
+[payload]
+mount = "file:b83d87f7675914ed084072d7307455998c9275da6754b660b4285a07c3e0f301"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/session-recall/spec.md"
+reason = "规划范围：Requirement: Native session source of truth。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "362"
+mode = "text"
+start = "128"

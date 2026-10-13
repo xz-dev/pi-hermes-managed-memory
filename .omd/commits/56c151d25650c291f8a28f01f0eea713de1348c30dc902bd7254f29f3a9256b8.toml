@@ -1,0 +1,14 @@
+salt = "O7xhrFrbtQ7uo6gV"
+previous_id = "7dc1890f5c255e7596b16b50d6e97f136bc1af178091641036b325149630c81b"
+timestamp = "2026-10-05T16:37:38.464562232Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "322db9b7016b457e9f7533c0fa5b8781"
+reason = "Task7.3 explicit mapping requirement:session-recall:Requirement: Recall guidance without recall guarantees -> implementation:recall-tool. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:656edc5b56ba5c756dd2c5b239874bbede211bd3590b43bcf62ab3c62216347f"
+source_version = "66016379c5099843c7f05b953b4bc5f09a7b9f1e3cfc9c153c11ef8e99bd0602"
+target = "range:d9543366fc3abdf9476640c06caebbdd00a754e7a8fbffb5bde80d91581a7c24"
+target_version = "d9543366fc3abdf9476640c06caebbdd00a754e7a8fbffb5bde80d91581a7c24"

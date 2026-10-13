@@ -1,0 +1,12 @@
+salt = "DTHqatYz4XGXLRDv"
+previous_id = "1b0e7d913179f857c3b4b5457c44653bab0c7eb51c43a1a99836feac493b351b"
+timestamp = "2026-10-05T16:26:31.17056404Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["48c1e6c18b5dc0d79766873113d10245315835b808645a15c59249bab9d16926", "f81bc0952fe57c53b366c4334d169559519d2d1f430085e729131d1a0fc84bfd"]
+link_id = "cb7019060bbc43b4e564e63cfee864e5"
+reason = "Reviewed relation requirement:scoped-memory:Requirement: Local-only first release -> tasks:3: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

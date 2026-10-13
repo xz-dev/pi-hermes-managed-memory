@@ -1,0 +1,64 @@
+# Task 3.4 — lifecycle evidence (accepted with explicit residual risk)
+
+Independent same-reviewer closure `2fb88934-7ecf-404b-9bf4-2b2d611f9495`: **approved with explicit residual risk; no current in-scope findings**. Report: `/home/xz/.pi/agent/sessions/--home-xz-Code-ai-pi-hermes-managed-memory--/subagent-artifacts/outputs/c76a0222-1e72-40f2-b320-9405150c8723/review/3.4-lifecycle.md`. Reviewer independently ran check, **39/39** focused, exact-base public **1/1**, original P1/P2 public **2/2**, inverse rollback probes and untouched-base/explicit-conflict/no-change recovery probes. Evidence `/var/tmp/hermes-exact-base-closure-review-b9YxKw/`. Parent rechecked all six frozen hashes after callback before marking task 3.4 complete.
+
+Explicit accepted limits: final hash-read→fsync/rename editor race is not portable CAS; losing both lifecycle files is unreconstructible; v1 journal grows; no cross-process durability while all writes fail. Conservative quarantine includes truly never-applied changing intents because base bytes alone cannot establish their history, without altering Markdown or fabricating a result. Later tasks and real-model quality are not certified by this closure.
+
+Current-source gate: typecheck clean; relevant tests **39/39**; exact-base SDK reproduction **1/1**; the original reviewer probes **2/2**; full **111/111**. Logs: `/var/tmp/hermes-exact-base-gate-mXwErx/{check,focused,exact-base-probe,original-probes,full}.log`. The exact-base case first failed at `/var/tmp/hermes-exact-base-red-WWAoFT/red.log`. OpenSpec strict validation passed at `/var/tmp/hermes-lifecycle-closure-gate-1h6Ze7/specs.log`.
+
+The first independent reviewer (`c76a0222-1e72-40f2-b320-9405150c8723`) required changes for P1 uncertain forgetting still injecting stale editor bytes and P2 pending deletion approval omitting retention disclosure. The exact frozen repaired candidate subsequently passed same-reviewer closure; the original findings and exact-base follow-up are now closed. Five new/revised acceptance cases initially failed: `/var/tmp/hermes-lifecycle-review-red-dthRce/red.log` (P1/P2 plus the user-selected rollback behavior). Checkbox remains unchecked pending same-reviewer closure.
+
+## Human rollback decision
+
+On 2026-10-02 the user selected **“回滚撤销遗忘（推荐）”**: after viewing the diff and explicitly confirming rollback, undo the corresponding forgetting and restore injection eligibility; unapproved old proposals still cannot restore facts. This supersedes the prior assistant interpretation that rollback restores bytes only. That earlier interpretation/test/review premise was not a human decision and is not current acceptance authority. The decision is now recorded in `design.md` D2/D3 and scoped-memory's explicit undo scenario.
+
+Historical parent gate: 33/33 focused and 105/105 full at `/var/tmp/hermes-lifecycle-acceptance-sBVdXZ/`; it does not certify the revised rollback implementation.
+
+Historical red run: `/var/tmp/hermes-lifecycle-red-nUrJIN/red.log` records journal loss, invalid records, tampered backups, symlink boundaries and result-write failure, plus a rollback-exclusion assertion based on the now-superseded assistant assumption. Current rollback tests use the human-selected policy instead; an old green test is not product approval. Current regressions also cover valid-prefix truncation, exact pending preview/capacity rejection, stale background staging, first-commit rollback, public confirmation drift, scoped undo/redo of forgetting, and old pending/snapshot refusal despite byte-identical restored Markdown.
+
+## Parent-proven blockers
+
+`/var/tmp/hermes-lifecycle-parent-BVT3ew/probe.log` independently exercises current store code in fresh isolated directories:
+
+- Deleting an initialized journal after forgetting allows the old fact to save and be injected again (`revived: true`). Missing history must not be mistaken for a never-initialized legacy file.
+- Appending `{v:1,type:"tombstone"}` is accepted (`rejected: false`). Known record types need field and relationship validation, not only JSON/type checks.
+- Replacing a version-addressed backup with valid unrelated Markdown makes rollback save the tampered bytes and report the wrong resulting version (`tamperedApplied: true`, `versionClaimMatches: false`). Addressed bytes must be verified before any rollback write.
+
+The worker gates below characterize its delivery, not acceptance. Task 3.4 stays unchecked until these and the complete lifecycle requirements pass current-source tests and functional review.
+
+Gates: `npx tsc --noEmit` clean; focused `test/lifecycle.test.ts` 8/8; full `npm test` 94/94. Logs: `/var/tmp/hermes-lifecycle-gate-3wktF1/{check,focused,full}.log`. Red-proof: deleting the tombstone diversion in `mutate` fails both tombstone tests (`/var/tmp/hermes-red-ZStUSn/red.log`); restored before the green gate.
+
+## Parent repair semantics
+
+- A per-target `.lifecycle.json` receipt binds canonical target scope and the length/hash of the last durable journal checkpoint. Legacy Markdown without either lifecycle file remains readable. Once initialized, missing journal, missing receipt, empty/corrupt history, acknowledged-prefix truncation or changed prefix fail closed. A complete append beyond the checkpoint can be parsed after an interrupted receipt update; no model request or content replay is involved. Losing **both** lifecycle files cannot be reconstructed locally and is not covered by a durability claim.
+- Journal initialization and every auxiliary path (journal, receipt, backup directory/file) receive the same scope/symlink checks as Markdown. Appends fsync the file and parent directory; receipt updates use the existing atomic write helper.
+- Known records validate fields, hashes, provenance, unique identities, result/intent linkage, pending content-addressed identity, resolution transitions and approved-result linkage. Scalar enum/reference fields reject coercible arrays (red `/var/tmp/hermes-journal-scalars-red-CUWoye/red.log`). Tombstones are `{id,factHash}` inside the durable **pre-write intent**, avoiding the former file/result-before-tombstone crash gap and unnecessary plaintext forgotten facts in tombstones.
+- Matching live after-hash reconstructs the applied result and tombstones for inspection immediately; a later locked mutation persists metadata recovery without rewriting Markdown. **Matching base bytes do not prove nonapplication:** an unresolved state-changing intent remains uncertain whether live bytes equal its base or another version. No conflict/nonapplication result is invented from that hash. The affected target is quarantined from writes, old pending approval and automatic injection, preserving editor bytes and reporting diagnostics. Other safe targets remain eligible; paid review skips `storage-lifecycle-uncertain`. Explicit durable conflict results and verified-after/no-change recovery remain supported.
+- Mutations and rollback share the backup/intent/live-recheck/write/result seam. Backups include the initial empty version, are immutable at an addressed hash, and must hash to that address before rollback. Current capacity and the live after-hash are still checked. There is no portable CAS against an uncooperative editor between final read and rename.
+- Explicitly approved rollback restores verified bytes and the exact inverse forgetting effects of its selected committed head. Intent records bind `reverts` and inverse `{tombstones,restores}` to that head; unrelated earlier forgetting remains active, and undoing restoration forgets again. The append-only audit keeps every event. The UI shows from/to versions, actual entry diff and undone forgetting before confirmation.
+- A logical lifecycle epoch accompanies the Markdown hash in snapshots and pending proposals. Byte-identical rollback cannot reopen old snapshots or old pending approvals; retry previews also bind the epoch. Metadata-only recovery of an already-observed effect does not change the logical epoch.
+- Failed pending validation does not consume approval; applied results recover a missing approval acknowledgement. The public UI binds the selected record stamp and engine epoch/session/leaf/cwd. Rollback additionally binds the previewed live version and committed head. Background staging uses the review's captured snapshot, not a newly rebased target.
+- Direct forgetting **and approved pending removals** disclose retained backups/audit/raw-session boundaries in the confirmation preview and success result; headless/declined/stale actions remain inert.
+- Per-target saved/pending/rejected/conflict results remain separate. Pending proposal IDs are no longer counted as saved fact IDs. An exact applied after-hash with failed result persistence reports `audit-recovery-required`, not a false content rejection.
+
+## Historical worker delivery (claims superseded by parent repairs)
+
+- `src/local-state.ts`: `appendLine` — mkdir + `open("a", 0o600)` + fsync. Only new fs helper.
+- `src/memory-store.ts`: append-only per-target journal `<target>.journal.jsonl` inside the same scoped dir (inherits `path()` scope/symlink guards). Records: `intent` (pre-commit, carries `base`/`after` hashes + `proposal` key), `result` (post-commit), `pending`/`pending-status`, `tombstone`, `rollback`. `foldJournal` replays strictly; malformed JSON/unknown type/orphan pending-status throw — never treated as empty history, never overwrite file bytes. Snapshot gains `tombstones`, `journal` path, and `diagnostics` entries for interrupted intents (`verified applied` vs `not applied` via live-hash vs `after` compare).
+- `mutate` (single commit entry, also used by `add`, `forget`, `approve`, `rollback`): proposal replay short-circuits under lock returning the recorded result without rewrite; tombstoned ids and identical facts divert to `forgotten` (removed from rendered output, journaled); removals validated by exact `expectedFact`; intent appended+fsynced before `atomicWrite`, result after; backup of pre-commit raw kept at `.backups/<base>.md`.
+- New API: `forget(snapshot, removals)`, `stage(target, batch, reason)` (content+base dedup id), `pending(target)` (with `stale` flag and inspectable diff), `approve(target, id)` (binds unchanged proposal + live base; marks `stale` on drift, never mutates), `deny(target, id)`, `rollback(target)` (after-hash guard; only restores the versioned backup when live == last committed head; manual/newer edits refuse).
+- `src/memory-review.ts`: proposals may carry `replaces`/`removals` (bounded, validated); expected old facts bound to the review snapshot. Destructive or conflicting-profile batches `stage()` as pending — never auto-commit. Non-conflicting additions commit with `proposal = ledger record id` so retried/duplicate model output dedupes. Per-target `commits` stay separate (`saved`/`pending`/`rejected`/`conflict`/`unresolved-scope`); no fake global transaction, no whole-request replay.
+- `src/index.ts` `hermes-memory`: `inspect` (default, now includes tombstones, journal diagnostics, pending with diffs, retention notice), `pending`, `approve|deny <target> <id>`, `forget <target> <id...>`, `rollback <target>`. All mutating actions require `ctx.ui.confirm` (stock 0.99.2 pattern, 60s timeout); headless → structured `confirmation-required`; declined/confirm-throw → no mutation. Forget/rollback responses carry the retention boundary text: backups, journal and raw Pi sessions retain prior content with independent cleanup.
+
+## Residual limits
+
+- No portable CAS against uncooperative editors between final read and rename (pre-existing, unchanged).
+- Pending/rollback/forget are per-target only; session target (native Pi entries) untouched — constraint lifecycle is 4.3.
+- `intent.id` uses randomUUID → intent order reflects commit order; journal unbounded growth acceptable for v1 (no compaction yet).
+- Journal `intent` records the planned after-hash; an interrupted intent that actually applied shows as `verified applied` diagnostic, not auto-replayed.
+
+## Test coverage (8 new)
+
+intent/result ordering + proposal replay dedup; versioned backup restore + manual-edit rollback refusal; forget → injection exclusion → post-reload revival block (id AND identical fact) + tombstones survive rollback; interrupted-intent diagnostics both directions; corrupt/unknown/orphan journal records fail closed preserving bytes; approve binds exact base (drift → stale conflict, no mutation) + deny; real-SDK per-target mixed outcome (saved + pending + capacity-rejected in one review, no replay); real-SDK command surface (headless confirmation-required, declined, confirmed forget + rollback with retention text, tombstone still blocks re-add).
+
+Current 3.4 candidate accepted only after the independent closure above; earlier delivery gates and assumptions remain historical evidence, not standalone acceptance.

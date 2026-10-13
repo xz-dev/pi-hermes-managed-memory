@@ -1,0 +1,14 @@
+salt = "UHFa1obGcdeKIjGJ"
+previous_id = "e8a4a6dc27565ea3689b8bd28441cabdff1708e7c12c65c107ae2e0caf43f271"
+timestamp = "2026-10-05T17:31:47.025184523Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "e0008a6d4c1ee3df9fb404f541061f50"
+reason = "Bounded7.3 close: explicit existing relation requirement:memory-context:Requirement: Active constraints precede facts within the shared budget -> implementation:foreground. Current accepted source/case inspected; no new behavior, no acceptance inference from healthy endpoints;1.4 remains unexecuted."
+source = "range:6804d679854cf3f0d8a903599b1528d7829e6fe09d291f7fe176bae6ed23388b"
+source_version = "6804d679854cf3f0d8a903599b1528d7829e6fe09d291f7fe176bae6ed23388b"
+target = "range:859f4eb80d733989a95ab51c0f53e05f6a0774f9b2dd775651cda45ed459a058"
+target_version = "859f4eb80d733989a95ab51c0f53e05f6a0774f9b2dd775651cda45ed459a058"

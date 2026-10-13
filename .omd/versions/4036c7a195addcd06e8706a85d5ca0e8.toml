@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [64, 54, 199, 161, 149, 173, 220, 208, 110, 135, 6, 168, 93, 92, 160, 232]
+len = 3242
+sha256 = "15dced43a752d5829c37fd46b608913c9c8879458e87ff119ed3159f909cc272"
+encoding = "utf-8"
+content_file = "content/15dced43a752d5829c37fd46b608913c9c8879458e87ff119ed3159f909cc272"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "src/review-schedule.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "src/review-schedule.ts"

@@ -1,0 +1,16 @@
+salt = "ld4CIg6JtYr0Bfyq"
+previous_id = ""
+timestamp = "2026-10-05T16:33:25.316408118Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "58bc7c923004d8434e51b232020b98ae"
+
+[payload]
+mount = "file:dfde6669912ecd917abae17ed0b7efaef87782636eb4952842811ee21b7647af"
+path = "PLAN/review-cost-ui-evidence.md"
+reason = "Task7.3 meaningful current range: evidence:cost-ui 行为证据"
+
+[payload.position]
+end = "2473"
+mode = "text"
+start = "681"

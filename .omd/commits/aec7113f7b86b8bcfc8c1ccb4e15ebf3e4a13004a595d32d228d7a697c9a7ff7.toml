@@ -1,0 +1,16 @@
+salt = "tfCTmZdS8AsbC3CA"
+previous_id = ""
+timestamp = "2026-10-05T16:33:24.91206071Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "a21babba9ea5a7c0773e40e14e970797"
+
+[payload]
+mount = "file:e995c8b29aeaa9a5acc17e50363959514af5f18990e8eea37ed471ba33037ee7"
+path = "README.md"
+reason = "Task7.3 meaningful current range: operations:storage 存在哪里"
+
+[payload.position]
+end = "1483"
+mode = "text"
+start = "800"

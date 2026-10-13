@@ -1,0 +1,16 @@
+salt = "xDNfk9Vmj28awatA"
+previous_id = ""
+timestamp = "2026-10-05T16:33:21.438182887Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8c43b35ebaee4ece769ae355e7a86f63"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "Task7.3 meaningful current range: task:1.3 - [x] 1.3 先做单插件最小纵向样例：代表性当前快照→有来源的偏好/项目事实提案→校验保存→新 session 注入或检索→同一 request 的费用及终态；fake provider 先证明确定性链路，分开记录 admitted/skipped/no-proposal/conflict/s"
+
+[payload.position]
+end = "406"
+mode = "text"
+start = "228"

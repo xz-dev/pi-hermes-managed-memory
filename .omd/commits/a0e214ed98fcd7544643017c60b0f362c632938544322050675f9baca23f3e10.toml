@@ -1,0 +1,15 @@
+salt = "0HnREr7NLUuIrsVF"
+previous_id = "688423a5f8deba21e52af2d9740bb92f4a900b90261ca7fb5542baf310882cd9"
+timestamp = "2026-10-05T16:23:05.523696318Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0ab6f3b12f009b7bcd690ac13cddf93c"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/design.md"
+reason = "Task7.3 reconcile design:D8 to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "7253"
+mode = "text"
+start = "6943"

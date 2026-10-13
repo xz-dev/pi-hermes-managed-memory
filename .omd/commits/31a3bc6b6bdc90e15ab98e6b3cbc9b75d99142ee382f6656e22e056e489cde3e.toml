@@ -1,0 +1,12 @@
+salt = "nP4pSzwf13THvFpb"
+previous_id = "4fd6289e2ae90cc69b9ac6aa73d5c10b4f93aabba1686765da3aa0dd74c0682a"
+timestamp = "2026-10-12T12:35:55.447717704Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529"]
+link_id = "33695e17a2e5393f2966b086c0f551fd"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Explicit unknown-usage recovery -> verification:unknownRecoveryControls: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

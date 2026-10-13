@@ -1,0 +1,12 @@
+salt = "d0Hi8gOYoJOBy9hT"
+previous_id = "7574d52bfb9f02114b1dba1de614a2e500127e7149387e9f5dcae65aeea897b0"
+timestamp = "2026-10-12T15:28:14.785026337Z"
+schema = "omd.commit/3"
+kind = "rename"
+content_ref = "empty"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/scoped-memory/spec.md"
+reason = ""
+source = "openspec/changes/add-managed-memory-lifecycle/specs/scoped-memory/spec.md"
+target = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/specs/scoped-memory/spec.md"

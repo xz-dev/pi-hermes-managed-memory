@@ -1,0 +1,16 @@
+salt = "9PJdyxCmSmazamiB"
+previous_id = ""
+timestamp = "2026-10-05T16:33:18.212451136Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "645c764ca96287008ce6fc3e51e20f86"
+
+[payload]
+mount = "file:f5d48ecfe494e430e4ce34d1ffdd17ef18d83fedd55b45d5502dcbe87504306e"
+path = "src/index.ts"
+reason = "Task7.3 meaningful current range: implementation:runtime native lifecycle, system projection and scheduling hooks"
+
+[payload.position]
+end = "17585"
+mode = "text"
+start = "3707"

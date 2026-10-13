@@ -1,0 +1,12 @@
+salt = "PcGIuNkMrfnGJySr"
+previous_id = "a9da6ef83e6f3f61fc00d6b3cd6ddfce3b9c97250990ad5104a9a8b40f1c92bb"
+timestamp = "2026-10-12T12:35:52.770366422Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529", "254601232bf3dffd32b7f5713f480597cde0e6ec430dcfcd2c0eb49fd79fed21", "4179df3184db4b46f80f1e0e0ebc3be0474a7eb08dee119474565b8e85f986b6", "9bfa77d38fb6295be12d246c2075cc03dc45eb2621cfd7082ffba960d7b6be05", "c7e7d9cf2551d2fb27cbcd93036f98c4d0586f23266dbb0d6c6078f3afc91f8a", "d20d11466a06d1c3ad8289ca8cca6cdadd65054bf2bd66ae6439ef79fd234541"]
+link_id = "c6705a107415396ad1809b07512d037a"
+reason = "Task1.4 reviewed design:D6 -> requirement:automatic-memory:Requirement: Foreground and snapshot extraction: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

@@ -1,0 +1,14 @@
+salt = "MFsr5yZWz9VrjjPe"
+previous_id = "8258f91e1950e0bfed49129337f8f45d30a6c8d7433c49c43805c2e1af89da12"
+timestamp = "2026-10-05T16:37:28.571620476Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "914e781f1f512a0dbb7868287b6105bb"
+reason = "Task7.3 explicit mapping requirement:automatic-memory:Requirement: Preflight and durable budget reservation -> implementation:budget. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:72b17b36abb821f575b9fba0c07bf66a22fb4dd68e0c55116b718a04f6aa52a2"
+source_version = "6bc946fc1b4d1c05551fcb1a920c78c336424800f15df6ed5bf6f754f9d918b9"
+target = "range:3225278f6c62fbc94298ccba33b2917fe5f8a57a34331fbed24baaaec9b4ebae"
+target_version = "3225278f6c62fbc94298ccba33b2917fe5f8a57a34331fbed24baaaec9b4ebae"

@@ -1,0 +1,14 @@
+salt = "4FT0ssWQNscBFWzI"
+previous_id = "48777612631a308910a49f9bf80cd6cbc2d26a529652f6e7f1af9af62c6efbd5"
+timestamp = "2026-10-01T10:31:01.307665854Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "5215cc87b4f87a4ba68aa176fa29b69e"
+reason = "规划范围：决定。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+source_version = "26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+target = "range:a88b9275c1c30d4c893d19418cb8b163030d6698f621541082f575c725443f9f"
+target_version = "48777612631a308910a49f9bf80cd6cbc2d26a529652f6e7f1af9af62c6efbd5"

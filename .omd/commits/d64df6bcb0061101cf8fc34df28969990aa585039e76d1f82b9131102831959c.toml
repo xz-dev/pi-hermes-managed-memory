@@ -1,0 +1,14 @@
+salt = "N7WaequceEkEC6yq"
+previous_id = "69cb26560e8f9f47184b6f13248018824f18f8b3732df7465affc7076985d7f3"
+timestamp = "2026-10-05T16:37:35.278509845Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "c9aa8057aaf084c280b11113e6707acc"
+reason = "Task7.3 explicit mapping requirement:memory-context:Requirement: Local compaction checkpoint without hidden model work -> verification:refresh. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:4e5ea0da86d3c3284baf4b5d53e3f3900d06a1e0a35ee72b1a07f8216aea99dc"
+source_version = "57dda46d20436688cff7892e5fbb0621f5f1a6af5f000e95b77c434a7187fbb2"
+target = "range:dc23836848e2fe8b7a8e0a56eb886a47b08a2cbd4b06e6cf729d6b0136d4686c"
+target_version = "dc23836848e2fe8b7a8e0a56eb886a47b08a2cbd4b06e6cf729d6b0136d4686c"

@@ -1,0 +1,37 @@
+# Task 6.3 — validated automatic proposals and managed commit
+
+## Current state and decision
+
+Task6.2 accepted, ready20/26; exact accepted source at `/var/tmp/hermes-62-visibility-iSLxhA/repair/candidate/repo`, manifest0d119caae61e5868ca8170faca021e02f0fad15cc20bad1916eeb638fcf44525. Current task is6.3, not6.4/7.x or real-model1.4. Parent read all seven current CLI contextFiles; `/var/tmp/hermes-62-parent-close-3QQnG7/next-apply.stdout` records current scope/progress.
+
+The user explicitly selected **明确旧值→新值**: a native user message must contain the old value, new value and explicit correction relation; host verifies quote, target and version; insufficient expression stays pending, no additional paid classifier. This refines D2's already specified explicit-correction exception. It is not permission for model flags to approve a destructive/conflicting rewrite or for a general semantic contradiction classifier. Foreground6.1 declared-replacement approval remains unchanged.
+
+Hermes reference234badf `tools/memory_tool.py:157–205` keeps add available and stages unattended replace/remove, including batches, pinning actual matched entries. Static source root `/var/tmp/hermes-source-reference-5cpd2f8m/planning/hermes-agent-234badf4012af380d23c91eae55d045a69c69ffb`. Our explicit-source correction exception is a user-approved difference (designD2); single JSON response with no tool execution is review-contractR3's approved Pi adaptation. No upstream tool loop or write-approval configuration is copied.
+
+## Concrete gap and one implementation seam
+
+`src/memory-review.ts` already validates sourced additions and bounded removals/replacements, binds read snapshots, calls `MemoryStore.mutate/stage`, and accounts one response. Current prompt prohibits every replacement/removal; every `replaces` is treated as destructive, so the specified automatic correction exception is unavailable. Pending commits are visible by target but the aggregate status always becomes conflict; make outcomes truthful without budget/owner/recovery redesign.
+
+Keep one writer for the tightly coupled proposal guidance → validation → classification → store commit → visible result seam. Reuse candidateCandidate/sourceAuthority rather than weakening accepted6.1 boundaries. Host derives authority from unchanged native user evidence and actual read target entries, never model-provided booleans. Preserve model-visible effective snapshot/native validation separation; no raw hidden text added to payload. Use the existing store for all version/epoch/cap/tombstone/pending/dedup behavior; no second transaction layer.
+
+A bounded explicit correction example: `Correction: "I prefer concise answers." -> "I prefer detailed answers."`; corresponding direct Chinese `更正：“旧事实” → “新事实”`. The old value must equal the actual read entry, the new fact remains an exact native quote, and the relation must be explicit/direct, not fabricated or assembled from unrelated spans. Recognized forms should be documented and conservative; do not grow an NLP framework. Unsupported relation forms retain pending rather than being treated as proven nonconflicting. Any unresolved language/authority choice affecting the example goes to parent before implementation.
+
+No cross-target move, automatic deletion, or override of a newer correction/version. The host binds expected old facts from its snapshot. Missing IDs, stale base/epoch, invalid source, private/temporary/third-party/fenced evidence and malformed flags cannot grant automatic authority. Same-target destructive/conflicting changes use the existing whole-batch pending policy so safe additions do not create partial target transactions; distinct target results stay separate and accurately reported. No paid retry/consolidation/tool execution.
+
+## Acceptance examples
+
+1. Through actual default tenth-user settled dispatch, natural `I prefer concise answers.` without a remember incantation produces one valid proposal, one sourced USER save and one accounted request. A fresh session receives the fact with source/version/current-authority precedence. Assert successful native stops and captured dispatches outside provider callbacks.
+2. Existing USER `I prefer concise answers.` plus the direct explicit old→new correction above: one automatic response proposing the corresponding replacement updates that same entry through existing versioned mutation, records the new genuine source, no pending; one debit/no extra model request.
+3. Same proposed replacement citing only `I prefer detailed answers.` (no explicit old→new relation), or ambiguous/mismatched correction evidence: old bytes unchanged, inspectable pending diff. Removal always pending. Public no-UI/decline preserves bytes; exact visible approval uses existing command and applies once. Invalid native source/private bodies are refused, not hidden in pending.
+4. Wrong/foreign ID or changed inspected version/epoch refuses instead of rebasing. Capacity failure preserves the target. Tombstones do not revive. Mixed targets report saved/pending/rejected separately without repeating the request; no fabricated global success. Keep existing whole-proposal malformed/source rejection policy.
+5. A response attempting arbitrary tool execution, unsupported fields or invalid/incomplete JSON yields existing accounted no-proposal/failure, zero tool/file/network execution and no hidden follow-up. Preserve current effective snapshot and accepted source tests.
+
+These are host-mechanism examples, not model recognition/usefulness claims. Existing passing behavior gets retrospective coverage, not invented red. Demonstrate the actual missing correction behavior red before its minimal fix, then complete one slice and widen only to directly affected boundaries. Test via existing node:test/sdkFixture/public API; no new framework.
+
+## Ownership and delivery
+
+Writer owns `src/memory-review.ts`, new `test/review-proposals.test.ts`, and only necessary result-status plumbing in `src/review-ledger.ts`/`src/review-display.ts`/`src/index.ts`. Store/scheduler/constraints/recall/candidateCandidate's foreground contract, inherited tests, packages, OpenSpec/PLAN/OMD metadata remain read-only. Preserve all existing assertions; narrow new cases belong in the new test. Ask if any wider mutation is necessary. Parent keeps policy, integration, checkbox and acceptance authority.
+
+Public Pi0.99.2/a4715ec9 only; isolated unique /var/tmp HOME/USERPROFILE/agentDir/auth/settings/cwd/native sessions; no resource discovery/network/retry fallback. Do not modify installed SDK/core/personal settings, use private APIs, migrate data, call real providers, add adapters or edit the companion repo. No Git staging/commit/branches/cleanup; product remains unborn/untracked. No new subagents from writer.
+
+Read before edits and preserve a manifest/snapshot before first product mutation. Save raw commands, exits, red/failure logs and new immutable candidate+manifest+delta under task-scoped /var/tmp. Do not overwrite accepted6.2 or prior evidence. Focused proposal/source/lifecycle/confirmation/scheduling/accounting tests, typecheck, full suite and strict OpenSpec. Byte-identical frozen SDK/PTY scratch may link existing public dependencies, never alter assertions to manufacture green. Return bounded evidence, source-based gap/repair and residuals through normal output; no final approval handshake. Independent review follows parent inspection, not repeated broad audit.

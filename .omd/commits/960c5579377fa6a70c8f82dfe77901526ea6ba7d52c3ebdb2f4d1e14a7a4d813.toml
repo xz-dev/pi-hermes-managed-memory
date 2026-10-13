@@ -1,0 +1,16 @@
+salt = "qU5lFDDo5SDFM38g"
+previous_id = ""
+timestamp = "2026-10-05T16:33:19.235269875Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "74b42fbe59a8aacc61fd22cffce7c5ae"
+
+[payload]
+mount = "file:4843945a8e70d77f84fa1710da27ddf31485c9f40f629a7a048d40d9427663fd"
+path = "test/review-controls.test.ts"
+reason = 'Task7.3 meaningful current range: verification:retry "production retry confirmation dispatches one new request without main-session writes"'
+
+[payload.position]
+end = "6544"
+mode = "text"
+start = "5718"

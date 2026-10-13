@@ -1,0 +1,15 @@
+salt = "Eda5LTzjeX5tP76p"
+previous_id = "70bd996de2aff42f2157a1c425bf80017f7067bb4713bca456c7085af24d2cc9"
+timestamp = "2026-10-12T12:35:47.580866102Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "bf3de71da8d6d96b7077936a089c0574"
+
+[payload]
+path = "docs/review-contract.md"
+reason = "Task1.4 contract:R3: Exact envelope contract consistent with user decision; source policy and spending limits unchanged"
+
+[payload.position]
+end = "2962"
+mode = "text"
+start = "1987"

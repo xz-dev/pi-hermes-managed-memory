@@ -1,0 +1,16 @@
+salt = "TDu8wEYfVvIn5d7d"
+previous_id = ""
+timestamp = "2026-10-05T16:33:18.433522721Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8d7dabc4cd55c294894952de469c8b58"
+
+[payload]
+mount = "file:4298962d1942948b711c0679eb394ae20debbb5ff13b88c787bc7fd59f816130"
+path = "test/public-api.test.ts"
+reason = 'Task7.3 meaningful current range: verification:snapshot "effective branch snapshot streams independently without changing the main session"'
+
+[payload.position]
+end = "4018"
+mode = "text"
+start = "839"

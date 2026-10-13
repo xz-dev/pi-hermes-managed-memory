@@ -1,0 +1,16 @@
+salt = "8zdOPKCfgkuijYT0"
+previous_id = "111664f4cdd27eebc46e2608f3e58ef8b7c0d7a9570017a4d93d854bc6f9d76a"
+timestamp = "2026-10-01T10:31:01.92767955Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "bca7a2a35edf5c0dbc6ede37545bca16"
+
+[payload]
+mount = "file:a542e9fcbe16e29a005358fee15b9f3159a7a2ae05b60f4f536d995532cc3685"
+path = "docs/external-adapter-evaluation.md"
+reason = "规划范围：上线前必须回答的问题。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "2213"
+mode = "text"
+start = "1795"

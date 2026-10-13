@@ -1,0 +1,12 @@
+salt = "177ctItCGAifFAjS"
+previous_id = "26eaa4a3d08262838b1e0f85a8d350e0d2b116941767318a40c28c0c2e50e9e0"
+timestamp = "2026-10-05T16:26:31.086697078Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["48c1e6c18b5dc0d79766873113d10245315835b808645a15c59249bab9d16926"]
+link_id = "07c87913eb8439f1af3be4783ae28d20"
+reason = "Reviewed relation requirement:scoped-memory:Requirement: Separate memory scopes -> tasks:3: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

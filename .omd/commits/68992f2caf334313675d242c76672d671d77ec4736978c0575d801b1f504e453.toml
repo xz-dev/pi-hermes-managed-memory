@@ -1,0 +1,14 @@
+salt = "qJS3qAIDlLHCA2z3"
+previous_id = "54123035cfd2fc2460527d388e782f53083f113131fdef8afcc39e723b07ba46"
+timestamp = "2026-10-05T17:31:44.440072271Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "233d9fd2adfd53a03cb333e4787df8ab"
+reason = "Bounded7.3 close: explicit existing relation design:D4 -> requirement:memory-context:Requirement: Explicit task lifecycle boundaries. Current accepted source/case inspected; no new behavior, no acceptance inference from healthy endpoints;1.4 remains unexecuted."
+source = "range:3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+source_version = "b87d963f15b44770eb005bcefe0d7684a675fb662a154175173238b768533d0f"
+target = "range:e28b4a056841249fcaa1890bc4063b5f9260045c42d54b06058a013ef8ea5dd1"
+target_version = "e28b4a056841249fcaa1890bc4063b5f9260045c42d54b06058a013ef8ea5dd1"

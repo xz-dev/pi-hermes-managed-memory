@@ -1,0 +1,14 @@
+salt = "GmvHQ2Fc37Igks9W"
+previous_id = "09808dad9d6716c935b46f3bfb62f119054119d319dd64a1cc1a691d64739b54"
+timestamp = "2026-10-01T10:30:55.776893323Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "813b0d66596a675c598ff3227b242755"
+reason = "规划范围：D3 — 有界、版本化的提交。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+source_version = "26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+target = "range:dece882184171b7d3c57e9af96f28b59034fa3424ac3c99d4bef0fbd83f48959"
+target_version = "09808dad9d6716c935b46f3bfb62f119054119d319dd64a1cc1a691d64739b54"

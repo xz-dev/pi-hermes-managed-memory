@@ -1,0 +1,12 @@
+salt = "ZPBlBThZGUSQxpHx"
+previous_id = "5e9b746e8a017f570935963f31003e5a38060723cd764ec7155438b334e0aaec"
+timestamp = "2026-10-05T16:26:28.652534898Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["1f967f919cffaf8c63622567ff1521ab0487fe9d3670f623a6e42214b4109cfd"]
+link_id = "0fba339699380247c04898725538dbab"
+reason = "Reviewed relation design:D5 -> requirement:session-recall:Requirement: Incremental indexing and noise filtering: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

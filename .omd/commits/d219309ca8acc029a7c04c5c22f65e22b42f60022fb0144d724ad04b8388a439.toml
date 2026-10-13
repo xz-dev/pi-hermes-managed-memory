@@ -1,0 +1,16 @@
+salt = "QqOOEH6s9V68WEg4"
+previous_id = "36dfe758adcc1fc956bc325e43dbed9f3bfc80118eb91855e8f9acc56f423c15"
+timestamp = "2026-10-01T10:30:56.611752939Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "3eb8ab479a430395facd80e557e76fbb"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "规划范围：6. 自动提炼与快照审查。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "2194"
+mode = "text"
+start = "1848"

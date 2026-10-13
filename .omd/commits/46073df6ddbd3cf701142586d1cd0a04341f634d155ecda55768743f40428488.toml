@@ -1,0 +1,14 @@
+salt = "n7DR4Li6Lu69jgnF"
+previous_id = "23a0e6a6eeeb0f6e8eddf142964e5611dbb83186f7fd773bfd1f8056961923c2"
+timestamp = "2026-10-05T16:37:40.776614746Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "ab5d7a0b8f24344c61d7fbba27de3959"
+reason = "Task7.3 explicit mapping task:2.1 -> verification:processBudget. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:68ce53287948a67d70e6b15b122b4ecf4c5578a1c251c064b965402720c25995"
+source_version = "68ce53287948a67d70e6b15b122b4ecf4c5578a1c251c064b965402720c25995"
+target = "range:efba97011f49160b001cf2277655c677ab0a3f56b8d98456519154f11d8d7753"
+target_version = "efba97011f49160b001cf2277655c677ab0a3f56b8d98456519154f11d8d7753"

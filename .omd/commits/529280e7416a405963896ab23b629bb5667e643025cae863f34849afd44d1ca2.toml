@@ -1,0 +1,16 @@
+salt = "C3vRgaAAq0U7P2VM"
+previous_id = ""
+timestamp = "2026-10-05T16:33:20.765842537Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "e75f1e3ffccc097f7c8e3ae61d10ce66"
+
+[payload]
+mount = "file:5f6bc9ae5a5aa9709efbbd049a227eb01394538bd6902aa3f3025eace2e270a6"
+path = "test/review-proposals.test.ts"
+reason = "Task7.3 meaningful current range: verification:correction `automatic explicit old→new correction updates same entry without pending: ${relation}`"
+
+[payload.position]
+end = "4692"
+mode = "text"
+start = "2390"

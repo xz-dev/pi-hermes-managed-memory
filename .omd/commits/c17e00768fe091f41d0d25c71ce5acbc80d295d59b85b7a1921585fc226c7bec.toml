@@ -1,0 +1,14 @@
+salt = "FG1HOk49VYlCfhE5"
+previous_id = "3903df4b590d2425aee240e246486b0828e2d11dbb0fcf0ba0b79ba0be485ad6"
+timestamp = "2026-10-12T12:35:46.782767267Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "9e260f815b67bff3b3eafae900b8d8ad"
+
+[payload]
+path = "src/memory-review.ts"
+reason = "Task1.4 approved narrow envelope and historical gate pointer; source observation only, preserve all old history"
+
+[range_tips]
+"range:1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91" = "1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91"
+"range:50a0411bb7a85d62a9e55d40d3df4bd535464c278be99c4eb840f1b22c17c1e7" = "50a0411bb7a85d62a9e55d40d3df4bd535464c278be99c4eb840f1b22c17c1e7"

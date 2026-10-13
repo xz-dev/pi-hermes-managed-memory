@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [86, 211, 82, 63, 159, 67, 87, 157, 42, 1, 226, 201, 203, 200, 114, 13]
+len = 5731
+sha256 = "068cda52e0d0c2a34301e0a18c14ca383f6839f14d533f48c913e71d45f021bc"
+encoding = "utf-8"
+content_file = "content/068cda52e0d0c2a34301e0a18c14ca383f6839f14d533f48c913e71d45f021bc"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/review-envelope.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/review-envelope.test.ts"

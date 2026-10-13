@@ -1,0 +1,14 @@
+salt = "zxfXemE036P9YfdD"
+previous_id = "daafc0c6e7889af887b33e3913e12494849ce990de04ee4d96631d6d1d2a147c"
+timestamp = "2026-10-01T10:32:42.326602522Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "050f8dd09a25f8de27a23a972889ab23"
+reason = "P2 支撑或约束 D6；是规划依据关系，不声称上游已经实现本插件新增行为。"
+source = "range:849afe6428f8c44b94469bd85477daba027fe282bea66b8a9a8f4cd868924594"
+source_version = "849afe6428f8c44b94469bd85477daba027fe282bea66b8a9a8f4cd868924594"
+target = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"

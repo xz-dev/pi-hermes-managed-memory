@@ -1,0 +1,12 @@
+salt = "2iMQhSdxGRRkme2N"
+previous_id = "9a26f8694b7cb96992b54da7098afbdc06508121e47933566031d81022244a4a"
+timestamp = "2026-10-05T16:26:31.741113703Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["0562d02d6f79a78823b4779cd93b97c38e80f15cd66828f7f38c53aa884e0689", "06926710af3b98156ace55c0283fd7028560c81a85978ef89581fe5fc339de75"]
+link_id = "6e8c29a17865192870cc292fa9cd4e4d"
+reason = "Reviewed relation requirement:automatic-memory:Requirement: Learning usefulness is observable -> tasks:1: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

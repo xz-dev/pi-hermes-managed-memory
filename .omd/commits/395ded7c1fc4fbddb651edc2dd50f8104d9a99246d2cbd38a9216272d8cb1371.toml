@@ -1,0 +1,14 @@
+salt = "Bmv4ZWAp25m6oAys"
+previous_id = "65987a9ca085c6e443f248346ca12cf460c613d1cd38cefd1dfc8e6c256996d5"
+timestamp = "2026-10-01T10:31:00.247816676Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "6265f61726f157be78a07dd169a29c97"
+reason = "规划范围：R2 — 默认限制与准入。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+source_version = "26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+target = "range:4fcb15391fd432139375a4d2c9f9ec49ad7335e3b2ffc99195af1da51fc5b4d7"
+target_version = "65987a9ca085c6e443f248346ca12cf460c613d1cd38cefd1dfc8e6c256996d5"

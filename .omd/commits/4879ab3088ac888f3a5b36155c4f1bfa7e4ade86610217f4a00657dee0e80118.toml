@@ -1,0 +1,14 @@
+salt = "juabHqjW6WyE6QOv"
+previous_id = "48fa4a265aa24561dbcd6b0ff38f938ad45415f457ec59b6de747185b4153dcc"
+timestamp = "2026-10-01T10:31:00.475784076Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "b2f337040ebedbee5fa0297ffe432958"
+reason = "规划范围：R4 — 状态、取消与提交。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:1791ae7228a9e4256369813a96898babe01d25dbe672775a92409b1e24c4a26a"
+source_version = "e6f0e61fbf81aa776ecddaa536d9dff2eba357657c7e4b10f16c89ee8f3b76b1"
+target = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"

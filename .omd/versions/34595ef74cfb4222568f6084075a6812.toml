@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [52, 89, 94, 247, 76, 251, 66, 34, 86, 143, 96, 132, 7, 90, 104, 18]
+len = 16808
+sha256 = "f74edf455802d3efa513a11baf6956aea5e2460e3380f4df300c877ccdf13ff9"
+encoding = "utf-8"
+content_file = "content/f74edf455802d3efa513a11baf6956aea5e2460e3380f4df300c877ccdf13ff9"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/memory-context.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/memory-context.test.ts"

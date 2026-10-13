@@ -1,0 +1,12 @@
+salt = "wug9MUS0WR34R2UL"
+previous_id = "2ce2b9ebf98e33b2619d7dfa0cc27cf6acb2d0d94b4da26c8f6b9c59d28d0426"
+timestamp = "2026-10-05T16:26:28.558194466Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["06926710af3b98156ace55c0283fd7028560c81a85978ef89581fe5fc339de75", "07d73516e1c986933730a30a16e176ae631ad03402f99ee5abe62dee36039b0c", "5409927114982bd8313d5dc1aa96f83329ac618c2b56a3ffef8427a8681e1f7e", "70bd996de2aff42f2157a1c425bf80017f7067bb4713bca456c7085af24d2cc9", "7b66c00525c70706556ebbe2a552c983f962f916a9e1801cc7bca7b69251c971", "8ebe92a565a2436ee6ffae173e6ee4c3958331d53bea4d390d54920c163180e3", "b1605d04bafd85372d3148e81d530fd735c7dee5009f78de2b8bf58ee0818dfc", "ed6dbeb6228d69c89237b3fe7a6a15e32e1147f51858ffccb7be9288790eef4f"]
+link_id = "0d2e3ca4846c5a4539bd3e7657bc4408"
+reason = "Reviewed relation design:D6 -> tasks:6: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

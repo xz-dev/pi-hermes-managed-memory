@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [219, 239, 31, 22, 237, 94, 77, 195, 221, 103, 255, 182, 46, 160, 93, 36]
+len = 6970
+sha256 = "74263679329cbc3bd0912596d2d4a5ca9254f27b1897d87fe839921ad59669cc"
+encoding = "utf-8"
+content_file = "content/74263679329cbc3bd0912596d2d4a5ca9254f27b1897d87fe839921ad59669cc"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/memory-scopes.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/memory-scopes.test.ts"

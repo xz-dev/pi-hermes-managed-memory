@@ -1,0 +1,15 @@
+salt = "LL7mJ8DYqbcDR26t"
+previous_id = "600303c5883659ef2f238fe3a90bf5319ef194b23793b785ea99f2ef0c83a7e8"
+timestamp = "2026-10-05T16:23:06.485202314Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "c034f419c64be95bf2f57f3d876b974d"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+reason = "Task7.3 reconcile requirement:automatic-memory:Requirement: Shared review without required companion to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "3395"
+mode = "text"
+start = "3110"

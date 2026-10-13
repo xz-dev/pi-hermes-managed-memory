@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [58, 173, 161, 179, 2, 235, 136, 180, 23, 15, 112, 181, 82, 3, 36, 208]
+len = 12194
+sha256 = "69675964d72fc6ff27f06cb0285e9930b4418b1b49c2611137069db275e24b16"
+encoding = "utf-8"
+content_file = "content/69675964d72fc6ff27f06cb0285e9930b4418b1b49c2611137069db275e24b16"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/learning-slice.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/learning-slice.test.ts"

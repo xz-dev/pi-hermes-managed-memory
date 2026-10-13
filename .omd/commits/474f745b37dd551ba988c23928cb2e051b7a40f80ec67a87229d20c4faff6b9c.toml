@@ -1,0 +1,14 @@
+salt = "MMPzw5om4NFlGIOM"
+previous_id = "3fef5d9cf7733f9c09dc44a271fe821cda23479ba06321fb74e98428a53fe6eb"
+timestamp = "2026-10-05T17:31:49.056207877Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "0963cc1f516b65e75dcf8a659929da94"
+reason = "Bounded7.3 close: explicit existing relation implementation:budget -> verification:unknownRecoveryBudget. Current accepted source/case inspected; no new behavior, no acceptance inference from healthy endpoints;1.4 remains unexecuted."
+source = "range:3225278f6c62fbc94298ccba33b2917fe5f8a57a34331fbed24baaaec9b4ebae"
+source_version = "3225278f6c62fbc94298ccba33b2917fe5f8a57a34331fbed24baaaec9b4ebae"
+target = "range:ffd8a84a020f0d5db8d82c08445a1bc60bbf06c2db3ebda0de9cc3b5e6fd9b9f"
+target_version = "ffd8a84a020f0d5db8d82c08445a1bc60bbf06c2db3ebda0de9cc3b5e6fd9b9f"

@@ -1,0 +1,16 @@
+salt = "02Xo5jDGqB4RFEh3"
+previous_id = ""
+timestamp = "2026-10-05T16:33:24.645744049Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0041eb30fd24180d44cf168dd99a6d47"
+
+[payload]
+mount = "file:32be89734f1f90c4fdcee018bb9a75a24eb2714735ca010f9acd7858c316df25"
+path = "PLAN/lifecycle-acceptance-evidence.md"
+reason = "Task7.3 meaningful current range: evidence:lifecycle 公开原生执行"
+
+[payload.position]
+end = "3220"
+mode = "text"
+start = "391"

@@ -1,0 +1,14 @@
+salt = "7d1B8GaKiCVcRmXz"
+previous_id = "6be221d9b235a6eff0529a61b9024e25aaf276f29fb1e27bf90f9d483b31126b"
+timestamp = "2026-10-01T10:30:55.918911864Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "29c11620d42b6c89a3e19a882e55d6b2"
+reason = "规划范围：D5 — 原始 session 的本地检索。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:5390c609a9eabff280d39ded4b32b7021fb50f97560002d759c0538d870f727d"
+source_version = "5390c609a9eabff280d39ded4b32b7021fb50f97560002d759c0538d870f727d"
+target = "range:2882558126d20efb4410e28dc5d8340b41a1d940c6d51998c8253c4062717074"
+target_version = "6be221d9b235a6eff0529a61b9024e25aaf276f29fb1e27bf90f9d483b31126b"

@@ -1,0 +1,12 @@
+salt = "UMDzKEHMI5SzQOvb"
+previous_id = "ef495b87edc8ac27f9c94bf7b6527207224476b8fd12a5416375beeb24b29317"
+timestamp = "2026-10-05T16:26:31.865797077Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["b87d963f15b44770eb005bcefe0d7684a675fb662a154175173238b768533d0f"]
+link_id = "bea6e866d07179ed3d7fc11164d58890"
+reason = "Reviewed relation requirement:memory-context:Requirement: Automatic bounded short-memory injection -> tasks:4: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

@@ -1,0 +1,16 @@
+salt = "eseSmaQTQyLmq88r"
+previous_id = "dece882184171b7d3c57e9af96f28b59034fa3424ac3c99d4bef0fbd83f48959"
+timestamp = "2026-10-01T10:30:55.762746346Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8df44077d0b287f861149606f3a167b2"
+
+[payload]
+mount = "file:af73cfe00bc80b5624bbb5aa0c8349e91997460f17e383e869b0090c98100fdd"
+path = "openspec/changes/add-managed-memory-lifecycle/design.md"
+reason = "规划范围：D3 — 有界、版本化的提交。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "2363"
+mode = "text"
+start = "2002"

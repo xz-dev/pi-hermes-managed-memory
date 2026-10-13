@@ -1,0 +1,16 @@
+salt = "5Z0LJPgxS6tzZLiF"
+previous_id = ""
+timestamp = "2026-10-05T16:33:19.968987319Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "c80a523d3f424e2b507ecfb941421b5b"
+
+[payload]
+mount = "file:45b3232515dfc277e482458678b4b7d943ae204299828a3f0b0abd9d49f7f476"
+path = "test/memory-refresh.test.ts"
+reason = 'Task7.3 meaningful current range: verification:refresh "native auto-compaction mid-tool-loop refreshes the owned section without a new user boundary"'
+
+[payload.position]
+end = "5174"
+mode = "text"
+start = "1603"

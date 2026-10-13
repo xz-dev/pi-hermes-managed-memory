@@ -1,0 +1,14 @@
+salt = "AgskOCnerSVVA8bU"
+previous_id = "b7b44c976b7e58f018b37410ff6f6b9a145c72524b863bd16dedb48c01e2b857"
+timestamp = "2026-10-05T16:37:34.151490018Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "7eeb60190634339c433cdd6b99540180"
+reason = "Task7.3 explicit mapping requirement:memory-context:Requirement: Preserve explicit session constraints -> implementation:constraints. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:f0231bbcaf3a827d4373dbdecc735bfab2c821cd27469709cc660158358541d2"
+source_version = "77ddadedcc51332dde8fa54568061ea066fcd2ccc4b7feea82f9bbf4ba945b19"
+target = "range:cfa7d6823fe9c388df35b4a0be6f5adc6951ed5cbb31f1df72c2423a22896647"
+target_version = "cfa7d6823fe9c388df35b4a0be6f5adc6951ed5cbb31f1df72c2423a22896647"

@@ -1,0 +1,12 @@
+salt = "k1xGZYUYpYb5wLae"
+previous_id = "7ffafb84d6a87ea8646406807af8376c7a2bb0cc447dc8d6ef57e201d98315b4"
+timestamp = "2026-10-05T18:09:53.6879395Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["f76b99b307e83084f9e224dcde0f64cd5d41cc8b681d19d5b46f374e429ca152"]
+link_id = "645914f56fda8626a383d86708bdc2dd"
+reason = "Parent accepted only7.3 checkbox; source/test/native probe bytes unchanged. Explicit relation review, not task1.4 approval or blanket acknowledgement."
+stop = false

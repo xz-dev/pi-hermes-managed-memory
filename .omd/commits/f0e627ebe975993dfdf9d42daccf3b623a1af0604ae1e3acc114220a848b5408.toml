@@ -1,0 +1,14 @@
+salt = "7lxAjQgG8I7O6lA0"
+previous_id = "c17e00768fe091f41d0d25c71ce5acbc80d295d59b85b7a1921585fc226c7bec"
+timestamp = "2026-10-12T12:36:03.329214321Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "aa3e85e608f4a7c43a5131bd9090e683"
+reason = "Task1.4 exact mapping task:1.4 -> implementation:review: bounded real4-call effect versus native-faux envelope mechanics and raw/normalized unknown-price accounting kept distinct"
+source = "range:5e9469210166f913e0b83e24f47830f9075d863a20f9a3c0b8c189ae10801817"
+source_version = "5e9469210166f913e0b83e24f47830f9075d863a20f9a3c0b8c189ae10801817"
+target = "range:1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91"
+target_version = "386d29364f7294575f153ce5e3da3ef512150f288fe3a5f0f9780f17b2f783b3"

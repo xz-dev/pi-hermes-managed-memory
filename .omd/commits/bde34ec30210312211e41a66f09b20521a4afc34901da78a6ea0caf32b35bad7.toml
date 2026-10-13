@@ -1,0 +1,14 @@
+salt = "2BmzAD7cugmhMcEB"
+previous_id = "b415d6aab9c4d49bbbb2b4a63abb95bb9c58adcfaa07edfbe4ed2e598e845995"
+timestamp = "2026-10-01T10:32:42.478199462Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "d2fc958054483eb856c4f6f4841e10d3"
+reason = "H5 支撑或约束 D5；是规划依据关系，不声称上游已经实现本插件新增行为。"
+source = "range:0d7f448ea11dadaa938e34aba8ac47b039342668e2c5a7f41b58272ed847140f"
+source_version = "0d7f448ea11dadaa938e34aba8ac47b039342668e2c5a7f41b58272ed847140f"
+target = "range:2882558126d20efb4410e28dc5d8340b41a1d940c6d51998c8253c4062717074"
+target_version = "2882558126d20efb4410e28dc5d8340b41a1d940c6d51998c8253c4062717074"

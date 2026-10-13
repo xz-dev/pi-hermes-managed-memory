@@ -1,0 +1,12 @@
+salt = "nl5Oh0LNo80is4xB"
+previous_id = "b2a40b29b3ef893de2979bf8580cfb082172d42985b700409e11eb862757358e"
+timestamp = "2026-10-05T16:26:31.555415217Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["06926710af3b98156ace55c0283fd7028560c81a85978ef89581fe5fc339de75"]
+link_id = "1e47eb9001ee22db9dc4636b30c3d0a4"
+reason = "Reviewed relation requirement:automatic-memory:Requirement: Preflight and durable budget reservation -> tasks:2: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

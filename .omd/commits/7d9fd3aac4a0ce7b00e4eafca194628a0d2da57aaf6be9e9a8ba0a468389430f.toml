@@ -1,0 +1,14 @@
+salt = "55cq0PAYiBRguQMC"
+previous_id = "be564081b722a4f20189197cb118a0d3f10b2e879fa00cc99e804839ee24b5e2"
+timestamp = "2026-10-05T16:33:25.680851509Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "1ae5d0c818226db877b35502b55b7a5f"
+reason = "Requirement Separate memory scopes -> MemoryStore.path/read/readAll real scoped implementation; no global fallback. Host structural mapping, not semantic proof."
+source = "range:af9099f60630a56a0b4bcea70fc67aa6800933981ba1d0fc696f4016bdd18e19"
+source_version = "202e429046bead664a6f0eff5e83703f940b853a909c68904d8dcc68db0d8c56"
+target = "range:f2bb66aa436da1a824220c6a412e2ccec3fe20ce4189565e82408eacce0ea7da"
+target_version = "f2bb66aa436da1a824220c6a412e2ccec3fe20ce4189565e82408eacce0ea7da"

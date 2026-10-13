@@ -1,0 +1,16 @@
+salt = "7sxxLSWAB4i0o40X"
+previous_id = "10b4a091f10992321137eb48657f698cda64d601ef41d5827eacb3269702daac"
+timestamp = "2026-10-01T10:30:59.608185138Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "45f113a1151c2f669584b6b36e13b0bc"
+
+[payload]
+mount = "file:b83d87f7675914ed084072d7307455998c9275da6754b660b4285a07c3e0f301"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/session-recall/spec.md"
+reason = "规划范围：Requirement: Bounded search then bounded read。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "878"
+mode = "text"
+start = "637"

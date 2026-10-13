@@ -1,0 +1,14 @@
+salt = "sA90a9DIQ4TJCuAQ"
+previous_id = "c15d1b42860dddaf0c7b78037d33f8b17813dfdbb28b0b445fa46682303a9a3d"
+timestamp = "2026-10-01T10:30:58.245816849Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "645e10ba95993bfdab4eb2fe85f1e002"
+reason = "规划范围：Requirement: Shared review without required companion。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:dfc24a30b32484a841607aeb2dcc337f350fbabb80ecfa590662aa4931ab48d0"
+source_version = "ccbabde90720a2f2bcb29c89069b6386670270abb444a94dbb93868836287fd7"
+target = "range:368c1d00d6b1e06c60896cccb6af2c0fe68c6406eb4b487b819a93c83e09735a"
+target_version = "368c1d00d6b1e06c60896cccb6af2c0fe68c6406eb4b487b819a93c83e09735a"

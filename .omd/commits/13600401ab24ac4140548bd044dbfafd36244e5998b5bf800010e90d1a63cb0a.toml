@@ -1,0 +1,12 @@
+salt = "A9Ouktr6s6jMyC15"
+previous_id = ""
+timestamp = "2026-10-12T23:52:35.9414629Z"
+schema = "omd.commit/3"
+kind = "import"
+content_ref = "empty"
+
+[payload]
+exclude = []
+include = []
+path = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/specs/memory-context/spec.md"
+scope = []

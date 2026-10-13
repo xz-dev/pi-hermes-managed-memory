@@ -1,0 +1,14 @@
+salt = "zcCg19OnCqvOT2MN"
+previous_id = "5860aacd7a871ae06fb2f9377aa2ad3ccc282d565881073daf4e523e96194d80"
+timestamp = "2026-10-05T17:31:43.622871658Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "9569a26846adb821eabf1efd8919afab"
+reason = "Bounded7.3 close: explicit existing relation requirement:automatic-memory:Requirement: Explicit unknown-usage recovery -> task:2.1. Current accepted source/case inspected; no new behavior, no acceptance inference from healthy endpoints;1.4 remains unexecuted."
+source = "range:515e2f864bb2536c1d3ac4e38e23e698dadee1d441a4821b0ff7d4784bae782c"
+source_version = "515e2f864bb2536c1d3ac4e38e23e698dadee1d441a4821b0ff7d4784bae782c"
+target = "range:68ce53287948a67d70e6b15b122b4ecf4c5578a1c251c064b965402720c25995"
+target_version = "68ce53287948a67d70e6b15b122b4ecf4c5578a1c251c064b965402720c25995"

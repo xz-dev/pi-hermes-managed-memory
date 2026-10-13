@@ -1,0 +1,16 @@
+salt = "ULt02yKVcjrjR4fz"
+previous_id = ""
+timestamp = "2026-10-05T16:33:20.307249141Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "30d4fc0381432d405250b92922793f08"
+
+[payload]
+mount = "file:67be95ea83c48f74382ece0562186c6feda130fc6ce7cbc265d638655ca47950"
+path = "test/session-index.test.ts"
+reason = 'Task7.3 meaningful current range: verification:index "append is incremental with prefix proof; truncate and same-size rewrite rebuild the file"'
+
+[payload.position]
+end = "7246"
+mode = "text"
+start = "4652"

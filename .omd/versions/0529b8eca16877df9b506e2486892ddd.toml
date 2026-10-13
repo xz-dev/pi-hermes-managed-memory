@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [5, 41, 184, 236, 161, 104, 119, 223, 155, 80, 110, 36, 134, 137, 45, 221]
+len = 30156
+sha256 = "31bc5312b9937115fd28a979a7584ed3076f73bb094ce90a383da6ef0170caf4"
+encoding = "utf-8"
+content_file = "content/31bc5312b9937115fd28a979a7584ed3076f73bb094ce90a383da6ef0170caf4"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "src/memory-review.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "src/memory-review.ts"

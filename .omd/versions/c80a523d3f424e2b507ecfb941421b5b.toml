@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [200, 10, 82, 61, 63, 66, 78, 43, 80, 126, 207, 185, 65, 66, 27, 91]
+len = 20103
+sha256 = "9dde083562af614ea9e414005bc8995eb560b1c85acae537749af6eeeb5f8ed6"
+encoding = "utf-8"
+content_file = "content/9dde083562af614ea9e414005bc8995eb560b1c85acae537749af6eeeb5f8ed6"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/memory-refresh.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/memory-refresh.test.ts"

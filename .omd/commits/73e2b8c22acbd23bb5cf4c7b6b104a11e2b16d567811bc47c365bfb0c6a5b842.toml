@@ -1,0 +1,10 @@
+salt = "8N9739D55jt05FDo"
+previous_id = ""
+timestamp = "2026-10-01T10:31:01.73850356Z"
+schema = "omd.commit/3"
+kind = "atomic_begin"
+content_ref = "empty"
+
+[payload]
+mount = "file:a542e9fcbe16e29a005358fee15b9f3159a7a2ae05b60f4f536d995532cc3685"
+path = "docs/external-adapter-evaluation.md"

@@ -1,0 +1,12 @@
+salt = "ZAYDxrEHrFIL4eLi"
+previous_id = "4fdd982d353eb02b06e393c454f01e300d90de05b9082095ff9b4d8a306730c5"
+timestamp = "2026-10-05T16:26:29.716194103Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["e390e49754c98a1eaf46e824eac655a624aac06fc643cd02f6c631895060d42e"]
+link_id = "8b95d8a65ba0c94f5a2d922f230faea1"
+reason = "Reviewed relation design:D7 -> requirement:automatic-memory:Requirement: Shared review without required companion: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

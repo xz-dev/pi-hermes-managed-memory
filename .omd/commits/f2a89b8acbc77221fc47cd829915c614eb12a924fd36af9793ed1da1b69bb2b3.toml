@@ -1,0 +1,15 @@
+salt = "mhMypGfiwBiegkzS"
+previous_id = "06a9a3ee2ce729ff868c705f65855b1fff1dae6fe6d583e7ad12b3b9c5547f96"
+timestamp = "2026-10-05T17:31:39.325803175Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "434399a2efe3d606e01986d328da51e7"
+
+[payload]
+path = "README.md"
+reason = "Bounded7.3 close: distinguish detectable partial journal/ledger loss from undetectable total receipt/history loss"
+
+[range_tips]
+"range:00c5d69ba99982c2283b88c763382f71df2373b3a15af3a71ad22d301ddd5578" = "00c5d69ba99982c2283b88c763382f71df2373b3a15af3a71ad22d301ddd5578"
+"range:9c63fc52c29038e8b72d890dd2cc7c245aedbc4aa96d33fe5d9d624e049b4f9b" = "9c63fc52c29038e8b72d890dd2cc7c245aedbc4aa96d33fe5d9d624e049b4f9b"
+"range:aec7113f7b86b8bcfc8c1ccb4e15ebf3e4a13004a595d32d228d7a697c9a7ff7" = "aec7113f7b86b8bcfc8c1ccb4e15ebf3e4a13004a595d32d228d7a697c9a7ff7"

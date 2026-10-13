@@ -1,0 +1,14 @@
+salt = "B586ktsoeReJqIB7"
+previous_id = "bf462f853eec12fd3a240f26e5f608d063c39468114dc4b182bc68d8541d99d1"
+timestamp = "2026-10-05T17:31:48.786578719Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "5c576f62b15ad5227a4ff06fc38c1c05"
+reason = "Bounded7.3 close: explicit existing relation implementation:review-commands -> verification:unknownRecoveryControls. Current accepted source/case inspected; no new behavior, no acceptance inference from healthy endpoints;1.4 remains unexecuted."
+source = "range:26ce64b1a291e2b8af571b9c4bd97ed338ea28c034021ab17c1bb77295187ab9"
+source_version = "26ce64b1a291e2b8af571b9c4bd97ed338ea28c034021ab17c1bb77295187ab9"
+target = "range:4fd6289e2ae90cc69b9ac6aa73d5c10b4f93aabba1686765da3aa0dd74c0682a"
+target_version = "4fd6289e2ae90cc69b9ac6aa73d5c10b4f93aabba1686765da3aa0dd74c0682a"

@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [134, 242, 50, 133, 139, 97, 28, 164, 173, 23, 130, 160, 74, 203, 202, 237]
+len = 6974
+sha256 = "379d5a4b1a6c0d73daa9d6e04f253f368c50477e701993328718a88d8d6f8fc7"
+encoding = "utf-8"
+content_file = "content/379d5a4b1a6c0d73daa9d6e04f253f368c50477e701993328718a88d8d6f8fc7"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/memory-mutations.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/memory-mutations.test.ts"

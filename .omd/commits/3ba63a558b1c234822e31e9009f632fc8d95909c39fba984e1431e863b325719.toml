@@ -1,0 +1,9 @@
+salt = "Ub194CQxP06mMzZ6"
+previous_id = "683515662dc49309644378659f706d9655b993086558e7477817d7f7b0009de0"
+timestamp = "2026-10-01T10:30:57.770701519Z"
+schema = "omd.commit/3"
+kind = "atomic_end"
+content_ref = "empty"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"

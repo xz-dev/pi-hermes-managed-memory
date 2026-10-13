@@ -1,0 +1,14 @@
+salt = "QwA6R2EUBUSVy4hi"
+previous_id = "23ab8adc4d02273d86e04dd7317a14c7dbd6c625620c8e4176d1086cbd23bced"
+timestamp = "2026-10-01T10:30:57.658872545Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "4db0b1f81a69f8902ffc8ba80dac3f0a"
+reason = "规划范围：Requirement: Schedule on user work not model loops。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:865b9b2e34022d1653aaa42f54689ad7ea2557284744f1e064189a19d51da08c"
+source_version = "89d4c16dd4d819153c8c341dacde1a9602c31e2526e8e57441ce57a13f0a8c10"
+target = "range:36dfe758adcc1fc956bc325e43dbed9f3bfc80118eb91855e8f9acc56f423c15"
+target_version = "36dfe758adcc1fc956bc325e43dbed9f3bfc80118eb91855e8f9acc56f423c15"

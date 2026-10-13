@@ -1,0 +1,10 @@
+salt = "HDCuV0uTwHxkQBWX"
+previous_id = ""
+timestamp = "2026-10-01T10:30:59.380395702Z"
+schema = "omd.commit/3"
+kind = "atomic_begin"
+content_ref = "empty"
+
+[payload]
+mount = "file:b83d87f7675914ed084072d7307455998c9275da6754b660b4285a07c3e0f301"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/session-recall/spec.md"

@@ -1,0 +1,14 @@
+salt = "S7XQvLemq4qR2VUH"
+previous_id = "795917996a210ad5f69838865f5f0b8bd81e897da81636c7d095bac31f515e00"
+timestamp = "2026-10-05T16:37:33.368979326Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "bd3cb090e8ba98c58edd2914139aab08"
+reason = "Task7.3 explicit mapping requirement:memory-context:Requirement: Facts do not override current authority -> verification:authority. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:d4563ea94c19d2c955d292ca7ee246bfb86abc3c0652f315be4cf30f97abfde2"
+source_version = "e70d8c66fd04144555a2eeb3c863a221dafa488f96008d697d98ff49534530dd"
+target = "range:c85dc43f7517d9dcd761b9ff9fc7775b850b696cd780c8d3746e553003b6608c"
+target_version = "c85dc43f7517d9dcd761b9ff9fc7775b850b696cd780c8d3746e553003b6608c"

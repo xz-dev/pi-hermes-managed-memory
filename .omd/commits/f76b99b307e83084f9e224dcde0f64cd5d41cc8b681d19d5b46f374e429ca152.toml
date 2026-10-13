@@ -1,0 +1,15 @@
+salt = "bfSu22vRxaRM8aKM"
+previous_id = "dde1fdf2a42509d527c13a8077ed3cf0cb275a02b56b12e9890c2b8238eca84c"
+timestamp = "2026-10-05T18:09:52.250314997Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "4a7df9c0f190706ab5db4ac4d2faabf9"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "Parent accepted7.3 checkbox source observation only; preserve root/history,1.4 gated"
+
+[payload.position]
+end = "2533"
+mode = "text"
+start = "2431"

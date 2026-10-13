@@ -1,0 +1,9 @@
+salt = "XoRHgJRF95kUGzGz"
+previous_id = ""
+timestamp = "2026-10-12T12:36:01.009511809Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "819d6988ec70851a5be2e9a27d2d1a3a"
+
+[payload]
+path = "PLAN/real-model-swe-evidence.md"

@@ -1,0 +1,12 @@
+salt = "rP5DulE6jiJcWi27"
+previous_id = "1d5e69c5e67d3b4db906f908bc9ffd37962086a4039dbb9e0fcca55fd09414b0"
+timestamp = "2026-10-12T15:38:20.65326286Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["528b9c41b35d8c19cadbc253becb96f3241f5230a58d7c837d5fca2cf6d16a65"]
+link_id = "0f03132c17ff7044f17190621279ab47"
+reason = "Archive navigation review requirement:automatic-memory:Requirement: Validated proposals and user-controlled deletion -> tasks:6: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

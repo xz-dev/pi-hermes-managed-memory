@@ -1,0 +1,16 @@
+salt = "qxiR2BvESfnr6yab"
+previous_id = "2c8fd75b122a09166bdabb75d75860247fc1221e9a77e49abdfd21deb8d40c55"
+timestamp = "2026-10-01T10:30:55.69490465Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8df44077d0b287f861149606f3a167b2"
+
+[payload]
+mount = "file:af73cfe00bc80b5624bbb5aa0c8349e91997460f17e383e869b0090c98100fdd"
+path = "openspec/changes/add-managed-memory-lifecycle/design.md"
+reason = "规划范围：D2 — 分类规则是提案契约，不是假定模型总能判对。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "2002"
+mode = "text"
+start = "1546"

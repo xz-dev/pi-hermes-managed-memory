@@ -1,0 +1,12 @@
+salt = "HW5teHyXg05J8k6g"
+previous_id = "64e2aa4c0e7fc4c93681d8832d95626b623e0075325f084e1b69d8c390697d23"
+timestamp = "2026-10-12T12:35:55.748044815Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529"]
+link_id = "adf8633cee1452dce2f39e57a165d71e"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Foreground and snapshot extraction -> implementation:review: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

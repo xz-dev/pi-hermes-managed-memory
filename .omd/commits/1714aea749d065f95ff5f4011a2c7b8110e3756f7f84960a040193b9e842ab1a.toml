@@ -1,0 +1,14 @@
+salt = "AupWRcobLZUj5nU4"
+previous_id = "ad3981b18d0a3566dae5173356607f4a35a887bb9a0b17582204d515fb9d3e09"
+timestamp = "2026-10-05T17:31:49.950872053Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "b251f2ad3428466d2f80f503612f6d9f"
+reason = "Bounded7.3 close: explicit existing relation implementation:foreground -> verification:constraintRegistration. Current accepted source/case inspected; no new behavior, no acceptance inference from healthy endpoints;1.4 remains unexecuted."
+source = "range:859f4eb80d733989a95ab51c0f53e05f6a0774f9b2dd775651cda45ed459a058"
+source_version = "859f4eb80d733989a95ab51c0f53e05f6a0774f9b2dd775651cda45ed459a058"
+target = "range:1f7f24a663107d86d1b50f217e0fb8be59ce84ecf0e19381313ce94b36a6af43"
+target_version = "1f7f24a663107d86d1b50f217e0fb8be59ce84ecf0e19381313ce94b36a6af43"

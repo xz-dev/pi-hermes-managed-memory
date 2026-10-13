@@ -1,0 +1,12 @@
+salt = "iSPoPKzl4Zd61oL4"
+previous_id = "6198de8fff6b68e2a5c5a76284ad4f42f21d224e0f4b1dc5f2e7eb21ece8376f"
+timestamp = "2026-10-05T16:26:29.997534789Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["1f967f919cffaf8c63622567ff1521ab0487fe9d3670f623a6e42214b4109cfd"]
+link_id = "94b0c06277a3d76b15ad86ff3d1c82e9"
+reason = "Reviewed relation design:D5 -> requirement:session-recall:Requirement: Explicit scope and provenance: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

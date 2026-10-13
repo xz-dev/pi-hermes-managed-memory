@@ -1,0 +1,14 @@
+salt = "o7sAnz08XWTt8RH1"
+previous_id = "532b75de42389ea2663724ad7f171fd4ec62d7370e5b75f475bcd4420f477b3a"
+timestamp = "2026-10-01T10:30:58.032189399Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "feee16da73203383d72ebc9026401534"
+reason = "规划范围：Requirement: Main-session isolation and cancellation。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+source_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target = "range:bcf30d832318338b01e1efdf5a42b1ed4a0559861e72dd7c3aa8642a698c2c2b"
+target_version = "532b75de42389ea2663724ad7f171fd4ec62d7370e5b75f475bcd4420f477b3a"

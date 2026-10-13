@@ -1,0 +1,15 @@
+salt = "0eGNe7JYmHuWuKqV"
+previous_id = "0b1b9df532c68a2ad7587a4087743f789c4edeae46ac1459faa919b90a7fec1f"
+timestamp = "2026-10-12T12:52:42.012212918Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8cf5313fac0185bf6aa6e3c87a4ab80a"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "Parent accepted only1.4 completion checkbox; sources/test and real evidence unchanged"
+
+[payload.position]
+end = "529"
+mode = "text"
+start = "0"

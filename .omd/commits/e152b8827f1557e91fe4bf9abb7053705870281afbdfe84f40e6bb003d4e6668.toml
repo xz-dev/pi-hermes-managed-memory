@@ -1,0 +1,14 @@
+salt = "Q5AkNZ4GeBNyF6nK"
+previous_id = "b6f042b03cdc8a8856dff919bab69067fc62cc6a0d13408b88009251ad74d815"
+timestamp = "2026-10-12T12:36:03.033804515Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "d678591207ec76a5d093e6524fc12903"
+reason = "Task1.4 exact mapping requirement:automatic-memory:Requirement: Learning usefulness is observable -> evidence:real-model: bounded real4-call effect versus native-faux envelope mechanics and raw/normalized unknown-price accounting kept distinct"
+source = "range:162b2b6f81ed2a46044c731997e852bb5a916bde4fca65cd1a57498a260e688d"
+source_version = "33be322cd7e2ee554733b37c4aec28eee98fd7a10c5ab2035bd5b636b253f402"
+target = "range:170ead42df6c0dfd172a893d86f23924329d6fb256490c8f2cb14383213fe0df"
+target_version = "170ead42df6c0dfd172a893d86f23924329d6fb256490c8f2cb14383213fe0df"

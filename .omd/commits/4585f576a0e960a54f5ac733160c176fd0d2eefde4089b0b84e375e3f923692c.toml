@@ -1,0 +1,12 @@
+salt = "QMBzSY5R36KZ7QqQ"
+previous_id = "2ac20a4ac2313563fdad22069b6506b3928c20859ae8dec695f7c8375779ae58"
+timestamp = "2026-10-12T12:52:42.398393154Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["94be1c5248640f67698c0173e33adc5318755e133f65bf03236bdb0b1c23a2ec"]
+link_id = "431eb8ecc0a107bbb78aad39d2a3076a"
+reason = "Parent reviewed implementation:review -> verification:envelope-rejection after only1.4 checkbox. Actual2 sourced adds/one same-ID correction/2 new-session uses accepted; 11 total requests and price unknown. Source/test bytes unchanged. Historical7.3 gate is explicitly historical with new1.4 reference; no reopening7.1–7.3, model replay or blanket acknowledgement."
+stop = false

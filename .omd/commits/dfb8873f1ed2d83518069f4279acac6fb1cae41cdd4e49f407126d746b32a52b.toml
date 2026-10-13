@@ -1,0 +1,14 @@
+salt = "zXGTkFgwUd1jKa5x"
+previous_id = "47ef2831641dee233730e96fd1c03d612119fb288b2014568f97c5589516c579"
+timestamp = "2026-10-01T10:30:57.103838735Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "bff862babc45126d0ffb0113ad40e14b"
+reason = "规划范围：Requirement: Bounded atomic mutation。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:dece882184171b7d3c57e9af96f28b59034fa3424ac3c99d4bef0fbd83f48959"
+source_version = "dece882184171b7d3c57e9af96f28b59034fa3424ac3c99d4bef0fbd83f48959"
+target = "range:abceab1eda81880fed895f40728a9a4c5d406f3609b8fdfd0a3d25e68e13854b"
+target_version = "47ef2831641dee233730e96fd1c03d612119fb288b2014568f97c5589516c579"

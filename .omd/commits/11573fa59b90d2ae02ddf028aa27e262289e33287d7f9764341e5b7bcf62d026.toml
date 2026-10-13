@@ -1,0 +1,12 @@
+salt = "pthnPI3BnCDMtiSU"
+previous_id = "a90e2cfdb85bb81649a372f50da06e958e6e15d6a82331b4bdf901a0bf954e6d"
+timestamp = "2026-10-05T16:26:31.103626323Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["48c1e6c18b5dc0d79766873113d10245315835b808645a15c59249bab9d16926"]
+link_id = "1437c9cd684af272ac9c4529fd3531f5"
+reason = "Reviewed relation requirement:scoped-memory:Requirement: Durable facts not temporary instructions -> tasks:3: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

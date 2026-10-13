@@ -1,0 +1,14 @@
+salt = "8b7OUw0UruKAhpKE"
+previous_id = "e9be3336a91d523cb94abec956459f22f11662f5f7a3a5d4e81094038f3323f3"
+timestamp = "2026-10-01T10:31:00.369923373Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "2ba8f4ee3d092ff6ae764404d5e3d4aa"
+reason = "规划范围：R3 — 快照与独立请求。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:fc79551bb1971cefc88b5c75eec265f09f5bf0864f9cd90f6e0eac4dd9d82eae"
+source_version = "c4d40e3039af3acf176aa0d9732739ec19e601180e10dd0ef7e54f1d8c56a9b3"
+target = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"

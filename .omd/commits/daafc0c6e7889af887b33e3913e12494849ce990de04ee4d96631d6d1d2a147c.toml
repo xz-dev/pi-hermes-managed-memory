@@ -1,0 +1,14 @@
+salt = "XTuF5j9YACrUJF9i"
+previous_id = "b72c627cb46154eeb3e16f4626202c72a69570645de3d22461edd8eb77f68bcb"
+timestamp = "2026-10-01T10:32:42.27622488Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "012087e9c62d0d48da10e93e2fc26060"
+reason = "P1 支撑或约束 D4；是规划依据关系，不声称上游已经实现本插件新增行为。"
+source = "range:5390c609a9eabff280d39ded4b32b7021fb50f97560002d759c0538d870f727d"
+source_version = "5390c609a9eabff280d39ded4b32b7021fb50f97560002d759c0538d870f727d"
+target = "range:3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+target_version = "3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"

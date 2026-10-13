@@ -1,0 +1,16 @@
+salt = "9fTBhnGb2XLA3pso"
+previous_id = ""
+timestamp = "2026-10-05T16:33:17.312822314Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "3390a0d51ca060b243eb7ded439a9bd8"
+
+[payload]
+mount = "file:b7b44c976b7e58f018b37410ff6f6b9a145c72524b863bd16dedb48c01e2b857"
+path = "src/session-constraints.ts"
+reason = "Task7.3 meaningful current range: implementation:constraints foldConstraints"
+
+[payload.position]
+end = "11343"
+mode = "text"
+start = "5610"

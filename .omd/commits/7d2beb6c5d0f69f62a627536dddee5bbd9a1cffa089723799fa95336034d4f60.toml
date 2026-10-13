@@ -1,0 +1,16 @@
+salt = "FPnWwRMiTAuoCfMG"
+previous_id = "514de5564ad5d2b167862feaf089256ee8365dfb6f1dd17bebb28488d7d3b31d"
+timestamp = "2026-10-01T10:31:00.549876914Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "a6c9f4df9bfa334e81b69de6480187dc"
+
+[payload]
+mount = "file:8766394639c1c3a2479e7f793aefd96758d0c475f3ae5243faedc2b71fb178da"
+path = "docs/review-contract.md"
+reason = "规划范围：R5 — 用量与 TUI 契约。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "3903"
+mode = "text"
+start = "3145"

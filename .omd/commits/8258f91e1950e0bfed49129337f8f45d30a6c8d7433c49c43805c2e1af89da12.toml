@@ -1,0 +1,9 @@
+salt = "ZKdFf6bXD87kvQjy"
+previous_id = ""
+timestamp = "2026-10-05T16:33:14.241780667Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "4be6b7227d962f64d4ee17790149a9e7"
+
+[payload]
+path = "src/review-ledger.ts"

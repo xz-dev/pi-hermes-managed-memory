@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [88, 188, 124, 146, 48, 4, 216, 67, 78, 81, 178, 50, 2, 11, 152, 174]
+len = 5032
+sha256 = "200abde5655b2dc655de8448a34c2e77a8f20875c16a6e2c5766a654c7b2962d"
+encoding = "utf-8"
+content_file = "content/200abde5655b2dc655de8448a34c2e77a8f20875c16a6e2c5766a654c7b2962d"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "PLAN/review-cost-ui-evidence.md"
+
+[recovery]
+type = "file"
+project = "root"
+path = "PLAN/review-cost-ui-evidence.md"

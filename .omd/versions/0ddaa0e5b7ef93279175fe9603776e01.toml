@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [13, 218, 160, 229, 183, 239, 147, 39, 145, 117, 254, 150, 3, 119, 110, 1]
+len = 6907
+sha256 = "47973e1d530edcee4ba1efbe656027e3cf329ca7807793d5a88a9ad101701d23"
+encoding = "utf-8"
+content_file = "content/47973e1d530edcee4ba1efbe656027e3cf329ca7807793d5a88a9ad101701d23"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/review-recovery.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/review-recovery.test.ts"

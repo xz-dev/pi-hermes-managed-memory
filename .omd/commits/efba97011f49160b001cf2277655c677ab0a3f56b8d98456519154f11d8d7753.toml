@@ -1,0 +1,16 @@
+salt = "hemaphHSDw4zntx3"
+previous_id = ""
+timestamp = "2026-10-05T16:33:18.679860144Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "293b9a5536be55610709bdb197bc34e7"
+
+[payload]
+mount = "file:4e965bdbeb91902823a3b8d4956a37f84655c524213bff9d78ca5df1ce2e83bd"
+path = "test/review-ledger.test.ts"
+reason = 'Task7.3 meaningful current range: verification:processBudget "two actual processes cannot double-reserve an agentDir and killed owner keeps unknown debt"'
+
+[payload.position]
+end = "3539"
+mode = "text"
+start = "1956"

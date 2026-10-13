@@ -1,0 +1,16 @@
+salt = "S5mjerfD29zNlpB4"
+previous_id = ""
+timestamp = "2026-10-05T16:33:20.53562097Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "27593bbd890bfa93aae125cd0b4a3565"
+
+[payload]
+mount = "file:d39d2c03e414a0e234a5467f0fdd80ff555b8c2590eb9f9a882f899ae3d16a47"
+path = "test/session-recall-tool.test.ts"
+reason = 'Task7.3 meaningful current range: verification:recallTool "registered tool searches an archive and losslessly reads through normal foreground appends"'
+
+[payload.position]
+end = "7482"
+mode = "text"
+start = "3052"

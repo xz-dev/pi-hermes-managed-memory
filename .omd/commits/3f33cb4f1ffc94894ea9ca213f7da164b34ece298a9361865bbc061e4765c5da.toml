@@ -1,0 +1,14 @@
+salt = "6Vvp9uSxG5rA5Aqc"
+previous_id = "67be95ea83c48f74382ece0562186c6feda130fc6ce7cbc265d638655ca47950"
+timestamp = "2026-10-05T16:37:36.341740625Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "46f867d75d7840fc533bcf2aa9ac6bdd"
+reason = "Task7.3 explicit mapping requirement:session-recall:Requirement: Native session source of truth -> verification:index. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:641172b53ce6d11a0aaa09e8080fdda1b2780111adb9536d5cee8600eb8790ce"
+source_version = "30cf9a75c7964c155f8c141748c3e609f2b2151a26b0c4de5611771a03f05231"
+target = "range:d6e68f950a28e911902da5e321bba026453c97ab8d590d4256777567080b4894"
+target_version = "d6e68f950a28e911902da5e321bba026453c97ab8d590d4256777567080b4894"

@@ -1,0 +1,16 @@
+salt = "IiLYeBO5PpEZrwBE"
+previous_id = ""
+timestamp = "2026-10-05T16:33:21.015534736Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "9844df919abe9d9937bb0105066f825a"
+
+[payload]
+mount = "file:2a801982bcab2903e144da64d33dae58841a64773ff38855cff08a96a1095203"
+path = "test/review-schedule.test.ts"
+reason = "Task7.3 meaningful current range: verification:cancellation `delayed automatic result cannot commit after ${invalidation}; accounting remains`"
+
+[payload.position]
+end = "21470"
+mode = "text"
+start = "18903"

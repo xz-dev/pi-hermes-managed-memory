@@ -1,0 +1,16 @@
+salt = "9Thlo0WXLAYHmgfA"
+previous_id = ""
+timestamp = "2026-10-05T17:31:40.170990163Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "e872d6ea04eb29bb51ce54f2fac900ed"
+
+[payload]
+mount = "file:8f8139e85b05042fb2275822d340b82580fee5c5d157879f856a16a61751b5fa"
+path = "test/review-recovery-controls.test.ts"
+reason = "Bounded7.3 close: verification:unknownRecoveryControls; existing source, not new behavior/test execution"
+
+[payload.position]
+end = "2377"
+mode = "text"
+start = "526"

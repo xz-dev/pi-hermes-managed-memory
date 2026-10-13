@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [36, 46, 124, 114, 235, 158, 245, 104, 62, 167, 43, 26, 168, 141, 180, 62]
+len = 37739
+sha256 = "beff33b2e923315b54d84429fed3a38865fb3c5c1fce886b681721144711f2e9"
+encoding = "utf-8"
+content_file = "content/beff33b2e923315b54d84429fed3a38865fb3c5c1fce886b681721144711f2e9"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/review-coordination.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/review-coordination.test.ts"

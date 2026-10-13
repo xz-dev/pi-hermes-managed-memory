@@ -1,0 +1,16 @@
+salt = "2NZSFBUxfWHo77GU"
+previous_id = ""
+timestamp = "2026-10-05T16:33:17.004566039Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "6653310f9f48509f96324ba82dedc1e2"
+
+[payload]
+mount = "file:09357e95e05594e984998e7e64edef63aa4eb4697f71bc8317123f17068d21cd"
+path = "src/session-index.ts"
+reason = "Task7.3 meaningful current range: implementation:index SessionIndex component"
+
+[payload.position]
+end = "58385"
+mode = "text"
+start = "16973"

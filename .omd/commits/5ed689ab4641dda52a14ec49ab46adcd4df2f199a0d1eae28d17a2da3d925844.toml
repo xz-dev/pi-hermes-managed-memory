@@ -1,0 +1,16 @@
+salt = "9H9yZaGFCnO8kpT9"
+previous_id = "3e73342f9303d8066f84fdf752702c3f0ccea0a99cdfe4cf9c2d852b62d326a4"
+timestamp = "2026-10-01T10:30:58.997886978Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0d4d26c056a4be600c353b08ccfe9637"
+
+[payload]
+mount = "file:6e8cee32bde69135687b825b697b091be214726cb778bc781f869a3282590385"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = "规划范围：Requirement: Branch-aware session state。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "1575"
+mode = "text"
+start = "1339"

@@ -1,0 +1,16 @@
+salt = "hRQgnsvmOQvGHH45"
+previous_id = ""
+timestamp = "2026-10-05T16:33:18.562782268Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "3aada1b302eb88b4170f70b5520324d0"
+
+[payload]
+mount = "file:3580b07011839ba30241130c4e640d1c12aac7799defe97f94eb1ff630980756"
+path = "test/learning-slice.test.ts"
+reason = 'Task7.3 meaningful current range: verification:learning "actual extension saves sourced facts and a new session recalls them on the same billed request"'
+
+[payload.position]
+end = "6908"
+mode = "text"
+start = "2363"

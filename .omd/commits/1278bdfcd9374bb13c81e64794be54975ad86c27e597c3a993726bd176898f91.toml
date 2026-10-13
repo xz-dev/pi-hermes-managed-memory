@@ -1,0 +1,16 @@
+salt = "sAyUBHBb1ykTBFKA"
+previous_id = ""
+timestamp = "2026-10-05T16:33:16.698321566Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0529b8eca16877df9b506e2486892ddd"
+
+[payload]
+mount = "file:e9ed56e70573be9ba2ca13e2142d42f7ff2c4931757009d43f10291eff455ebe"
+path = "src/memory-review.ts"
+reason = "Task7.3 meaningful current range: implementation:review MemoryReview component"
+
+[payload.position]
+end = "30047"
+mode = "text"
+start = "10399"

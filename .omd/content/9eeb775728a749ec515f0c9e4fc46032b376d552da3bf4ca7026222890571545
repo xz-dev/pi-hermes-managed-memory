@@ -1,0 +1,117 @@
+## Context
+
+动机见 [proposal.md](proposal.md)。这是新插件规划，目录尚无实现。用户选择官方 Pi 公共 API、当前有效上下文快照审查；外部 backend 只保留评估。后台失败不可隐藏，任何辅助调用都应受到预算和可见用量约束。
+
+证据基线：Hermes `234badf4012af380d23c91eae55d045a69c69ffb`，官方 Pi 0.99.2 / `a4715ec9bffbfcb8a32a1a4100dcfd06c12c93e4`。本地事实索引见 `docs/planning-evidence.md`；统一收费协议见 `docs/review-contract.md`；外接取舍见 `docs/external-adapter-evaluation.md`。
+
+## Goals / Non-Goals
+
+**Goals:**
+- 让画像/长期事实自动可用，历史细节可按需搜索，项目知识与临时任务限制不混为一谈。
+- 一个存储提交入口、一个辅助模型收费入口，分别可校验与审计。
+- 与 skill 插件独立工作或有界协作，主会话及原始 session 数据不受后台分析污染。
+
+**Non-Goals:**
+- 不实现外接框架、远端同步、embedding/向量服务或多用户身份平台。
+- 不修改 Pi core，不复制 Hermes 完整压缩器，不改 SOUL/AGENTS 身份文件。
+- 不宣称自动提炼无遗漏、上下文注入保证遵从、历史存在保证命中，或后台调用免费。
+
+## Decisions
+
+### D1 — 四种目标，两个事实来源
+
+长期文件为规范数据；Pi JSONL 为 session 事实来源。派生索引与 manifest 可重建，不能替代原始内容。
+
+| 目标 | 存储 | 自动使用 |
+| --- | --- | --- |
+| user | `<agentDir>/hermes-memory/USER.md` | 稳定身份/沟通偏好，短记忆预算内加载 |
+| global | `<agentDir>/hermes-memory/MEMORY.md` | 跨任务稳定环境与约定 |
+| project | `<projectRoot>/.pi/hermes-memory/PROJECT.md` | 只在该项目身份下加载 |
+| session | Pi 当前分支中的版本化 custom entries | 显式任务约束、当前状态、处理游标；不跨任务自动升级 |
+
+global 路径由官方 `getAgentDir()` 决定。projectRoot 采用显式配置、Git worktree 顶层、用户选定的非 Git 项目目录，身份为规范化根路径；不按 remote 自动共享不同工作副本。无法识别时禁用 project 写入并显示原因，不退化成 global。
+
+文件保留易读 Markdown 条目及稳定 entry ID；辅助 metadata 记录来源 session/entry、created/updated、版本和遗忘 tombstone。用户手改未带身份的新段落作为 user-authored 导入；不编造会话出处。default caps：USER 1375、MEMORY 2200、PROJECT 2200 个 Unicode scalar；可由用户调整，注入总预算另行计算。Hermes 的两个短记忆默认值是参考，PROJECT 及四目标划分是插件新增。
+
+备选：单一无界 Markdown 存所有东西。拒绝：长期文件会被每轮反复读取，造成无界费用与作用域污染。
+
+### D2 — 分类规则是提案契约，不是假定模型总能判对
+
+前台 `hermes_memory` 工具与后台 review 都调用同一 store。新条目要求 target、事实、证据定位及适用范围；偏好写成描述性事实，不写成覆盖当前用户的永久命令。一次性要求保留 session；任务流程交给 skill 插件，未安装时报告 skill 候选但不塞进用户画像。
+
+受管新增与明确、非冲突的事实更新可自动提交。后台删除、遗忘和相互冲突的画像改写进入 pending；用户 TUI 查看差异后批准。用户前台明确更正可替换旧事实；删除记录 tombstone，旧任务晚到不能复活。此策略与 Hermes 新快照中无人值守 replace/remove 一律暂存略有不同：本插件允许有明确用户更正证据的非冲突更新，破坏性操作仍不静默执行。
+
+不收集密码、API key、秘密或从网页/工具中推断出的用户授权。可疑内容仅报待确认/拒绝原因。模型提取仍可能漏判，检索与用户编辑是补救入口，而非宣称“AI 必然记得”。
+
+### D3 — 有界、版本化的提交
+
+同目标批次按最终字符数验证，超限整体拒绝；不自动追加付费 consolidation 循环。模型可在原定一次提案中给出替换建议，但需通过版本/审批规则。
+
+store 实现短文件锁、base-hash 比较、临时文件 rename、提交 intent/结果账本。读取错误不能当空文件；重复提交按 proposal ID/entry ID 去重。多目标变更分别提交、逐目标报告，不伪装跨文件事务。回滚必须比较 after hash，不能覆盖手改。
+
+metadata 与 Markdown 的不一致在恢复时显式报告，优先保护文件内容。读取版本、磁盘版本、注入版本分别可见。备份和原始 session 可仍包含被遗忘内容，删除 UI 必须说明保留边界；自动清理所有历史不在首版范围。
+
+### D4 — 短记忆快照与请求级刷新
+
+`before_agent_start` 使用公开 `systemPromptOptions.sections.hermes_memory` 构造有 scope/version/source 的短记忆块，保留其他 prompt sections；不强制替换整个 system prompt。记忆是参考事实，当前用户要求优先，注入不能成为权限提升来源。
+
+常规轮次重用稳定版本。新会话、用户刷新、项目/分支切换和压缩成功触发 rebase。中途自动压缩之后可能没有新的 `before_agent_start`，因此以公开 `context`/`context_with_system` 请求级投影更新本插件自己的记忆版本标记：只替换自己先前的块，保留首条 system、其他扩展块及工具声明；下一次正式 before_agent_start 重新建立稳定 section。投影必须幂等，不能每次追加一个新副本。公共接口测试必须覆盖这个 mid-tool-loop 边界。
+
+若无法安全识别本插件旧块，停止该次替换并显示 stale-context，而不是按字符串粗暴删除任意系统内容。自有版本块有唯一标识与长度上限；外部文件过大时按完整条目选择并报告遗漏，不半句截断事实，也不调用模型压缩磁盘内容。
+
+session 约束由工具显式登记，记录 origin user entry、task id、scope、状态及版本；从当前 `getBranch()` 重建。压缩前只作本地 checkpoint，压缩后重新投影仍 active 的约束。用户取消/替换/完成通过状态更改失效；未被登记的普通要求依赖 Pi 原生上下文，不能保证语义永不丢失。
+
+备选：每轮把所有文件和全部历史作为隐藏 user message 追加。拒绝：重复膨胀、上下文与磁盘状态难解释。也不为保留约束替换 Pi 整套压缩算法。
+
+### D5 — 原始 session 的本地检索
+
+工具 `hermes_session_search` 提供 search、read 和分页定位。通过公开 SessionManager 列举/读取指定会话，遵守当前项目与用户授权范围；使用官方解析/投影 helper 识别分支与 compaction，不假设 JSONL 所有消息属于当前时间线。
+
+第一阶段为有界本地关键词索引，缓存文件指纹、entry offsets、scope 与简短预览；追加文件增量解析，截短或改写重建对应文件，缓存可删除。大历史分批索引且显示进度；不得每次查询扫描并串接整个历史给模型。初版不增加 SQLite 或 embedding 依赖，性能数据证明需要后再换可重建索引实现。
+
+默认当前项目，跨项目需显式 scope。默认返回 10 项，每片段最多 2000 字符且总计最多 12000 字符；read 单页有相同总预算。返回 session/entry/path/branch 定位，缺失源显式 unavailable。分叉复制记录按源定位/内容去重，不能把失败分支当最终事实。review 自身不写 session 文件，其他明确后台来源默认排除；无法识别的来源标 unknown，不编造归属。
+
+原始查找不调用 LLM，无命中不做隐藏语义 fallback。系统提示仅指导“怀疑有相关历史先搜索”，不声称程序每次都强制召回。
+
+### D6 — 快照审查、账本和 UI 是一个闭环
+
+采用 [Shared review contract v1](../../../docs/review-contract.md) 全部 R1–R7。记忆默认 10 个用户轮次到期，在 agent_settled 派发；默认主模型当前有效上下文快照，单请求分析返回提案，不移动主 leaf、不加载自身扩展、不启动 Agent 工具循环。
+
+使用公开 ModelRegistry 的独立 streaming 请求，精确传递 AbortSignal、输出上限并记录 usage。预算及默认值见共享契约：64k 输入/4096 输出/90 秒，单自动任务一个请求，每日 4 次及累计额度；项目只能收紧。没有隐藏的 pre-compress、shutdown、correction、parse-error 或 subprocess fallback 付费入口。
+
+TUI 状态区是交付的一部分，不是可选 debug 功能：运行、最近 no-change/failed/cancelled、日累计 input/output/cache、未知 usage 和暂停原因始终可查询。无操作也记录请求费用；未知不为零；错误保留至用户处理。默认一次失败暂停自动审查，explicit retry 仍预留额度。
+
+新输入/项目或分支切换立即撤销旧 job generation。晚返回只结算费用，不写文件。账本失败、未知未结费用、协调协议不兼容都禁止新自动请求。预算与未结任务跨 reload/进程持久化，不能靠重启归零。
+
+### D7 — 独立插件与可选联合审查
+
+与 skill 插件共享 `hermes.review.v1` 的目标声明和一次收费结果，不共享存储写权限。两者同时到期时一个 owner 请求，输出 memoryCandidates 与 skillCandidates；消费者分别重新检查自己的版本、审批和容量。部分提交失败不重跑整个模型，结果和账本逐消费者列明。
+
+不安装 skill 插件时照常管理记忆；不安装 memory 插件时 skill 照常工作。共存时出现协议版本冲突则自动审查暂停，不静默变成两个完整快照请求。模型/provider 是执行摘要的服务，不等于“外部记忆后端”。
+
+### D8 — 外接只留评估，不预造接口层
+
+用户已选择首版仅保留设计评估。候选 read/upsert/forget/可选 ingestTurn 边界记录在 `docs/external-adapter-evaluation.md`；不创建 adapter loader、service registry、network queue 或空的 provider 接口实现。内置 store 保持窄入口即可，不为尚无第二实现的抽象增加依赖。
+
+如果未来确有跨设备/团队共享/语义检索需求，另立 change，先选择真实后端验证身份、删除、费用与故障语义。供应商服务可能同时做检索与提炼，不能把品牌简单等同于一种能力。
+
+## Risks / Trade-offs
+
+- [快照超预算导致跳过] → 明确显示 skipped-budget 与处理入口，不默默改策略；用户仍可用前台工具保存记忆。
+- [token/价格不可观测] → unknown + 预留不释放 + 暂停自动化；不能承诺远端账单绝对上限。
+- [长期记忆污染当前授权] → 事实化表达、scope/version、用户当前请求优先、权限验证不交给模型。
+- [大 session 本地检索延迟] → 分批增量索引与可见覆盖，性能门槛实测后再增加数据库；不隐藏无索引区域。
+- [其他扩展最终改写上下文] → 只操作自有块；不保证 wire-byte parity，冲突必须可见。
+- [手改/并发与遗忘复活] → hash 比较、tombstone、失效旧提案、可恢复账本。
+- [合并审查的一方失败] → request 计费只记一次，写入逐目标报告，禁止自动重发全任务。
+
+## Migration Plan
+
+1. 实现从临时 agentDir 和 fake provider 开始；先证明收费门禁/TUI，再启用自动提炼。
+2. 提供 inspect-only 模式列出目标路径与预算；首次启用不扫描/导入旧 pi-hermes-memory 私人文件。
+3. 单独验收画像/全局/项目/session，再验收两个插件合用不重复收费。
+4. 禁用扩展停止所有自动请求，Markdown 与 Pi 原会话仍可读；不自动删除备份、pending 或用量账本。
+
+## Verification boundary
+
+本轮只作规划与静态源码核验；没有实际 provider 费用实验，也没有实现或测试通过的声明。任务将以假 provider、公开 API 类型验证、分支/压缩/并发故障注入和真实 TUI 展示验收兑现这些契约。

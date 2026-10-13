@@ -1,0 +1,16 @@
+salt = "ufLqi6ACtsBT10Wk"
+previous_id = "368c1d00d6b1e06c60896cccb6af2c0fe68c6406eb4b487b819a93c83e09735a"
+timestamp = "2026-10-01T10:30:56.680780695Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "3eb8ab479a430395facd80e557e76fbb"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "规划范围：7. 联合与交付验收。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "2485"
+mode = "text"
+start = "2194"

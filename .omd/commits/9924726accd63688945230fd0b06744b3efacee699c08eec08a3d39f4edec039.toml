@@ -1,0 +1,16 @@
+salt = "Xi9NfbqfVOR4HGPu"
+previous_id = "427c98b2871878b64922298207f19f7832667f222fc887e6a1e246cd02ad01d1"
+timestamp = "2026-10-01T10:30:56.309893549Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "3eb8ab479a430395facd80e557e76fbb"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "规划范围：2. 先完成统一收费与 TUI 闭环。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "916"
+mode = "text"
+start = "529"

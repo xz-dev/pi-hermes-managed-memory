@@ -1,0 +1,14 @@
+salt = "W7oJweFPwxljq32q"
+previous_id = "4f74393e2f6d67d0f06ff0d35664b574c7b906c2f60737fd8a374ded167dd306"
+timestamp = "2026-10-05T16:37:29.689255651Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "a729d69f9448376d83b3b6dfd12fae93"
+reason = "Task7.3 explicit mapping requirement:automatic-memory:Requirement: Persistent visible failures -> implementation:review-commands. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:24cf65f6434ceb1f632104ce53e1ea28e3ef789cf90ea96539cb82f7f3d62062"
+source_version = "aa2629833952d457bd6d0760bf362d3850a2e116cf82087886529922f4f227c3"
+target = "range:26ce64b1a291e2b8af571b9c4bd97ed338ea28c034021ab17c1bb77295187ab9"
+target_version = "26ce64b1a291e2b8af571b9c4bd97ed338ea28c034021ab17c1bb77295187ab9"

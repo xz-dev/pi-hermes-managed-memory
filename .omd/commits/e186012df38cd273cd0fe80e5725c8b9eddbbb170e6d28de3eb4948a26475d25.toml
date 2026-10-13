@@ -1,0 +1,15 @@
+salt = "zpZJiSSRLM3du0cp"
+previous_id = "9c63fc52c29038e8b72d890dd2cc7c245aedbc4aa96d33fe5d9d624e049b4f9b"
+timestamp = "2026-10-05T17:31:39.601299073Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "434399a2efe3d606e01986d328da51e7"
+
+[payload]
+path = "README.md"
+reason = "Bounded7.3 close: current README span after precise loss-boundary wording; preserve existing root"
+
+[payload.position]
+end = "4190"
+mode = "text"
+start = "3143"

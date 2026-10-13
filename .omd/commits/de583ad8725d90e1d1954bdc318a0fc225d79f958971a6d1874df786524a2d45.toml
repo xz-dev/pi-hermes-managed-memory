@@ -1,0 +1,16 @@
+salt = "Hz3awDZqVFSjcWnJ"
+previous_id = ""
+timestamp = "2026-10-05T16:33:20.420883164Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "5ee4c6bb293af144d3d79a56bfbdbb41"
+
+[payload]
+mount = "file:629b7821258c9b0250fa105a9f7b6ec13316e2e68ed1f355e68fd973003ae693"
+path = "test/session-recall.test.ts"
+reason = 'Task7.3 meaningful current range: verification:recall "search default 3 / max 10 with genuine session+entry anchors and finite pagination"'
+
+[payload.position]
+end = "3156"
+mode = "text"
+start = "922"

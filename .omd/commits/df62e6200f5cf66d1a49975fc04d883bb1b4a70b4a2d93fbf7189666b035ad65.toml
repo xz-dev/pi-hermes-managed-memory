@@ -1,0 +1,14 @@
+salt = "nBLfPRWvmwKHdwjp"
+previous_id = "0d5a12f3f95cdf71df812d6e78c5a8097523c16c0ab6b1cf827fc3caeb1605bb"
+timestamp = "2026-10-01T10:30:57.5469205Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "c6705a107415396ad1809b07512d037a"
+reason = "规划范围：Requirement: Foreground and snapshot extraction。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+source_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target = "range:dbd5b2e956ad25437f861d878e812f92b21599c9dc3d04f2847a4d63c208bc71"
+target_version = "0d5a12f3f95cdf71df812d6e78c5a8097523c16c0ab6b1cf827fc3caeb1605bb"

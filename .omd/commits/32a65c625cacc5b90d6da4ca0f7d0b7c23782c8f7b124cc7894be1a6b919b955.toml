@@ -1,0 +1,9 @@
+salt = "5nYg3e2mQL489qdU"
+previous_id = ""
+timestamp = "2026-10-01T10:30:56.162496756Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "3eb8ab479a430395facd80e557e76fbb"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"

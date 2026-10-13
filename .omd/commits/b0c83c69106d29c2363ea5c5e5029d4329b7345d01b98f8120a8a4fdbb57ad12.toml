@@ -1,0 +1,15 @@
+salt = "X0kuX59WdQfg5Bj1"
+previous_id = "1bfb99437081584160ed186178d06ebce5102a7bb51ebffe7b7ff7043566c2ee"
+timestamp = "2026-10-12T15:38:16.162593903Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "c5f5ef13c4c8bc27751c54917d3c1f98"
+
+[payload]
+path = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/design.md"
+reason = "Archive only: D6 corrects one relative href;D7/D8 exact excerpts unchanged, shifted3scalars"
+
+[payload.position]
+end = "7391"
+mode = "text"
+start = "7081"

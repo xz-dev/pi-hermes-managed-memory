@@ -1,0 +1,12 @@
+salt = "pIdS2vwuGvUEgyB9"
+previous_id = "8b0168233a7d7b23ffa08d9be52b5ec7ab52fca7b444b75ba98832fd3035b383"
+timestamp = "2026-10-05T16:26:29.352648169Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["1f967f919cffaf8c63622567ff1521ab0487fe9d3670f623a6e42214b4109cfd"]
+link_id = "4d0c1733d1fea70cda2bf0265f81d39a"
+reason = "Reviewed relation design:D5 -> requirement:session-recall:Requirement: Recall guidance without recall guarantees: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

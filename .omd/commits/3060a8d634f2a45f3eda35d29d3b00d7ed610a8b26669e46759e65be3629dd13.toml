@@ -1,0 +1,14 @@
+salt = "471XXvsN4eTK9Gf6"
+previous_id = "0af2f9991068e5253ca670cbacd6d9143c1795bcf842286a333c0fe4311b4cb3"
+timestamp = "2026-10-01T10:31:01.980216923Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "16a078c14e431bbd29053b2e00c145d9"
+reason = "规划范围：上线前必须回答的问题。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:111664f4cdd27eebc46e2608f3e58ef8b7c0d7a9570017a4d93d854bc6f9d76a"
+source_version = "fd28bd6bd9d56552fe54661d8a589269616f58fc1f35ac211fdd08546ead83f0"
+target = "range:01da33bf4dadbd6a678247989b7c3ffb34da0b16fef71ffd98699a05b6434bd9"
+target_version = "01da33bf4dadbd6a678247989b7c3ffb34da0b16fef71ffd98699a05b6434bd9"

@@ -1,0 +1,12 @@
+salt = "1dPl8fPlZYzCR7SV"
+previous_id = "dd34c422a513ec886830be700fc1c2ef6e17da84834cae8fe81479ae92be1cd3"
+timestamp = "2026-10-12T15:28:14.104781121Z"
+schema = "omd.commit/3"
+kind = "rename"
+content_ref = "empty"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+reason = ""
+source = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+target = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/specs/automatic-memory/spec.md"

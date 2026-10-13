@@ -1,0 +1,12 @@
+salt = "72ISTMFZw20pgi4B"
+previous_id = "cd577e43ce77767582286d37afe9a99d44d343c6d6c855a240b11afdb3c83be1"
+timestamp = "2026-10-12T12:35:58.950805393Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["073161377e8a11c40ce7c83476d613f7040543e04626bc02eadae8c6b341c529"]
+link_id = "da5ddfb0f1ec67b2b28f5f6dfdc8df14"
+reason = "Task1.4 reviewed requirement:automatic-memory:Requirement: Schedule on user work not model loops -> verification:cadence: only approved exact JSON envelope tolerance/current coordinates or historical gate pointer changed. Existing requirement, scope, version, approval, budget, cancellation and isolation remain. 181 affected review tests/native12/check and actual4-call sourced save/correction/new-session evidence inspected. No reopen/rebilling of7.1–7.3; this link health is not itself semantic proof."
+stop = false

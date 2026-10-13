@@ -1,0 +1,15 @@
+salt = "BvCbElcgRmoxl3NC"
+previous_id = "24b11714965c49bb2027c9b8075de845d29762baabeb35356aa67800e57f471a"
+timestamp = "2026-10-05T16:23:06.561887886Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "c034f419c64be95bf2f57f3d876b974d"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+reason = "Task7.3 reconcile requirement:automatic-memory:Requirement: Complete disable and explicit retry to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "3660"
+mode = "text"
+start = "3395"

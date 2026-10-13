@@ -1,0 +1,16 @@
+salt = "GtscGlX7jgFkiSPT"
+previous_id = ""
+timestamp = "2026-10-05T16:33:21.733970191Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8c43b35ebaee4ece769ae355e7a86f63"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "Task7.3 meaningful current range: task:2.1 - [x] 2.1 实现 review-contract v1 的持久预算预留、单 owner 和去重记录；并发进程、reload、日期回拨和崩溃恢复验证额度不可双花或清零。"
+
+[payload.position]
+end = "640"
+mode = "text"
+start = "552"

@@ -1,0 +1,12 @@
+salt = "pqHIrvCdcDAbdp1L"
+previous_id = "467bc53491818f2de4eb0c99e2d5b85986ae61ef4db8d1da0226195f8d1490ec"
+timestamp = "2026-10-05T16:26:30.07120917Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["b87d963f15b44770eb005bcefe0d7684a675fb662a154175173238b768533d0f"]
+link_id = "952e81f3722f24fe722b9c5ff852a1be"
+reason = "Reviewed relation design:D4 -> requirement:memory-context:Requirement: Preserve explicit session constraints: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

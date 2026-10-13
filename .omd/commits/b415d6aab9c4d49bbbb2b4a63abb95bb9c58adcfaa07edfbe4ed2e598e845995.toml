@@ -1,0 +1,14 @@
+salt = "CuJTm1fTeLFfptqC"
+previous_id = "6cf0e127b13298ff90bd400bfb194af1a8da7880ba6c2507297e94d3eeed7de0"
+timestamp = "2026-10-01T10:32:42.427768109Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "1328fc9eadf26b13d94a1ae3e3300226"
+reason = "H2 支撑或约束 D6；是规划依据关系，不声称上游已经实现本插件新增行为。"
+source = "range:b904bfe5589fee937e63aef1a9c294783c60b20d872a5cbfe902ce9e0ba8e00c"
+source_version = "b904bfe5589fee937e63aef1a9c294783c60b20d872a5cbfe902ce9e0ba8e00c"
+target = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"

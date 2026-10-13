@@ -1,0 +1,16 @@
+salt = "nwXP5RSewaVG555p"
+previous_id = "dfc24a30b32484a841607aeb2dcc337f350fbabb80ecfa590662aa4931ab48d0"
+timestamp = "2026-10-01T10:30:58.215872492Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "a3f6d8a966e5b61f442a6b5266048ddd"
+
+[payload]
+mount = "file:7e6666b4bc4cd24f30f13c333965ea3c125b06caa79ff0023ccc18b4b98606bf"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+reason = "规划范围：Requirement: Shared review without required companion。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "2369"
+mode = "text"
+start = "2084"

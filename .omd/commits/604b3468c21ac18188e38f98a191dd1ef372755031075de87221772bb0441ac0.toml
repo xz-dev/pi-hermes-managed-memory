@@ -1,0 +1,16 @@
+salt = "UdmxaY6Wel7RVVzl"
+previous_id = ""
+timestamp = "2026-10-05T16:33:20.650617504Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "3c8513f7d860fc4f19354dff7562f7cd"
+
+[payload]
+mount = "file:50a99c3ccb55bf78c12113ce4cd6d5dcc7f2ddace4515be94b94e9ee5be26d00"
+path = "test/foreground-memory.test.ts"
+reason = 'Task7.3 meaningful current range: verification:foreground "registered tool saves a natural stable preference with native source and a fresh session injects it"'
+
+[payload.position]
+end = "5796"
+mode = "text"
+start = "3260"

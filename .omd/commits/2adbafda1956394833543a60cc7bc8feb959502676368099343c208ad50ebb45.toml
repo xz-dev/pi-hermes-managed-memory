@@ -1,0 +1,14 @@
+salt = "vwG0DhhsQqiXBtw4"
+previous_id = "341d24165e55395517f73992fec0a4c2729890bfa651745acbb4c627b43803d2"
+timestamp = "2026-10-01T10:30:57.933464692Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "76059a90c8855291b8b56b532d316e7a"
+reason = "规划范围：Requirement: Persistent visible failures。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+source_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target = "range:24cf65f6434ceb1f632104ce53e1ea28e3ef789cf90ea96539cb82f7f3d62062"
+target_version = "341d24165e55395517f73992fec0a4c2729890bfa651745acbb4c627b43803d2"

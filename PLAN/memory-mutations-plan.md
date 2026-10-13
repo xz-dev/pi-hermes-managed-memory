@@ -1,0 +1,7 @@
+# Task 3.3 — final-state batch mutations
+
+Keep MemoryStore as the single file-mutation entry, reuse existing path/hash/lock/backup/atomicWrite helpers. Add a same-target batch of additions and explicit replacements (entry ID + expected old fact + new sourced fact); keep add() as a compatibility wrapper. Check the captured raw version and scope under lock before applying, preserve replacement identity/creation time, validate new provenance, reject incompatible/duplicate updates as a whole, and deduplicate repeated facts. Render and check capacity only after applying the entire batch; no intermediate write and no model/consolidation call. Return saved/no-change/conflict with IDs/version; multi-target callers still report each target separately. Removal/pending/tombstone/intent-result audit/recovery and rollback stay in 3.4; do not introduce silent destructive replacement policy at the caller.
+
+Accepted checks: replace a long fact then add another in one final-fitting batch; final oversize and stale editor version leave bytes unchanged; duplicate/no-op is stable; concurrent same-base commits cannot both win. Use existing isolated Node fixture/tests, no dependency/framework or source-repo Git activity.
+
+Recovery audit: prior transcript source snapshot f21c7a27 and current test/memory-provenance.test.ts are byte-identical (6782 chars); no prior provenance checks were lost. No further test rewrite is required.

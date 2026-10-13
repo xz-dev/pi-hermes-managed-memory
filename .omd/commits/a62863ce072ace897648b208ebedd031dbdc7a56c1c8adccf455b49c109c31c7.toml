@@ -1,0 +1,12 @@
+salt = "N5H2peGBOOhBDHWQ"
+previous_id = "5de272d20cf769e247bccd550934d77fb1d4887ecca235dd1c494982ede3c8d9"
+timestamp = "2026-10-12T15:38:24.917026237Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["528b9c41b35d8c19cadbc253becb96f3241f5230a58d7c837d5fca2cf6d16a65"]
+link_id = "be65e375d57569fa3563b1f15721c69c"
+reason = "Archive navigation review requirement:automatic-memory:Requirement: Learning usefulness is observable -> gate:1.4: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

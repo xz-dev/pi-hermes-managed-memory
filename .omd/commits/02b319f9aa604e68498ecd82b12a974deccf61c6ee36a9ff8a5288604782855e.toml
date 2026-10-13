@@ -1,0 +1,12 @@
+salt = "6M6uC0TMVdVjPv0E"
+previous_id = "65560c06a784a2d61eef128a696cdf67dc1b72d0fbb7a3fd7f2fcdc97a1c2a13"
+timestamp = "2026-10-12T15:38:24.252664303Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["528b9c41b35d8c19cadbc253becb96f3241f5230a58d7c837d5fca2cf6d16a65"]
+link_id = "abafa8954d2967e135a159318d748e98"
+reason = "Archive navigation review requirement:automatic-memory:Requirement: Schedule on user work not model loops -> implementation:runtime: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

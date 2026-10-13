@@ -1,0 +1,12 @@
+salt = "mnm9Oj9GWOD4jJDy"
+previous_id = "233232f27d38f4e11c17617a48ad668c57ebb5b7adcf01adcc5924dd4d2fd47b"
+timestamp = "2026-10-05T16:26:28.946876244Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["b87d963f15b44770eb005bcefe0d7684a675fb662a154175173238b768533d0f"]
+link_id = "29552e91529fb1852fdc3ef1ec0a04f4"
+reason = "Reviewed relation design:D4 -> requirement:memory-context:Requirement: Local compaction checkpoint without hidden model work: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

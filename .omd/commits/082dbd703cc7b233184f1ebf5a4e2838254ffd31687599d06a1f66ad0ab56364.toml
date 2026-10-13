@@ -1,0 +1,10 @@
+salt = "JTKSvcPVM985s68A"
+previous_id = ""
+timestamp = "2026-10-01T10:30:58.101570829Z"
+schema = "omd.commit/3"
+kind = "atomic_begin"
+content_ref = "empty"
+
+[payload]
+mount = "file:7e6666b4bc4cd24f30f13c333965ea3c125b06caa79ff0023ccc18b4b98606bf"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"

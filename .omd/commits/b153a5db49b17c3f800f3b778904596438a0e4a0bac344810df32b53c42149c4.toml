@@ -1,0 +1,16 @@
+salt = "5DSe2tVa0QGfTCE4"
+previous_id = ""
+timestamp = "2026-10-05T16:33:23.84269653Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8c43b35ebaee4ece769ae355e7a86f63"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "Task7.3 meaningful current range: task:6.2 - [x] 6.2 实现用户轮次计数、settled 调度和当前有效快照；验证三条用户消息/四十工具循环不放大用户次数，不读回压缩前所有历史。"
+
+[payload.position]
+end = "2061"
+mode = "text"
+start = "1989"

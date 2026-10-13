@@ -1,0 +1,16 @@
+salt = "OWbpOUhGCABwR0sY"
+previous_id = ""
+timestamp = "2026-10-05T16:33:19.074855741Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "74b42fbe59a8aacc61fd22cffce7c5ae"
+
+[payload]
+mount = "file:4843945a8e70d77f84fa1710da27ddf31485c9f40f629a7a048d40d9427663fd"
+path = "test/review-controls.test.ts"
+reason = 'Task7.3 meaningful current range: verification:ui "failed review stays visible through ordinary answers and public SDK reload; separate status keys and bounded stock rendering"'
+
+[payload.position]
+end = "3778"
+mode = "text"
+start = "2367"

@@ -1,0 +1,16 @@
+salt = "r4771oW0WRozZYpW"
+previous_id = ""
+timestamp = "2026-10-05T16:35:13.949327358Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "3c8513f7d860fc4f19354dff7562f7cd"
+
+[payload]
+mount = "file:50a99c3ccb55bf78c12113ce4cd6d5dcc7f2ddace4515be94b94e9ee5be26d00"
+path = "test/foreground-memory.test.ts"
+reason = "Task7.3 exact executable case range: verification:policy"
+
+[payload.position]
+end = "11871"
+mode = "text"
+start = "9088"

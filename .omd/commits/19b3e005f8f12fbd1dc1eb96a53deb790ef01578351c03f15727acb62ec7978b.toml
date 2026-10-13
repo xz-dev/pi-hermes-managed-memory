@@ -1,0 +1,12 @@
+salt = "DBxj2MX6kAR4X000"
+previous_id = "cd367a430cbe995eb01cbbdd6da2b3fe9b84fa711bab6d9310d15b65e0a49504"
+timestamp = "2026-10-05T16:26:31.309877838Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["1f967f919cffaf8c63622567ff1521ab0487fe9d3670f623a6e42214b4109cfd"]
+link_id = "9364311f6cdfb22d27285bc8e82d57c8"
+reason = "Reviewed relation requirement:session-recall:Requirement: Native session source of truth -> tasks:5: current source/design/requirement/task text remains consistent with accepted 7.1/7.2 and scoped native7.3 evidence; Unicode range/source version reconciliation only. Task1.4 remains unexecuted and 7.3 unchecked; this adapt is not semantic test proof or task acceptance."
+stop = false

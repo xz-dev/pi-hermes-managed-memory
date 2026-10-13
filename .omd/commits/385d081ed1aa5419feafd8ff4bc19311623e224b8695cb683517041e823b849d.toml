@@ -1,0 +1,14 @@
+salt = "wGvafHsDXCaG1S0n"
+previous_id = "2175a93a3a4bef43946b9da84b6f47318956027546a8fbc49afe44a8f906ccfc"
+timestamp = "2026-10-01T10:30:58.91328947Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "952e81f3722f24fe722b9c5ff852a1be"
+reason = "规划范围：Requirement: Preserve explicit session constraints。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+source_version = "3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+target = "range:f0231bbcaf3a827d4373dbdecc735bfab2c821cd27469709cc660158358541d2"
+target_version = "2175a93a3a4bef43946b9da84b6f47318956027546a8fbc49afe44a8f906ccfc"

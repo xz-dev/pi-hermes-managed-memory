@@ -1,0 +1,14 @@
+salt = "vw5CAJmGoEihTPKi"
+previous_id = "7b663ac2a9bdf034330ef228f532afcb023d4b323e3a1264a2ce2f44ba0d5fba"
+timestamp = "2026-10-01T10:30:57.300880432Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "5ac7fec2520f2225871d1fd50f8a5f4c"
+reason = "规划范围：Requirement: Reversible changes and explicit forgetting。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:fd7ccac663de173eed67857905e8dad45b73f1cc64a628005a9d4da73a9ed718"
+source_version = "4a2ab6287fc0346f3d47badda747546afe23a5bca9f2f38dd65d7ac26863e8b2"
+target = "range:0e463f07b9400aea52c3cd377a1a603d4b0135b33cdf797bb02bd38c217cb844"
+target_version = "0e463f07b9400aea52c3cd377a1a603d4b0135b33cdf797bb02bd38c217cb844"

@@ -1,0 +1,16 @@
+salt = "K9rh0Mtx98RjhZGF"
+previous_id = ""
+timestamp = "2026-10-05T16:33:23.721922836Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "8c43b35ebaee4ece769ae355e7a86f63"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "Task7.3 meaningful current range: task:6.1 - [x] 6.1 实现前台记忆工具的稳定事实分类与来源校验；覆盖临时要求、引用注入、秘密、矛盾画像和应归属 skill 的流程，验证不会错误长期化。"
+
+[payload.position]
+end = "1989"
+mode = "text"
+start = "1913"

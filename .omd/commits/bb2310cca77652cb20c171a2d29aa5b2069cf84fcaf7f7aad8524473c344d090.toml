@@ -1,0 +1,9 @@
+salt = "K4DDn0UTrYQit1XM"
+previous_id = ""
+timestamp = "2026-10-05T16:33:15.233966027Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "dbef1f16ed5e4dc3dd67ffb62ea05d24"
+
+[payload]
+path = "test/memory-scopes.test.ts"

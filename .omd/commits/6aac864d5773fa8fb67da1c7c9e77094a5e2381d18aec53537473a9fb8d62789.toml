@@ -1,0 +1,14 @@
+salt = "PSZ82NThklPGUFv3"
+previous_id = "5d34e9b83340bac404a3cbb4ec138d88ba4977c511dc08ee5672cb7e354aaade"
+timestamp = "2026-10-05T16:37:34.605898054Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "0b727f2c58483ffebddb0b3d875f2d25"
+reason = "Task7.3 explicit mapping requirement:memory-context:Requirement: Branch-aware session state -> implementation:constraints. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:3e73342f9303d8066f84fdf752702c3f0ccea0a99cdfe4cf9c2d852b62d326a4"
+source_version = "3c778cca7c044f3084fb6c352b080c3e28da483022991840239c17e538a30340"
+target = "range:cfa7d6823fe9c388df35b4a0be6f5adc6951ed5cbb31f1df72c2423a22896647"
+target_version = "cfa7d6823fe9c388df35b4a0be6f5adc6951ed5cbb31f1df72c2423a22896647"

@@ -1,0 +1,15 @@
+salt = "qil9tGw7EQzqfzqY"
+previous_id = "30de37b074cf0139b00c11102a5731da04bcf80598b36b500479fdec12874207"
+timestamp = "2026-10-05T16:23:06.710579784Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "e96abc1d751c5a4e7f7892b8df8c28bb"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/memory-context/spec.md"
+reason = "Task7.3 reconcile requirement:memory-context:Requirement: Branch-aware session state to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "2580"
+mode = "text"
+start = "2344"

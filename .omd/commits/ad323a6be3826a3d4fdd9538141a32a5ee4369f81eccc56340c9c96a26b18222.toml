@@ -1,0 +1,14 @@
+salt = "YckTXiiib4Nl1rsF"
+previous_id = "24f4a062c35d38af8effb62f26ab161fe141cab26b5d5973a9fc71e54235fa07"
+timestamp = "2026-10-01T10:30:58.148879732Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "0f03132c17ff7044f17190621279ab47"
+reason = "规划范围：Requirement: Validated proposals and user-controlled deletion。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:082dbd703cc7b233184f1ebf5a4e2838254ffd31687599d06a1f66ad0ab56364"
+source_version = "20bd4b2c3e50992b3fc5e0446467fac38bfea1f7f2fe367fa05648306058061a"
+target = "range:36dfe758adcc1fc956bc325e43dbed9f3bfc80118eb91855e8f9acc56f423c15"
+target_version = "36dfe758adcc1fc956bc325e43dbed9f3bfc80118eb91855e8f9acc56f423c15"

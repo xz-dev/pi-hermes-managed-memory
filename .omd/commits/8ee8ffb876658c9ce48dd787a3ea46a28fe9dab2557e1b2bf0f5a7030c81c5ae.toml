@@ -1,0 +1,14 @@
+salt = "KNX4HY5Uv2uKFsVp"
+previous_id = "d133504f1c7ff48fca64850173346511134290e6da80b7e71b5938e34741eda1"
+timestamp = "2026-10-01T10:30:59.533001519Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "0979f597b2af2638719028ac2cf69631"
+reason = "规划范围：Requirement: Explicit scope and provenance。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:11596a2a1ec166e5b4c5d7049cea47c7f23308f17a79745cbc029150478fd4e2"
+source_version = "9d1ae531eb3f248e8d89024c24a990c19c902515a6eb5aaee94c4b08de87e18f"
+target = "range:44d4483d2fa332e4641b065cf7f2bb5b8c94318cf1a4942569f61d69b5d4d81a"
+target_version = "44d4483d2fa332e4641b065cf7f2bb5b8c94318cf1a4942569f61d69b5d4d81a"

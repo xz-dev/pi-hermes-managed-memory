@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [39, 89, 59, 189, 137, 11, 250, 147, 170, 225, 37, 205, 11, 74, 53, 101]
+len = 8532
+sha256 = "6fda7399992a6c0b6a45217335d96121dc2e4257f94143eac6dc9b7b2b25566c"
+encoding = "utf-8"
+content_file = "content/6fda7399992a6c0b6a45217335d96121dc2e4257f94143eac6dc9b7b2b25566c"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/session-recall-tool.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/session-recall-tool.test.ts"

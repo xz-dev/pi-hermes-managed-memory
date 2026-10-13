@@ -1,0 +1,16 @@
+salt = "7ctdgqYByXDNd9Zg"
+previous_id = ""
+timestamp = "2026-10-05T16:33:20.885144634Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "242e7c72eb9ef5683ea72b1aa88db43e"
+
+[payload]
+mount = "file:ea29a00b97a2735cf6178f9674809e2ba2b2cb66f43a016005ad1c0985605869"
+path = "test/review-coordination.test.ts"
+reason = 'Task7.3 meaningful current range: verification:coordination `real mixed native settlement pays once and commits independently (${peerId}; ${peerFirst ? "skill" : "memory"} registered first)`'
+
+[payload.position]
+end = "8771"
+mode = "text"
+start = "4700"

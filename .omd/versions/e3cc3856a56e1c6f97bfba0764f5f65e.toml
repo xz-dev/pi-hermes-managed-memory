@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [227, 204, 56, 86, 165, 110, 28, 111, 151, 191, 186, 7, 100, 245, 246, 94]
+len = 5511
+sha256 = "acbaa435023cb0ca4d547f1ce55d7040bfc12e7af7b967caf5259628e3756d7b"
+encoding = "utf-8"
+content_file = "content/acbaa435023cb0ca4d547f1ce55d7040bfc12e7af7b967caf5259628e3756d7b"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/tasks.md"
+
+[recovery]
+type = "file"
+project = "root"
+path = "openspec/changes/archive/2026-10-12-add-managed-memory-lifecycle/tasks.md"

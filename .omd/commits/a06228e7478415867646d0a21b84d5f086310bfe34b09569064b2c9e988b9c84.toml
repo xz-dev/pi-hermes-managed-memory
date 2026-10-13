@@ -1,0 +1,14 @@
+salt = "8MkF7M3gGXwauhNc"
+previous_id = "2bf90919a84124f08319c8d6c4f7bab946f0bd92ceca20b8b2692639bb1a991a"
+timestamp = "2026-10-01T10:30:57.032863508Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "f3bd265ef518b7b61eaf7324641e72b1"
+reason = "规划范围：Requirement: Inspectable versioned records。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:af6cc58138b98a60bd7b11ad91a704f07ab177227cf565c18a44975ccb16714c"
+source_version = "022ba7c77282338866c02f40bf68919a314be0ff9faa7002650a00f676ae5cb2"
+target = "range:0e463f07b9400aea52c3cd377a1a603d4b0135b33cdf797bb02bd38c217cb844"
+target_version = "0e463f07b9400aea52c3cd377a1a603d4b0135b33cdf797bb02bd38c217cb844"

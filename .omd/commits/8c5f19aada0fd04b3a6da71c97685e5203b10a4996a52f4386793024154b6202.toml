@@ -1,0 +1,14 @@
+salt = "isrLDLboWiRD1jOh"
+previous_id = "263cdab5eb253c0f58afc7ef43857715062fa726b8f7ada9d2648b2adb03cafc"
+timestamp = "2026-10-01T10:30:58.32998543Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "44397b4cf23adaf679fb16d8e2288fd1"
+reason = "规划范围：Requirement: Complete disable and explicit retry。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+source_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target = "range:6b6d1a8813bf96ee07faea078a304ca7009e05e1ac38b9efe7c722db83f703b5"
+target_version = "263cdab5eb253c0f58afc7ef43857715062fa726b8f7ada9d2648b2adb03cafc"

@@ -1,0 +1,105 @@
+# Pi Hermes managed memory
+
+官方 Pi 扩展：短记忆、当前会话约束、本地历史检索和有预算的独立审查。验证基线是 Pi 0.99.2 / `a4715ec9`；本仓库仍为开发候选，不是已发布包。
+
+## 加载与隔离
+
+在已有依赖的本仓库根，通过官方入口加载：
+
+```sh
+pi -e ./src/index.ts
+```
+
+这条命令仅说明加载方式，不授权真实模型调用。试验用独立 `PI_CODING_AGENT_DIR`、HOME、USERPROFILE 和临时 cwd；不要把个人 agentDir、auth、旧记忆或历史复制进去。新鲜确定性生命周期验证位于 [7.3 证据](PLAN/lifecycle-acceptance-evidence.md)，使用 synthetic provider、禁用发现/网络/重试、`projectTrusted:false`；没有修改个人 Pi 安装。
+
+配置读取自 `<agentDir>/hermes-memory/config.json`，不是 Pi 的通用 settings 字段。以下是实际支持的最小例子，目录必须存在，项目根必须包含当前 cwd：
+
+```json
+{
+  "automaticReview": false,
+  "projectRoot": "/absolute/path/to/temporary-project"
+}
+```
+
+未显式设置项目根时，只有受信任项目会尝试原生项目解析；未解析项目不回退到 global。`createMemoryExtension(options)` 的显式选项优先于该配置。可配置的其他键为 `caps`、`limits`、`injectionBudget`；调整不是新的费用或破坏性操作授权。当前实际路径和生效限制以 inspect/status 为准。
+
+## 存在哪里
+
+| 目标 | 实际位置 | 默认容量 |
+| --- | --- | --- |
+| user 偏好 | `<agentDir>/hermes-memory/USER.md` | 1375 Unicode scalars |
+| global 环境事实 | `<agentDir>/hermes-memory/MEMORY.md` | 2200 scalars |
+| project 项目事实 | `<resolvedProjectRoot>/.pi/hermes-memory/PROJECT.md` | 2200 scalars |
+| session 约束 | 原生 Pi session JSONL 的 custom entries | 不是短 Markdown 文件；注入另有界限 |
+
+容量检查针对整个最终文件（包括 metadata），不是只数事实正文。默认 owned memory section 预算6000 scalars，包括其 envelope；整条事实要么纳入，要么报告遗漏，不收费缩写。显式登记的活动 session 约束优先；放不下时阻止正式模型请求，避免假装约束仍完整。
+
+每个 Markdown 目标旁有 `.journal.jsonl`、`.lifecycle.json` 和 `.backups/<version>.md`。来源、版本、epoch、tombstone 和 pending 由本地受管生命周期维护。不要删除账本/journal 来“清零”或解除错误；缺失/损坏历史会拒绝当作空数据继续写。
+
+## 记忆、检索与更正
+
+模型可用两个真实前台工具：
+
+- `hermes_memory`：`remember` 保存短的逐字稳定事实；`kind` 为 `preference`、`environment`、`project-fact`。`fact` 必须等于 trimmed `quote`，来源必须是当前有效分支的真实原生用户 entry。秘密、临时指令、第三方引用、画像推断拒绝；`procedure` 只报告 skill candidate，不写记忆。
+- `hermes_session_search`：默认在当前项目的本地原生历史做关键字检索。参数 `query`、`limit`、`cursor`；读取用命中的 `sessionId` / `entryId`。显式 `scope:"project"` 是允许的跨项目 native-store 检索开关，不是任意路径或远端 backend。默认3组、最多10组；片段正文≤2000、单页正文≤12000、定位/分页 metadata 另行有界。返回真实 locator 和 coverage；partial/no-hit 不调用辅助模型。
+
+查看真实路径、版本、ID、pending 和注入诊断：
+
+```text
+/hermes-memory inspect
+/hermes-memory refresh
+/hermes-memory pending [user|global|project]
+```
+
+`refresh` 是本地 working-snapshot 刷新，并撤销旧 review 资格；不会调用模型。普通请求和压缩成功边界也刷新 owned section；刷新失败保留诊断，不能把旧内容当空文件覆盖。
+
+自动/手动后台审查仅可把有证据的稳定新增事实直接提交。更正可采用已验证的窄格式，**整条原生用户消息**必须是：
+
+```text
+Correction: "I prefer concise answers." -> "I prefer detailed answers."
+```
+
+或 `更正：“旧事实” → “新事实”`。大小写、引号和箭头重要，外层空白允许；额外上下文、歧义或后续矛盾会使替换 pending。模型不是权限来源，也不保证识别率。
+
+前台 `remember` 若声明 `replaces`，还须携带 inspect 取得的目标 `expect` 版本；它始终先进入 pending，不因模型写了批准字段就直接覆盖。处理真实提案：
+
+```text
+/hermes-memory approve user <proposal-id>
+/hermes-memory deny user <proposal-id>
+/hermes-memory forget user <entry-id...>
+/hermes-memory rollback user
+```
+
+approve/forget/rollback 要求公开 UI 明确确认，确认后重新检查版本/上下文；无 UI 返回 `confirmation-required`，不写入。deny 不执行提案。Rollback 是对选中已提交变更的显式逆操作，版本漂移拒绝；批准的回滚可能逆转对应遗忘效应，不能当成普遍“永不复活”。
+
+**遗忘不是抹除历史。** 它立即移除未来注入资格，并用 tombstone 阻止旧未批准提案复活；备份、审计 journal 和原始 Pi sessions 仍保留旧内容，清理边界独立。历史 search/read 仍可能读到旧讨论。7.3 使用明确标注的公共 UI double 模拟一次批准，不冒充真实人或真实 TUI。
+
+## 自动审查、费用与恢复
+
+```text
+/hermes-review status
+/hermes-review usage
+/hermes-review errors
+/hermes-review run
+/hermes-review pause
+/hermes-review cancel
+/hermes-review resume
+/hermes-review retry [request-id]
+```
+
+默认自动化 ON，记忆每10个真实用户轮次到期，在最终 `agent_settled` 派发；工具轮次独立计数，不放大用户数。可选 skill 协议消费者新到期时可合并到同一完整有效快照。只有一个选定 owner、一个请求、一笔持久预留；无 companion 也可独立工作。真实 companion 兼容性仍未验证。
+
+默认每请求 input/output 64000/4096 tokens、90秒；每 UTC 日4次、累计256000/16384。输入估算保守使用序列化 UTF-8 bytes并标记 estimated；缓存字段保留，实际输入按 SDK total-minus-output 归一化，价格未知不显示为零。Limits 是宿主可控上限，不是远端账单的数学保证。
+
+辅助账本位于 `<agentDir>/hermes-review/ledger.json`，另有初始化 receipt/error marker。请求前持久预留；changed/no-change/no-proposal/failed/cancelled 都可能花钱。SDK重试设为0，没有隐藏模型/进程 fallback、收费 consolidation、退出 flush 或自动重放；这不证明远端 provider 内部行为或物理 TCP 状态。
+
+失败或 unknown usage 会暂停。`status|usage|errors` 查看原请求、未结预留与原因；当前会话费用和辅助费用分开。`resume` 和 `retry` 必须先查看并确认：未知实际量仍未知，确认日完整旧预留一次记作预算消费，不证明远端未收费、不自动退还或重放。`retry` 是一个**新的**受预算请求，仅限原目标；generation/版本/参与者改变须重新预览。取消不撤销已经发生的费用；迟到 usage 只结算旧请求，不写失效内容。合法恢复不绕过 owner、账本损坏、日限额或时钟回拨保护。
+
+## 两种禁用与保留数据
+
+1. **Automatic review OFF**：在独立 agentDir 的上述配置设置 `automaticReview:false`。inspect/status 会显示 OFF；不自动审查，但显式 `run` 仍可能收费，前台 remember、注入和本地 recall 仍工作。`pause` 是持久费用闸门，不等同于卸载扩展。
+2. **完全不加载扩展**：下次 Pi 启动不要传此 `-e`，也不要通过包/其他入口加载它。实际 SDK 验证使用 `DefaultResourceLoader` 的 `noExtensions:true` 且 `extensionFactories:[]`，经 `AgentSessionRuntime.newSession` 重建，之后没有插件 tools/owned section/辅助请求。单独 `--no-extensions` 不能用来猜测是否还加载了显式 factory/path；检查实际资源入口。
+
+禁用/不加载不会删除 Markdown、backups、journal、账本或原生 sessions；这些仍可由用户显式读取。没有外部 memory backend，没有迁移旧私人数据。Fake provider 只证明宿主流程、权限与费用机制；真实模型提炼质量和效用任务1.4仍需独立费用授权及用户认可的脱敏样本。
+
+实现/测试范围与历史门禁见 [traceability](docs/traceability.md)、[共享费用契约](docs/review-contract.md) 和 [7.2 已接受费用/TUI 证据](PLAN/review-cost-ui-evidence.md)。

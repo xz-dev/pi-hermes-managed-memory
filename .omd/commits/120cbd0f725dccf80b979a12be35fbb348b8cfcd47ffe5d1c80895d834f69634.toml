@@ -1,0 +1,14 @@
+salt = "9Bpl0a6N1d0AMABJ"
+previous_id = "37c49d14a42a7e87e1d263921c4f103ff663ca09413855b15ee8f56165d6436b"
+timestamp = "2026-10-05T16:37:32.250849241Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "42f5269be180e0434225e97ecb25a2dd"
+reason = "Task7.3 explicit mapping requirement:automatic-memory:Requirement: Learning usefulness is observable -> implementation:review. Current source/case span inspected; accepted source-identical evidence reused unless lifecycle page records fresh run. Link health is not semantic test proof. 1.4 unexecuted; 7.3 requires parent acceptance."
+source = "range:162b2b6f81ed2a46044c731997e852bb5a916bde4fca65cd1a57498a260e688d"
+source_version = "3b64e7dbaf4df24fa7967e036faffbcc006e8319aa7066646cb4d046a7eca83a"
+target = "range:1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91"
+target_version = "1278bdfcd9374bb13c81e64794be54975ad86c27e597c3a993726bd176898f91"

@@ -1,0 +1,16 @@
+salt = "0ymGBdn4WGDryyQG"
+previous_id = "dd5909d5071248ce9ad523a4d83735a23c0fbf45fc771f8135c732c8ab01a25c"
+timestamp = "2026-10-01T10:30:59.713904766Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "45f113a1151c2f669584b6b36e13b0bc"
+
+[payload]
+mount = "file:b83d87f7675914ed084072d7307455998c9275da6754b660b4285a07c3e0f301"
+path = "openspec/changes/add-managed-memory-lifecycle/specs/session-recall/spec.md"
+reason = "规划范围：Requirement: No hidden inference during retrieval。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "1097"
+mode = "text"
+start = "878"

@@ -1,0 +1,12 @@
+salt = "IARGaVp5ArKq7p1E"
+previous_id = "530d327e14f221a8a986eae64f85857efef35d1a5ab2839dcef5de7a8d2620d0"
+timestamp = "2026-10-12T15:38:17.096917859Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["528b9c41b35d8c19cadbc253becb96f3241f5230a58d7c837d5fca2cf6d16a65"]
+link_id = "0d2e3ca4846c5a4539bd3e7657bc4408"
+reason = "Archive navigation review design:D6 -> tasks:6: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

@@ -1,0 +1,9 @@
+salt = "5okKsUbVL11GokLm"
+previous_id = ""
+timestamp = "2026-10-01T10:31:01.119497679Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "bca7a2a35edf5c0dbc6ede37545bca16"
+
+[payload]
+path = "docs/external-adapter-evaluation.md"

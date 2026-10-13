@@ -1,0 +1,15 @@
+salt = "r38o8oTo4Swe0Gx5"
+previous_id = "6f597d8d8b33df5f84de5a3ea53aa6f31ae6c7bc51128683d5e4cb82e12843e9"
+timestamp = "2026-10-05T16:23:06.403419019Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "c034f419c64be95bf2f57f3d876b974d"
+
+[payload]
+path = "openspec/changes/add-managed-memory-lifecycle/specs/automatic-memory/spec.md"
+reason = "Task7.3 reconcile requirement:automatic-memory:Requirement: Validated proposals and user-controlled deletion to current accepted source at Unicode-scalar coordinates; history/root preserved, no task acceptance"
+
+[payload.position]
+end = "3110"
+mode = "text"
+start = "2372"

@@ -1,0 +1,12 @@
+salt = "pkO4QYNEiDSaAclK"
+previous_id = "3ca5134da45f50c05cb90d329eb4a93958ebe4080e1fbe337ec5fe2eebc1b1d9"
+timestamp = "2026-10-12T15:38:26.613671401Z"
+schema = "omd.commit/3"
+kind = "adapt"
+content_ref = "empty"
+
+[payload]
+changes = ["528b9c41b35d8c19cadbc253becb96f3241f5230a58d7c837d5fca2cf6d16a65"]
+link_id = "fb041cbc852af9ecfaabf35b55486736"
+reason = "Archive navigation review requirement:automatic-memory:Requirement: Persistent visible failures -> verification:ui: single relative href gains ../, no requirement/design/task/code/test behavior changed.7file locations renamed with sameIDs;whole33requirements/42scenarios synced and verified. Keep accepted evidence/history, no model/retest or blanket ack."
+stop = false

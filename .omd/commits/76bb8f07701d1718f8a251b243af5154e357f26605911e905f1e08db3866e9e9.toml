@@ -1,0 +1,16 @@
+salt = "Ez1LtHCkr5G1Xlhb"
+previous_id = ""
+timestamp = "2026-10-05T16:33:18.946264831Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "0abe7ea404a0ebcb55041dae39847456"
+
+[payload]
+mount = "file:f93ce47bf0009088169fd38dc708f603ffbf7ef67667aef085902d9c41e4d018"
+path = "test/review-outcomes.test.ts"
+reason = 'Task7.3 meaningful current range: verification:limits "reported output beyond the request cap stops before saving and pauses new requests"'
+
+[payload.position]
+end = "3561"
+mode = "text"
+start = "2708"

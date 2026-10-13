@@ -1,0 +1,14 @@
+salt = "Rt11enCIkq3CWwYr"
+previous_id = "5ed689ab4641dda52a14ec49ab46adcd4df2f199a0d1eae28d17a2da3d925844"
+timestamp = "2026-10-01T10:30:59.014022553Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "07f5e451329ed57aafe0dce2f6937635"
+reason = "规划范围：Requirement: Branch-aware session state。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+source_version = "3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+target = "range:3e73342f9303d8066f84fdf752702c3f0ccea0a99cdfe4cf9c2d852b62d326a4"
+target_version = "5ed689ab4641dda52a14ec49ab46adcd4df2f199a0d1eae28d17a2da3d925844"

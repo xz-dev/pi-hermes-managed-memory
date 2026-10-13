@@ -1,0 +1,14 @@
+salt = "X1tH9Zr8vMLHboe3"
+previous_id = "8f47a880fc30643ecda484c1079a229efdf885011fb306e32c079100be4e3735"
+timestamp = "2026-10-01T10:31:02.115518326Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "1ee33238e85623c617d68270d8d63625"
+reason = "规划范围：何时值得单独立项。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+source_version = "26587802654e7f402c76e758f304dc5843561b3c3c5b45ae6f35d3f801ebf36f"
+target = "range:627deed1e8326ec3d23dc32bd0d3f3d9fb803059dddf6246146eeabe51cf5803"
+target_version = "8f47a880fc30643ecda484c1079a229efdf885011fb306e32c079100be4e3735"

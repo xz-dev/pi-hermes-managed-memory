@@ -1,0 +1,16 @@
+salt = "TRjAFHyZIbwPXiC7"
+previous_id = ""
+timestamp = "2026-10-05T16:33:18.817810178Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "805f3289d8dceeb780ed9bebb7190897"
+
+[payload]
+mount = "file:6446ca3513fc2c88c7bfc3ea19b81cbde6938d039125a4102d39d737aeba2139"
+path = "test/usage-accounting.test.ts"
+reason = "Task7.3 meaningful current range: verification:accounting `${outcome} retains raw cache/reasoning and settles exactly once`"
+
+[payload.position]
+end = "1980"
+mode = "text"
+start = "746"

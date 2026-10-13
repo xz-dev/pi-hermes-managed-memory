@@ -1,0 +1,14 @@
+salt = "MrHkaN8JC7mUYk94"
+previous_id = "92795ee8dcd466f2cf3de7ce861692b7a010481acdf5f6f92bdb5854f41deec8"
+timestamp = "2026-10-12T12:35:47.259798737Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "e16d6cf73bdca9ffa3c291a14633a788"
+
+[payload]
+path = "PLAN/lifecycle-acceptance-evidence.md"
+reason = "Task1.4 approved narrow envelope and historical gate pointer; source observation only, preserve all old history"
+
+[range_tips]
+"range:86cfd69621c1a57d1d538b764ba1548f581d234a434db671c13b2328b365761d" = "bba1701e903ae7f38672c6bd0a7ce8526605864713f1933e8dd421312d663132"
+"range:acc486b1a51871fd01ad835eac11cac8945ed66237f348dc3fb7373d7e41b8c1" = "acc486b1a51871fd01ad835eac11cac8945ed66237f348dc3fb7373d7e41b8c1"

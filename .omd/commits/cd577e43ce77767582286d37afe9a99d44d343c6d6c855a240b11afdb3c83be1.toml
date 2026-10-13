@@ -1,0 +1,16 @@
+salt = "R1x4gjLWwI2Ku9VP"
+previous_id = ""
+timestamp = "2026-10-05T16:36:06.589306258Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "9844df919abe9d9937bb0105066f825a"
+
+[payload]
+mount = "file:2a801982bcab2903e144da64d33dae58841a64773ff38855cff08a96a1095203"
+path = "test/review-schedule.test.ts"
+reason = "Task7.3 exact native 3-user/40-tool independent-cadence verification range"
+
+[payload.position]
+end = "8773"
+mode = "text"
+start = "6803"

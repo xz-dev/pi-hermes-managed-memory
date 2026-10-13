@@ -1,0 +1,9 @@
+salt = "7nDKlZOHO9ZnWgdZ"
+previous_id = ""
+timestamp = "2026-10-05T16:33:15.004046198Z"
+schema = "omd.commit/3"
+kind = "init"
+content_ref = "86f232858b611ca4ad1782a04acbcaed"
+
+[payload]
+path = "test/memory-mutations.test.ts"

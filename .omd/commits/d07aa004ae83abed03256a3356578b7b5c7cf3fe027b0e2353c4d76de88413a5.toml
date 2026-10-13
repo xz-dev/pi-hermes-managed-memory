@@ -1,0 +1,16 @@
+salt = "R7bdWAhuaBLyTWyK"
+previous_id = "6ce70f76abea4cc05ac628d5b7d87f454a12d24c1d9204e907d7a0ffbd63baf4"
+timestamp = "2026-10-01T10:31:00.774406521Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "a6c9f4df9bfa334e81b69de6480187dc"
+
+[payload]
+mount = "file:8766394639c1c3a2479e7f793aefd96758d0c475f3ae5243faedc2b71fb178da"
+path = "docs/review-contract.md"
+reason = "规划范围：R7 — 先验证学习闭环，再扩展协调。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "4850"
+mode = "text"
+start = "4332"

@@ -1,0 +1,16 @@
+format = "omd.version/2"
+id = [172, 5, 163, 48, 55, 195, 27, 168, 243, 243, 45, 22, 84, 176, 244, 218]
+len = 8359
+sha256 = "6762267ced8299eca3c72278b10902946bf847134a85dbdb473bf38f3509e38c"
+encoding = "utf-8"
+content_file = "content/6762267ced8299eca3c72278b10902946bf847134a85dbdb473bf38f3509e38c"
+
+[acquisition]
+type = "file"
+project = "root"
+path = "test/memory-provenance.test.ts"
+
+[recovery]
+type = "file"
+project = "root"
+path = "test/memory-provenance.test.ts"

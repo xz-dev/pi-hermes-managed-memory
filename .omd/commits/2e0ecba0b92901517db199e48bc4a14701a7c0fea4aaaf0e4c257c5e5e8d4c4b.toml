@@ -1,0 +1,16 @@
+salt = "IDffvDi2xFeltYoD"
+previous_id = ""
+timestamp = "2026-10-05T16:33:16.597276431Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "1dd664c973be12cf435de3806c02f94a"
+
+[payload]
+mount = "file:f3839a499fe640e27b3ee8938800ae7492419f6c210bd22a71c693751fd28cf7"
+path = "src/memory-context.ts"
+reason = "Task7.3 meaningful current range: implementation:injection MemoryContext component"
+
+[payload.position]
+end = "13749"
+mode = "text"
+start = "5313"

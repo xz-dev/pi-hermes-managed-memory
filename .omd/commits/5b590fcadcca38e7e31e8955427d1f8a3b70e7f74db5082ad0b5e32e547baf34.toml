@@ -1,0 +1,16 @@
+salt = "gE9t71OVPdaH72Rf"
+previous_id = "d7a90dd7b83d9a5a61ea64252318ef8fcec2ddcae2d327bdc326b422ab466d27"
+timestamp = "2026-10-01T10:30:56.459984698Z"
+schema = "omd.commit/3"
+kind = "commit"
+content_ref = "3eb8ab479a430395facd80e557e76fbb"
+
+[payload]
+mount = "file:32a65c625cacc5b90d6da4ca0f7d0b7c23782c8f7b124cc7894be1a6b919b955"
+path = "openspec/changes/add-managed-memory-lifecycle/tasks.md"
+reason = "规划范围：4. 自动注入与 session 连续性。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+
+[payload.position]
+end = "1591"
+mode = "text"
+start = "1268"

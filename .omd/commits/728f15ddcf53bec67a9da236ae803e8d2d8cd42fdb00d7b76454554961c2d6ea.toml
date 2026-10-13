@@ -1,0 +1,14 @@
+salt = "h3fgRX79qwZ0qbaV"
+previous_id = "793d4153b92e796108bc111ac428b666a972f575270239974c67f40b0fe2f5aa"
+timestamp = "2026-10-01T10:30:57.834778687Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "40c0a6ca0ebdb749c125e6840ed4f2f7"
+reason = "规划范围：Requirement: Account for every charged outcome。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+source_version = "e7baf80b342e7608f3f36058d7fc3f269864fb3ce504e3b34a8ff65d303f8ee6"
+target = "range:57132d1b8edd64c180f2d132504d7286c49f6969e19d81be5de1d2341f94338e"
+target_version = "793d4153b92e796108bc111ac428b666a972f575270239974c67f40b0fe2f5aa"

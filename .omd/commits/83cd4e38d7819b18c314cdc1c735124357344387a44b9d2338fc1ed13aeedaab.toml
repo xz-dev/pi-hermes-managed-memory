@@ -1,0 +1,14 @@
+salt = "IIWEQwjmsihmlcW4"
+previous_id = "da495611e4b4a0d55d76f45f36d7de32b67a5ad62ad6562c1597c3b320df044f"
+timestamp = "2026-10-01T10:31:01.493454045Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "8933c85f5aa90ff8f79b7c15b3f84fc8"
+reason = "规划范围：它与当前插件分别做什么。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:0f1f4de0d4ff8a2a91b78adc1b76a000bfb58a9df05a15954a28df7ace8eb130"
+source_version = "147b8199923866cca64e0c23af485afda6641779c4315adf21020870d00fc6d3"
+target = "range:01da33bf4dadbd6a678247989b7c3ffb34da0b16fef71ffd98699a05b6434bd9"
+target_version = "01da33bf4dadbd6a678247989b7c3ffb34da0b16fef71ffd98699a05b6434bd9"

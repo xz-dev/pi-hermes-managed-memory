@@ -1,0 +1,14 @@
+salt = "od0R1vbmoU2lXFAI"
+previous_id = "7cb9fde507244179562576760ff3c294f91073ba466f9fb4feeffd7246daad85"
+timestamp = "2026-10-01T10:30:55.848796504Z"
+schema = "omd.commit/3"
+kind = "link"
+content_ref = "empty"
+
+[payload]
+link_id = "6401cc442d036b12cd030cb3de302fa9"
+reason = "规划范围：D4 — 短记忆快照与请求级刷新。关联表示来源、设计或验收责任，不证明实现完成或语义等价。"
+source = "range:8ac9bb5cd53d978f947479b5e714bbbab6a5928b053c76645b6828132465b74f"
+source_version = "8ac9bb5cd53d978f947479b5e714bbbab6a5928b053c76645b6828132465b74f"
+target = "range:3526a3c58faa549e55696dabc05d665c9d5813cede52b62bc59b035bceb371c3"
+target_version = "7cb9fde507244179562576760ff3c294f91073ba466f9fb4feeffd7246daad85"
