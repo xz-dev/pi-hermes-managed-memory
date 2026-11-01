@@ -274,13 +274,47 @@ export function createMemoryExtension(options: MemoryOptions = {}) {
 		});
 		const RETENTION = "history-retention: forgetting removes future injection eligibility and blocks unapproved revival; explicitly confirmed rollback reverses the selected committed change and its forgetting effects; backups, the audit journal and raw Pi sessions still retain prior content with independent cleanup boundaries";
 		const FILE_TARGETS = ["user", "global", "project"];
+		const MEMORY_ACTIONS = ["inspect", "refresh", "pending", "approve", "deny", "forget", "rollback", "task", "task-complete", "cancel", "finish"];
+		const REVIEW_ACTIONS = ["status", "usage", "errors", "pause", "resume", "cancel", "retry", "run"];
+		function completeArguments(words: string[], choices: string[]) {
+			const prefix = words.at(-1)!;
+			const items = choices.filter(choice => choice.startsWith(prefix)).map(choice => ({
+				value: [...words.slice(0, -1), choice].join(" "), label: choice,
+			}));
+			return items.length ? items : null;
+		}
 		pi.registerCommand("hermes-memory", {
 			description: "inspect|refresh|pending|approve|deny|forget|rollback — destructive actions require confirmation",
+			getArgumentCompletions: prefix => {
+				const words = prefix.trimStart().split(/\s+/);
+				let choices: string[] = [];
+				if (words.length === 1) choices = MEMORY_ACTIONS;
+				else if (words.length === 2 && ["inspect", "pending", "approve", "deny", "forget", "rollback"].includes(words[0])) choices = FILE_TARGETS;
+				else if (words[0] === "forget" && words.length >= 3 && FILE_TARGETS.includes(words[1]) && review && lastContext && live(lastContext)) {
+					try {
+						const snapshot = review.store.read(words[1] as FileTarget);
+						if (!snapshot.blocked) choices = snapshot.entries.map(entry => entry.id).filter(id => !words.slice(2, -1).includes(id));
+					} catch { return null; }
+				}
+				else if (lastContext && live(lastContext) && ["task-complete", "cancel", "finish"].includes(words[0])) {
+					try {
+						const state = sessionConstraints(lastContext);
+						if (!state.uncertain) {
+							if (words.length === 2) choices = words[0] === "task-complete" ? state.task ? [state.task] : [] : state.constraints.map(record => record.id);
+							else if (words.length === 3 && words[0] !== "task-complete") {
+								const record = state.constraints.find(record => record.id === words[1]);
+								if (record) choices = [record.version];
+							}
+						}
+					} catch { return null; }
+				}
+				// Pending proposals and review ledgers take locks/recover on reads; Tab must not call them.
+				return completeArguments(words, choices);
+			},
 			handler: async (args, ctx) => {
 				const [action = "inspect", first, ...rest] = args.trim().split(/\s+/).filter(Boolean);
-				const known = ["inspect", "refresh", "pending", "approve", "deny", "forget", "rollback", "task", "task-complete", "cancel", "finish"];
 				const sessionOps = ["task", "task-complete", "cancel", "finish"];
-				if (!known.includes(action) || (sessionOps.includes(action) ? (!first && !["task-complete"].includes(action)) : (!["inspect", "refresh", "pending"].includes(action) && (!first || !(FILE_TARGETS as string[]).includes(first))))) {
+				if (!MEMORY_ACTIONS.includes(action) || (sessionOps.includes(action) ? (!first && !["task-complete"].includes(action)) : (!["inspect", "refresh", "pending"].includes(action) && (!first || !(FILE_TARGETS as string[]).includes(first))))) {
 					publish(ctx, { status: "invalid-command", commands: "inspect | refresh | pending [target] | approve <target> <id> | deny <target> <id> | forget <target> <id...> | rollback <target> | task <id> | task-complete [id] | cancel <id> [expect] | finish <id> [expect]" }, "invalid memory command"); return;
 				}
 				// Explicit foreground session/task control without any provider request; slash commands
@@ -412,9 +446,13 @@ export function createMemoryExtension(options: MemoryOptions = {}) {
 		});
 		pi.registerCommand("hermes-review", {
 			description: "status|usage|errors|pause|resume|cancel|retry [request-id]|run; recovery/retry require confirmation",
+			getArgumentCompletions: prefix => {
+				const words = prefix.trimStart().split(/\s+/);
+				return completeArguments(words, words.length === 1 ? REVIEW_ACTIONS : []);
+			},
 			handler: async (args, ctx) => {
 				const [action = "status", selected, ...extra] = args.trim().split(/\s+/).filter(Boolean);
-				if (!["status", "usage", "errors", "pause", "resume", "cancel", "retry", "run"].includes(action) || extra.length || (selected && action !== "retry")) {
+				if (!REVIEW_ACTIONS.includes(action) || extra.length || (selected && action !== "retry")) {
 					publishReview(ctx, action, { status: "invalid-command", commands: "status|usage|errors|pause|resume|cancel|retry [request-id]|run" }); return;
 				}
 				try {
